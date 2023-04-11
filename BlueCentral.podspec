@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
 
   # s.source_files = 'BlueCentral/Classes/**/*'
-  s.vendored_frameworks = 'Frameworks/*.xcframework'
+  s.vendored_frameworks = 'BlueCentral/Frameworks/*.xcframework'
   
   # s.resource_bundles = {
   #   'BlueCentral' => ['BlueCentral/Assets/*.png']
