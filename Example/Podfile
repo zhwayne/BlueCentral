@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BlueCentral_Tests' do
+  pod 'BlueCentral', :path => '../'
+  
+  
+end
