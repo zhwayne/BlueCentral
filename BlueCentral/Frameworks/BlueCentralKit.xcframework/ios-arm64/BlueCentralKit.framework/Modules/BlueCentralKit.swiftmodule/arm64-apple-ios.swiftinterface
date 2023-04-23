@@ -4,7 +4,6 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import BluejayKit
 import Combine
-import Combine/*.Combine*/
 import CommonCrypto
 import CoreBluetooth
 import Foundation
@@ -64,7 +63,7 @@ extension BlueCentralKit.BlueCentral {
   @_Concurrency.MainActor final public var isScanning: Swift.Bool {
     get
   }
-  @_Concurrency.MainActor final public func maximumWriteValueLength(for writeType: CoreBluetooth.CBCharacteristicWriteType) throws -> Swift.Int
+  @_Concurrency.MainActor public static func maximumWriteValueLength(for writeType: CoreBluetooth.CBCharacteristicWriteType) throws -> Swift.Int
 }
 extension BlueCentralKit.BlueCentral {
   #if compiler(>=5.3) && $AsyncAwait
