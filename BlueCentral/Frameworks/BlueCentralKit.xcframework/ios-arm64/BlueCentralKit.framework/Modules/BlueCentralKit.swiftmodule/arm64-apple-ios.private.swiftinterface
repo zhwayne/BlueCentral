@@ -67,8 +67,7 @@ extension BlueCentralKit.BlueCentral {
 }
 extension BlueCentralKit.BlueCentral {
   #if compiler(>=5.3) && $AsyncAwait
-  @discardableResult
-  @_Concurrency.MainActor final public func scan(duration: Foundation.TimeInterval = 0, callback: (([BlueCentralKit.DeviceDiscovery]) -> Swift.Void)? = nil) async throws -> [BlueCentralKit.DeviceDiscovery]
+  @_Concurrency.MainActor final public func scan(deviceModels: [BlueCentralKit.DeviceModel]? = nil, duration: Foundation.TimeInterval = 0, callback: (([BlueCentralKit.DeviceDiscovery]) -> Swift.Void)? = nil) async throws
   #endif
   @_Concurrency.MainActor final public func stopScanning()
   #if compiler(>=5.3) && $AsyncAwait
@@ -83,27 +82,34 @@ extension BlueCentralKit.SkippingRope {
   public func shutdown() async throws
   #endif
 }
-public protocol DeviceModelStringConvertible : Swift.Equatable {
-  var name: Swift.String { get }
+public enum DeviceModel : Swift.CaseIterable {
+  case skippingRopeQ3
+  case skippingRopeQ3SE
+  case skippingRopeB3
+  case skippingRopeB3SE
+  case skippingRopeS44G
+  public static func == (a: BlueCentralKit.DeviceModel, b: BlueCentralKit.DeviceModel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [BlueCentralKit.DeviceModel]
+  public static var allCases: [BlueCentralKit.DeviceModel] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
 }
-public enum DeviceModel : Swift.Hashable, BlueCentralKit.DeviceModelStringConvertible {
-  case unknown
-  case skippingRope(BlueCentralKit.SkippingRope.Series)
+extension BlueCentralKit.DeviceModel {
   public var name: Swift.String {
     get
   }
   public var productName: Swift.String {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: BlueCentralKit.DeviceModel, b: BlueCentralKit.DeviceModel) -> Swift.Bool
-  public var hashValue: Swift.Int {
+}
+extension BlueCentralKit.DeviceModel {
+  public static var allSkippingRope: [BlueCentralKit.DeviceModel] {
     get
   }
-}
-extension BlueCentralKit.DeviceModel : Swift.CaseIterable {
-  public static let allCases: [BlueCentralKit.DeviceModel]
-  public typealias AllCases = [BlueCentralKit.DeviceModel]
 }
 extension BlueCentralKit.SkippingRope.TrainingMode : BlueCentralKit.DataEncodable {
   public func toBluetoothData() -> Foundation.Data
@@ -184,24 +190,6 @@ extension BlueCentralKit.SkippingRope {
   #if compiler(>=5.3) && $AsyncAwait
   public func fetchOfflineData() async throws -> [BlueCentralKit.SkippingRope.OfflineData]
   #endif
-}
-extension BlueCentralKit.SkippingRope {
-  public enum Series : Swift.String, Swift.CaseIterable {
-    case Q3
-    case Q3SE
-    case B3
-    case B3SE
-    case S44G
-    public init?(rawValue: Swift.String)
-    public typealias AllCases = [BlueCentralKit.SkippingRope.Series]
-    public typealias RawValue = Swift.String
-    public static var allCases: [BlueCentralKit.SkippingRope.Series] {
-      get
-    }
-    public var rawValue: Swift.String {
-      get
-    }
-  }
 }
 extension BlueCentralKit.SkippingRope {
   public enum SystemType : Swift.UInt8 {
@@ -321,7 +309,7 @@ extension BlueCentralKit.Device : Swift.CustomStringConvertible {
 public struct DeviceDiscovery : Swift.Hashable {
   public let device: BlueCentralKit.Device
   public let scanDiscovery: BluejayKit.ScanDiscovery
-  public init?(_ scanDiscovery: BluejayKit.ScanDiscovery)
+  public init?(_ scanDiscovery: BluejayKit.ScanDiscovery, expectedModel: BlueCentralKit.DeviceModel? = nil)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: BlueCentralKit.DeviceDiscovery, b: BlueCentralKit.DeviceDiscovery) -> Swift.Bool
   public var hashValue: Swift.Int {
@@ -395,7 +383,7 @@ extension BluejayKit.ScanDiscovery : Swift.Hashable {
   @_Concurrency.MainActor final public var $connectingDevice: Combine.Published<BlueCentralKit.Device?>.Publisher {
     get
   }
-  @Combine.Published @_projectedValueProperty($device) @_Concurrency.MainActor final public var device: BlueCentralKit.Device? {
+  @Combine.Published @_Concurrency.MainActor @_projectedValueProperty($device) final public var device: BlueCentralKit.Device? {
     get
   }
   @_Concurrency.MainActor final public var $device: Combine.Published<BlueCentralKit.Device?>.Publisher {
@@ -441,9 +429,8 @@ extension BlueCentralKit.SkippingRope.Training : Swift.Equatable {}
 extension BlueCentralKit.SkippingRope.Training : Swift.Hashable {}
 extension BlueCentralKit.SkippingRope.Training : Swift.RawRepresentable {}
 extension BlueCentralKit.BlueCentral : Swift.Sendable {}
-extension BlueCentralKit.SkippingRope.Series : Swift.Equatable {}
-extension BlueCentralKit.SkippingRope.Series : Swift.Hashable {}
-extension BlueCentralKit.SkippingRope.Series : Swift.RawRepresentable {}
+extension BlueCentralKit.DeviceModel : Swift.Equatable {}
+extension BlueCentralKit.DeviceModel : Swift.Hashable {}
 extension BlueCentralKit.SkippingRope.SystemType : Swift.Equatable {}
 extension BlueCentralKit.SkippingRope.SystemType : Swift.Hashable {}
 extension BlueCentralKit.SkippingRope.SystemType : Swift.RawRepresentable {}

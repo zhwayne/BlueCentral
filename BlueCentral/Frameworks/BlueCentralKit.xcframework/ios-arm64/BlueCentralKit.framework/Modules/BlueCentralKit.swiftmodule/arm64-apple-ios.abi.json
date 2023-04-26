@@ -137,81 +137,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "DeviceModelStringConvertible",
-        "printedName": "DeviceModelStringConvertible",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14BlueCentralKit28DeviceModelStringConvertibleP4nameSSvp",
-            "mangledName": "$s14BlueCentralKit28DeviceModelStringConvertibleP4nameSSvp",
-            "moduleName": "BlueCentralKit",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14BlueCentralKit28DeviceModelStringConvertibleP4nameSSvg",
-                "mangledName": "$s14BlueCentralKit28DeviceModelStringConvertibleP4nameSSvg",
-                "moduleName": "BlueCentralKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : BlueCentralKit.DeviceModelStringConvertible>",
-                "sugared_genericSig": "<Self where Self : BlueCentralKit.DeviceModelStringConvertible>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:14BlueCentralKit28DeviceModelStringConvertibleP",
-        "mangledName": "$s14BlueCentralKit28DeviceModelStringConvertibleP",
-        "moduleName": "BlueCentralKit",
-        "genericSig": "<τ_0_0 : Swift.Equatable>",
-        "sugared_genericSig": "<Self : Swift.Equatable>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "DeviceModel",
         "printedName": "DeviceModel",
         "children": [
           {
             "kind": "Var",
-            "name": "unknown",
-            "printedName": "unknown",
+            "name": "skippingRopeQ3",
+            "printedName": "skippingRopeQ3",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -241,38 +173,28 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit11DeviceModelO7unknownyA2CmF",
-            "mangledName": "$s14BlueCentralKit11DeviceModelO7unknownyA2CmF",
-            "moduleName": "BlueCentralKit"
+            "usr": "s:14BlueCentralKit11DeviceModelO14skippingRopeQ3yA2CmF",
+            "mangledName": "$s14BlueCentralKit11DeviceModelO14skippingRopeQ3yA2CmF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
-            "name": "skippingRope",
-            "printedName": "skippingRope",
+            "name": "skippingRopeQ3SE",
+            "printedName": "skippingRopeQ3SE",
             "children": [
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(BlueCentralKit.DeviceModel.Type) -> (BlueCentralKit.SkippingRope.Series) -> BlueCentralKit.DeviceModel",
+                "printedName": "(BlueCentralKit.DeviceModel.Type) -> BlueCentralKit.DeviceModel",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(BlueCentralKit.SkippingRope.Series) -> BlueCentralKit.DeviceModel",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceModel",
-                        "printedName": "BlueCentralKit.DeviceModel",
-                        "usr": "s:14BlueCentralKit11DeviceModelO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Series",
-                        "printedName": "BlueCentralKit.SkippingRope.Series",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "DeviceModel",
+                    "printedName": "BlueCentralKit.DeviceModel",
+                    "usr": "s:14BlueCentralKit11DeviceModelO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -291,8 +213,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit11DeviceModelO12skippingRopeyAcA08SkippingG0C6SeriesOcACmF",
-            "mangledName": "$s14BlueCentralKit11DeviceModelO12skippingRopeyAcA08SkippingG0C6SeriesOcACmF",
+            "usr": "s:14BlueCentralKit11DeviceModelO16skippingRopeQ3SEyA2CmF",
+            "mangledName": "$s14BlueCentralKit11DeviceModelO16skippingRopeQ3SEyA2CmF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "RawDocComment"
@@ -300,85 +222,155 @@
           },
           {
             "kind": "Var",
-            "name": "name",
-            "printedName": "name",
+            "name": "skippingRopeB3",
+            "printedName": "skippingRopeB3",
             "children": [
               {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14BlueCentralKit11DeviceModelO4nameSSvp",
-            "mangledName": "$s14BlueCentralKit11DeviceModelO4nameSSvp",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlueCentralKit.DeviceModel.Type) -> BlueCentralKit.DeviceModel",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "DeviceModel",
+                    "printedName": "BlueCentralKit.DeviceModel",
+                    "usr": "s:14BlueCentralKit11DeviceModelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlueCentralKit.DeviceModel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceModel",
+                        "printedName": "BlueCentralKit.DeviceModel",
+                        "usr": "s:14BlueCentralKit11DeviceModelO"
+                      }
+                    ]
                   }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14BlueCentralKit11DeviceModelO4nameSSvg",
-                "mangledName": "$s14BlueCentralKit11DeviceModelO4nameSSvg",
-                "moduleName": "BlueCentralKit",
-                "accessorKind": "get"
+                ]
               }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BlueCentralKit11DeviceModelO14skippingRopeB3yA2CmF",
+            "mangledName": "$s14BlueCentralKit11DeviceModelO14skippingRopeB3yA2CmF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "RawDocComment"
             ]
           },
           {
             "kind": "Var",
-            "name": "productName",
-            "printedName": "productName",
+            "name": "skippingRopeB3SE",
+            "printedName": "skippingRopeB3SE",
             "children": [
               {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14BlueCentralKit11DeviceModelO11productNameSSvp",
-            "mangledName": "$s14BlueCentralKit11DeviceModelO11productNameSSvp",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlueCentralKit.DeviceModel.Type) -> BlueCentralKit.DeviceModel",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "DeviceModel",
+                    "printedName": "BlueCentralKit.DeviceModel",
+                    "usr": "s:14BlueCentralKit11DeviceModelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlueCentralKit.DeviceModel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceModel",
+                        "printedName": "BlueCentralKit.DeviceModel",
+                        "usr": "s:14BlueCentralKit11DeviceModelO"
+                      }
+                    ]
                   }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14BlueCentralKit11DeviceModelO11productNameSSvg",
-                "mangledName": "$s14BlueCentralKit11DeviceModelO11productNameSSvg",
-                "moduleName": "BlueCentralKit",
-                "accessorKind": "get"
+                ]
               }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BlueCentralKit11DeviceModelO16skippingRopeB3SEyA2CmF",
+            "mangledName": "$s14BlueCentralKit11DeviceModelO16skippingRopeB3SEyA2CmF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "RawDocComment"
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "skippingRopeS44G",
+            "printedName": "skippingRopeS44G",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlueCentralKit.DeviceModel.Type) -> BlueCentralKit.DeviceModel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceModel",
+                    "printedName": "BlueCentralKit.DeviceModel",
+                    "usr": "s:14BlueCentralKit11DeviceModelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlueCentralKit.DeviceModel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceModel",
+                        "printedName": "BlueCentralKit.DeviceModel",
+                        "usr": "s:14BlueCentralKit11DeviceModelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BlueCentralKit11DeviceModelO16skippingRopeS44GyA2CmF",
+            "mangledName": "$s14BlueCentralKit11DeviceModelO16skippingRopeS44GyA2CmF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceModel",
+                "printedName": "BlueCentralKit.DeviceModel",
+                "usr": "s:14BlueCentralKit11DeviceModelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceModel",
+                "printedName": "BlueCentralKit.DeviceModel",
+                "usr": "s:14BlueCentralKit11DeviceModelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BlueCentralKit11DeviceModelO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14BlueCentralKit11DeviceModelO2eeoiySbAC_ACtFZ",
+            "moduleName": "BlueCentralKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Var",
@@ -445,38 +437,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DeviceModel",
-                "printedName": "BlueCentralKit.DeviceModel",
-                "usr": "s:14BlueCentralKit11DeviceModelO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DeviceModel",
-                "printedName": "BlueCentralKit.DeviceModel",
-                "usr": "s:14BlueCentralKit11DeviceModelO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14BlueCentralKit11DeviceModelO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s14BlueCentralKit11DeviceModelO2eeoiySbAC_ACtFZ",
-            "moduleName": "BlueCentralKit",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
             "name": "allCases",
             "printedName": "allCases",
@@ -501,15 +461,7 @@
             "mangledName": "$s14BlueCentralKit11DeviceModelO8allCasesSayACGvpZ",
             "moduleName": "BlueCentralKit",
             "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
+            "implicit": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -537,6 +489,152 @@
                 "moduleName": "BlueCentralKit",
                 "static": true,
                 "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit11DeviceModelO4nameSSvp",
+            "mangledName": "$s14BlueCentralKit11DeviceModelO4nameSSvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit11DeviceModelO4nameSSvg",
+                "mangledName": "$s14BlueCentralKit11DeviceModelO4nameSSvg",
+                "moduleName": "BlueCentralKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productName",
+            "printedName": "productName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit11DeviceModelO11productNameSSvp",
+            "mangledName": "$s14BlueCentralKit11DeviceModelO11productNameSSvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit11DeviceModelO11productNameSSvg",
+                "mangledName": "$s14BlueCentralKit11DeviceModelO11productNameSSvg",
+                "moduleName": "BlueCentralKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allSkippingRope",
+            "printedName": "allSkippingRope",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BlueCentralKit.DeviceModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceModel",
+                    "printedName": "BlueCentralKit.DeviceModel",
+                    "usr": "s:14BlueCentralKit11DeviceModelO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit11DeviceModelO15allSkippingRopeSayACGvpZ",
+            "mangledName": "$s14BlueCentralKit11DeviceModelO15allSkippingRopeSayACGvpZ",
+            "moduleName": "BlueCentralKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BlueCentralKit.DeviceModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceModel",
+                        "printedName": "BlueCentralKit.DeviceModel",
+                        "usr": "s:14BlueCentralKit11DeviceModelO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit11DeviceModelO15allSkippingRopeSayACGvgZ",
+                "mangledName": "$s14BlueCentralKit11DeviceModelO15allSkippingRopeSayACGvgZ",
+                "moduleName": "BlueCentralKit",
+                "static": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -554,24 +652,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DeviceModelStringConvertible",
-            "printedName": "DeviceModelStringConvertible",
-            "usr": "s:14BlueCentralKit28DeviceModelStringConvertibleP",
-            "mangledName": "$s14BlueCentralKit28DeviceModelStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -1769,420 +1860,6 @@
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Series",
-            "printedName": "Series",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "Q3",
-                "printedName": "Q3",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(BlueCentralKit.SkippingRope.Series.Type) -> BlueCentralKit.SkippingRope.Series",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Series",
-                        "printedName": "BlueCentralKit.SkippingRope.Series",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "BlueCentralKit.SkippingRope.Series.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Series",
-                            "printedName": "BlueCentralKit.SkippingRope.Series",
-                            "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO2Q3yA2EmF",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO2Q3yA2EmF",
-                "moduleName": "BlueCentralKit",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "Q3SE",
-                "printedName": "Q3SE",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(BlueCentralKit.SkippingRope.Series.Type) -> BlueCentralKit.SkippingRope.Series",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Series",
-                        "printedName": "BlueCentralKit.SkippingRope.Series",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "BlueCentralKit.SkippingRope.Series.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Series",
-                            "printedName": "BlueCentralKit.SkippingRope.Series",
-                            "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO4Q3SEyA2EmF",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO4Q3SEyA2EmF",
-                "moduleName": "BlueCentralKit",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "B3",
-                "printedName": "B3",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(BlueCentralKit.SkippingRope.Series.Type) -> BlueCentralKit.SkippingRope.Series",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Series",
-                        "printedName": "BlueCentralKit.SkippingRope.Series",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "BlueCentralKit.SkippingRope.Series.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Series",
-                            "printedName": "BlueCentralKit.SkippingRope.Series",
-                            "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO2B3yA2EmF",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO2B3yA2EmF",
-                "moduleName": "BlueCentralKit",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "B3SE",
-                "printedName": "B3SE",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(BlueCentralKit.SkippingRope.Series.Type) -> BlueCentralKit.SkippingRope.Series",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Series",
-                        "printedName": "BlueCentralKit.SkippingRope.Series",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "BlueCentralKit.SkippingRope.Series.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Series",
-                            "printedName": "BlueCentralKit.SkippingRope.Series",
-                            "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO4B3SEyA2EmF",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO4B3SEyA2EmF",
-                "moduleName": "BlueCentralKit",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "S44G",
-                "printedName": "S44G",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(BlueCentralKit.SkippingRope.Series.Type) -> BlueCentralKit.SkippingRope.Series",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Series",
-                        "printedName": "BlueCentralKit.SkippingRope.Series",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "BlueCentralKit.SkippingRope.Series.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Series",
-                            "printedName": "BlueCentralKit.SkippingRope.Series",
-                            "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO4S44GyA2EmF",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO4S44GyA2EmF",
-                "moduleName": "BlueCentralKit",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "allCases",
-                "printedName": "allCases",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[BlueCentralKit.SkippingRope.Series]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Series",
-                        "printedName": "BlueCentralKit.SkippingRope.Series",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO8allCasesSayAEGvpZ",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO8allCasesSayAEGvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[BlueCentralKit.SkippingRope.Series]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Series",
-                            "printedName": "BlueCentralKit.SkippingRope.Series",
-                            "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO8allCasesSayAEGvgZ",
-                    "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO8allCasesSayAEGvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO8rawValueSSvp",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO8rawValueSSvp",
-                "moduleName": "BlueCentralKit",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO8rawValueSSvg",
-                    "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO8rawValueSSvg",
-                    "moduleName": "BlueCentralKit",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "BlueCentralKit.SkippingRope.Series?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Series",
-                        "printedName": "BlueCentralKit.SkippingRope.Series",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO8rawValueAESgSS_tcfc",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO8rawValueAESgSS_tcfc",
-                "moduleName": "BlueCentralKit",
-                "implicit": true,
-                "init_kind": "Designated"
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO",
-            "mangledName": "$s14BlueCentralKit12SkippingRopeC6SeriesO",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "enumRawTypeName": "String",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CaseIterable",
-                "printedName": "CaseIterable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "AllCases",
-                    "printedName": "AllCases",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[BlueCentralKit.SkippingRope.Series]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Series",
-                            "printedName": "BlueCentralKit.SkippingRope.Series",
-                            "usr": "s:14BlueCentralKit12SkippingRopeC6SeriesO"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:s12CaseIterableP",
-                "mangledName": "$ss12CaseIterableP"
-              }
-            ]
           },
           {
             "kind": "TypeDecl",
@@ -3934,13 +3611,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreBluetooth",
-        "printedName": "CoreBluetooth",
-        "declKind": "Import",
-        "moduleName": "BlueCentralKit"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5395,7 +5065,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:)",
+            "printedName": "init(_:expectedModel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5416,11 +5086,26 @@
                 "name": "ScanDiscovery",
                 "printedName": "BluejayKit.ScanDiscovery",
                 "usr": "s:10BluejayKit13ScanDiscoveryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BlueCentralKit.DeviceModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceModel",
+                    "printedName": "BlueCentralKit.DeviceModel",
+                    "usr": "s:14BlueCentralKit11DeviceModelO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14BlueCentralKit15DeviceDiscoveryVyACSg07BluejayC004ScanE0Vcfc",
-            "mangledName": "$s14BlueCentralKit15DeviceDiscoveryVyACSg07BluejayC004ScanE0Vcfc",
+            "usr": "s:14BlueCentralKit15DeviceDiscoveryV_13expectedModelACSg07BluejayC004ScanE0V_AA0dG0OSgtcfc",
+            "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV_13expectedModelACSg07BluejayC004ScanE0V_AA0dG0OSgtcfc",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "AccessControl",
@@ -6950,9 +6635,9 @@
             "mangledName": "$s14BlueCentralKit0aB0C6deviceAA6DeviceCSgvp",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
-              "Custom",
               "Final",
               "ProjectedValueProperty",
+              "Custom",
               "SetterAccess",
               "AccessControl",
               "Custom",
@@ -7265,21 +6950,35 @@
           {
             "kind": "Function",
             "name": "scan",
-            "printedName": "scan(duration:callback:)",
+            "printedName": "scan(deviceModels:duration:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[BlueCentralKit.DeviceDiscovery]",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[BlueCentralKit.DeviceModel]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "DeviceDiscovery",
-                    "printedName": "BlueCentralKit.DeviceDiscovery",
-                    "usr": "s:14BlueCentralKit15DeviceDiscoveryV"
+                    "name": "Array",
+                    "printedName": "[BlueCentralKit.DeviceModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceModel",
+                        "printedName": "BlueCentralKit.DeviceModel",
+                        "usr": "s:14BlueCentralKit11DeviceModelO"
+                      }
+                    ],
+                    "usr": "s:Sa"
                   }
                 ],
-                "usr": "s:Sa"
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -7325,14 +7024,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14BlueCentralKit0aB0C4scan8duration8callbackSayAA15DeviceDiscoveryVGSd_yAIcSgtYaKF",
-            "mangledName": "$s14BlueCentralKit0aB0C4scan8duration8callbackSayAA15DeviceDiscoveryVGSd_yAIcSgtYaKF",
+            "usr": "s:14BlueCentralKit0aB0C4scan12deviceModels8duration8callbackySayAA11DeviceModelOGSg_SdySayAA0I9DiscoveryVGcSgtYaKF",
+            "mangledName": "$s14BlueCentralKit0aB0C4scan12deviceModels8duration8callbackySayAA11DeviceModelOGSg_SdySayAA0I9DiscoveryVGcSgtYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "Custom",
               "Final",
               "AccessControl",
-              "DiscardableResult",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -12839,14 +12537,14 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+Message.swift",
       "kind": "StringLiteral",
-      "offset": 1188,
-      "length": 29,
+      "offset": 1015,
+      "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+Message.swift",
       "kind": "StringLiteral",
-      "offset": 1198,
+      "offset": 1036,
       "length": 18,
       "value": "\"不支持此功能\""
     },
@@ -12860,21 +12558,21 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindDeletion.swift",
       "kind": "BooleanLiteral",
-      "offset": 1051,
+      "offset": 1063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindDeletion.swift",
       "kind": "IntegerLiteral",
-      "offset": 1136,
+      "offset": 1148,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/TrainingModeChange.swift",
       "kind": "IntegerLiteral",
-      "offset": 756,
+      "offset": 768,
       "length": 4,
       "value": "0x71"
     },
@@ -13021,14 +12719,14 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/Training.swift",
       "kind": "BooleanLiteral",
-      "offset": 691,
+      "offset": 827,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/Training.swift",
       "kind": "IntegerLiteral",
-      "offset": 759,
+      "offset": 895,
       "length": 4,
       "value": "0x60"
     },
@@ -13056,7 +12754,7 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 785,
+      "offset": 797,
       "length": 5,
       "value": "false"
     },
@@ -13077,126 +12775,189 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1275,
+      "offset": 1417,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1570,
+      "offset": 1691,
       "length": 11,
       "value": "200000000"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 1849,
+      "offset": 2107,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1890,
+      "offset": 2148,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 4700,
+      "offset": 2770,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5137,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 5709,
+      "offset": 6146,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/Shutdown.swift",
       "kind": "IntegerLiteral",
-      "offset": 386,
+      "offset": 398,
       "length": 4,
       "value": "0x70"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
       "kind": "StringLiteral",
-      "offset": 652,
-      "length": 14,
-      "value": "\"未知设备\""
+      "offset": 873,
+      "length": 20,
+      "value": "\"CMKJ.2207.TS.Q3.LY\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
       "kind": "StringLiteral",
-      "offset": 891,
-      "length": 14,
-      "value": "\"未知设备\""
+      "offset": 933,
+      "length": 20,
+      "value": "\"CMKJ.2207.TS.Q3.SE\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
-      "kind": "Array",
-      "offset": 1753,
-      "length": 2,
-      "value": "[]"
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 20,
+      "value": "\"CMKJ.2207.TS.B3.LY\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 20,
+      "value": "\"CMKJ.2207.TS.B3.SE\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1113,
+      "length": 20,
+      "value": "\"CMKJ.2303.TS.S4.4G\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1366,
+      "length": 22,
+      "value": "\"智系列Q3中学版\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1428,
+      "length": 22,
+      "value": "\"智系列Q3少儿版\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1490,
+      "length": 22,
+      "value": "\"智系列B3中学版\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1552,
+      "length": 22,
+      "value": "\"智系列B3少儿版\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 20,
+      "value": "\"智系列S4G跳绳\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2471,
+      "length": 6,
+      "value": "\".TS.\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModeSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 555,
+      "offset": 567,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModeSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 622,
+      "offset": 634,
       "length": 4,
       "value": "0x61"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "BooleanLiteral",
-      "offset": 462,
+      "offset": 474,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "IntegerLiteral",
-      "offset": 524,
+      "offset": 536,
       "length": 2,
       "value": "31"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "BooleanLiteral",
-      "offset": 553,
+      "offset": 565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "IntegerLiteral",
-      "offset": 681,
+      "offset": 693,
       "length": 4,
       "value": "0x68"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "BooleanLiteral",
-      "offset": 886,
+      "offset": 898,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "BooleanLiteral",
-      "offset": 942,
+      "offset": 954,
       "length": 4,
       "value": "true"
     },
@@ -13210,21 +12971,21 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/MuteSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 769,
+      "offset": 781,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/MuteSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 997,
+      "offset": 1009,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/MuteSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1074,
+      "offset": 1086,
       "length": 4,
       "value": "true"
     },
@@ -13294,42 +13055,42 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "BooleanLiteral",
-      "offset": 447,
+      "offset": 459,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "IntegerLiteral",
-      "offset": 581,
+      "offset": 593,
       "length": 4,
       "value": "0x64"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "IntegerLiteral",
-      "offset": 611,
+      "offset": 623,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "IntegerLiteral",
-      "offset": 615,
+      "offset": 627,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "BooleanLiteral",
-      "offset": 812,
+      "offset": 824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "BooleanLiteral",
-      "offset": 933,
+      "offset": 945,
       "length": 4,
       "value": "true"
     },
@@ -13777,7 +13538,7 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 5608,
+      "offset": 5620,
       "length": 4,
       "value": "0x69"
     },
@@ -14141,553 +13902,448 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "Array",
-      "offset": 1896,
+      "offset": 1908,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 1964,
+      "offset": 1976,
       "length": 4,
       "value": "0x67"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "Array",
-      "offset": 2181,
+      "offset": 2193,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2257,
+      "offset": 2269,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2268,
+      "offset": 2280,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2303,
+      "offset": 2315,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2311,
+      "offset": 2323,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2322,
+      "offset": 2334,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2413,
+      "offset": 2425,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 274,
-      "length": 20,
-      "value": "\"CMKJ.2207.TS.Q3.LY\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 350,
-      "length": 20,
-      "value": "\"CMKJ.2207.TS.Q3.SE\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 426,
-      "length": 20,
-      "value": "\"CMKJ.2207.TS.B3.LY\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 502,
-      "length": 20,
-      "value": "\"CMKJ.2207.TS.B3.SE\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 578,
-      "length": 20,
-      "value": "\"CMKJ.2303.TS.S4.4G\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 274,
-      "length": 20,
-      "value": "\"CMKJ.2207.TS.Q3.LY\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 350,
-      "length": 20,
-      "value": "\"CMKJ.2207.TS.Q3.SE\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 426,
-      "length": 20,
-      "value": "\"CMKJ.2207.TS.B3.LY\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 502,
-      "length": 20,
-      "value": "\"CMKJ.2207.TS.B3.SE\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 578,
-      "length": 20,
-      "value": "\"CMKJ.2303.TS.S4.4G\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 722,
-      "length": 22,
-      "value": "\"智系列Q3中学版\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 772,
-      "length": 22,
-      "value": "\"智系列Q3少儿版\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 822,
-      "length": 22,
-      "value": "\"智系列B3中学版\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 872,
-      "length": 22,
-      "value": "\"智系列B3少儿版\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
-      "kind": "StringLiteral",
-      "offset": 922,
-      "length": 20,
-      "value": "\"智系列S4G跳绳\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1055,
+      "offset": 201,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1100,
+      "offset": 246,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1144,
+      "offset": 290,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1055,
+      "offset": 201,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1100,
+      "offset": 246,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1144,
+      "offset": 290,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1055,
+      "offset": 201,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1100,
+      "offset": 246,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1144,
+      "offset": 290,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1249,
+      "offset": 395,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1299,
+      "offset": 445,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1346,
+      "offset": 492,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1393,
+      "offset": 539,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1249,
+      "offset": 395,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1299,
+      "offset": 445,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1346,
+      "offset": 492,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1393,
+      "offset": 539,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1249,
+      "offset": 395,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1299,
+      "offset": 445,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1346,
+      "offset": 492,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1393,
+      "offset": 539,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1484,
+      "offset": 630,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1530,
+      "offset": 676,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1484,
+      "offset": 630,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1530,
+      "offset": 676,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1484,
+      "offset": 630,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1530,
+      "offset": 676,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1622,
+      "offset": 768,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1661,
+      "offset": 807,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1622,
+      "offset": 768,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1661,
+      "offset": 807,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1622,
+      "offset": 768,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "IntegerLiteral",
-      "offset": 1661,
+      "offset": 807,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 1892,
+      "offset": 1038,
       "length": 24,
       "value": "\"SkippingRopeSystemType\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 1086,
       "length": 14,
       "value": "\"系统模式\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 2090,
+      "offset": 1236,
       "length": 26,
       "value": "\"SkippingRopeTrainingMode\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 2140,
+      "offset": 1286,
       "length": 20,
       "value": "\"当前跳绳模式\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 2274,
+      "offset": 1420,
       "length": 18,
       "value": "\"SkippingRopeMute\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 2316,
+      "offset": 1462,
       "length": 8,
       "value": "\"静音\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 2454,
+      "offset": 1600,
       "length": 22,
       "value": "\"SkippingRopeLockMode\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 2500,
+      "offset": 1646,
       "length": 14,
       "value": "\"方向锁定\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 2646,
+      "offset": 1792,
       "length": 26,
       "value": "\"SkippingRopeCountingMode\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 2696,
+      "offset": 1842,
       "length": 14,
       "value": "\"计数方式\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 2836,
+      "offset": 1982,
       "length": 22,
       "value": "\"SkippingRopeExamTime\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 2882,
+      "offset": 2028,
       "length": 20,
       "value": "\"考试模式时间\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 3029,
+      "offset": 2175,
       "length": 23,
       "value": "\"SkippingRopeMatchTime\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 3076,
+      "offset": 2222,
       "length": 20,
       "value": "\"比赛模式时间\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 3224,
+      "offset": 2370,
       "length": 24,
       "value": "\"SkippingRopeMatchCount\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 3272,
+      "offset": 2418,
       "length": 20,
       "value": "\"比赛模式个数\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 2568,
       "length": 26,
       "value": "\"SkippingRopePhysicalTime\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 3472,
+      "offset": 2618,
       "length": 20,
       "value": "\"体能模式时间\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 3623,
+      "offset": 2769,
       "length": 27,
       "value": "\"SkippingRopePhysicalCount\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 3674,
+      "offset": 2820,
       "length": 20,
       "value": "\"体能模式个数\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 3871,
+      "offset": 3017,
       "length": 24,
       "value": "\"SkippingRopeNeedsReset\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
       "kind": "StringLiteral",
-      "offset": 3919,
+      "offset": 3065,
       "length": 20,
       "value": "\"恢复出厂标志\""
     },
@@ -15681,7 +15337,7 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DataUpdate.swift",
       "kind": "IntegerLiteral",
-      "offset": 2836,
+      "offset": 2848,
       "length": 4,
       "value": "0x62"
     },
@@ -16066,7 +15722,7 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1383,
+      "offset": 1395,
       "length": 5,
       "value": "false"
     },
@@ -16325,21 +15981,21 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindQuery.swift",
       "kind": "Array",
-      "offset": 1015,
+      "offset": 1027,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindQuery.swift",
       "kind": "IntegerLiteral",
-      "offset": 1083,
+      "offset": 1095,
       "length": 4,
       "value": "0x6b"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindQuery.swift",
       "kind": "Array",
-      "offset": 1292,
+      "offset": 1304,
       "length": 2,
       "value": "[]"
     }
