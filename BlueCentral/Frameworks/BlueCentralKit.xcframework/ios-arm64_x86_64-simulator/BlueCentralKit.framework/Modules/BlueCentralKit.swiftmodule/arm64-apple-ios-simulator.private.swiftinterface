@@ -20,7 +20,7 @@ extension BlueCentralKit.SkippingRope.TrainingMode : BlueCentralKit.DataDecodabl
   public init(bluetoothData: Foundation.Data) throws
 }
 extension BlueCentralKit.SkippingRope {
-  @_Concurrency.MainActor public func trainingModeChange(_ sink: @escaping (BlueCentralKit.SkippingRope.TrainingMode) -> Swift.Void)
+  @_Concurrency.MainActor public func trainingModeChange(_ receiveValue: @escaping (BlueCentralKit.SkippingRope.TrainingMode) -> Swift.Void)
 }
 extension Foundation.Data {
   public func subdata(start: Swift.Int, length: Swift.Int) throws -> Foundation.Data
@@ -328,16 +328,13 @@ extension BlueCentralKit.SkippingRope {
   }
 }
 extension BlueCentralKit.SkippingRope {
-  @_Concurrency.MainActor public func dataUpadte(_ sink: @escaping (BlueCentralKit.SkippingRope.TrainingData) -> Swift.Void)
+  @_Concurrency.MainActor public func dataUpadte(_ receiveValue: @escaping (BlueCentralKit.SkippingRope.TrainingData) -> Swift.Void)
 }
 extension BlueCentralKit.SkippingRope {
   public func parepareForOTAUpgrade()
   public func cancelOTAUpgrade()
   #if compiler(>=5.3) && $AsyncAwait
   public func upgrade(fileURL: Foundation.URL, progress: (Swift.Double) -> Swift.Void) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func reboot(crc: Swift.UInt32, fileByteCount: Swift.UInt32) async throws
   #endif
 }
 public enum CountingMode {

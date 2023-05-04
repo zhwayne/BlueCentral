@@ -18339,49 +18339,63 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "StringLiteral",
-      "offset": 66070,
-      "length": 63,
-      "value": "\"Listen restorer not found upon receiving an unhandled listen.\""
+      "offset": 64693,
+      "length": 35,
+      "value": "\"Did discover: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "StringLiteral",
-      "offset": 66395,
-      "length": 107,
-      "value": "\"Promised restoration for listen on \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
-      "kind": "StringLiteral",
-      "offset": 66460,
-      "length": 3,
-      "value": "\" for \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
-      "kind": "StringLiteral",
-      "offset": 66501,
+      "offset": 64727,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "StringLiteral",
-      "offset": 66551,
-      "length": 107,
-      "value": "\"End listen requested for listen on \""
+      "offset": 66071,
+      "length": 63,
+      "value": "\"Listen restorer not found upon receiving an unhandled listen.\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "StringLiteral",
-      "offset": 66616,
+      "offset": 66396,
+      "length": 107,
+      "value": "\"Promised restoration for listen on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66461,
       "length": 3,
       "value": "\" for \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "StringLiteral",
-      "offset": 66657,
+      "offset": 66502,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66552,
+      "length": 107,
+      "value": "\"End listen requested for listen on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66617,
+      "length": 3,
+      "value": "\" for \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66658,
       "length": 2,
       "value": "\"\""
     },
