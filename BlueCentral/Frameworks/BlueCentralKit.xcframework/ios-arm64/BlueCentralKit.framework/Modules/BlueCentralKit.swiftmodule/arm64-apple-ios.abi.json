@@ -829,6 +829,9 @@
             "mangledName": "$s14BlueCentralKit7MessageP7payload10Foundation4DataVSgvp",
             "moduleName": "BlueCentralKit",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1031,6 +1034,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC12deleteRemind2at3forSbs5UInt8V_AC12TrainingModeOtYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "DiscardableResult",
               "RawDocComment"
@@ -1073,6 +1077,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC18trainingModeChangeyyyAC08TrainingG0OcF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1374,6 +1379,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC8trainingySbAC8TrainingOYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "DiscardableResult",
               "RawDocComment"
@@ -1411,6 +1417,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC9setRemind4time3forSbs6UInt16V_AC12TrainingModeOtYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "DiscardableResult",
               "RawDocComment"
@@ -1435,6 +1442,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC8shutdownyyYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1465,6 +1473,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC7setModeySbAC08TrainingG0OYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "DiscardableResult",
               "RawDocComment"
@@ -1496,6 +1505,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC11modifiyNameySbSSYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "DiscardableResult",
               "RawDocComment"
@@ -1533,6 +1543,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC7setMute_3forS2b_AC12TrainingModeOtYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "DiscardableResult",
               "RawDocComment"
@@ -1564,6 +1575,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC16lockingDirectionyS2bYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "DiscardableResult",
               "RawDocComment"
@@ -1588,6 +1600,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC11synchronizeyyYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1859,6 +1872,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC16fetchOfflineDataSayAC0gH0VGyYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -3327,6 +3341,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC10dataUpadteyyyAC12TrainingDataVcF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -3349,6 +3364,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC21parepareForOTAUpgradeyyF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -3370,6 +3386,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC16cancelOTAUpgradeyyF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -3418,6 +3435,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC7upgrade7fileURL8progressy10Foundation0H0V_ySdXEtYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -3454,6 +3472,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC8setPrams12countingMode3forSbAA08CountingI0O_AC08TrainingI0OtYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "DiscardableResult",
               "RawDocComment"
@@ -3493,6 +3512,7 @@
             "mangledName": "$s14BlueCentralKit12SkippingRopeC11queryRemind3forSays6UInt16VGAC12TrainingModeO_tYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -3506,7 +3526,8 @@
         "mangledName": "$s14BlueCentralKit12SkippingRopeC",
         "moduleName": "BlueCentralKit",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Custom"
         ],
         "superclassUsr": "s:14BlueCentralKit6DeviceC",
         "hasMissingDesignatedInitializers": true,
@@ -3515,13 +3536,6 @@
           "BlueCentralKit.Device"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
           {
             "kind": "Conformance",
             "name": "ObservableObject",
@@ -3550,6 +3564,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -4872,13 +4893,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "ObservableObject",
             "printedName": "ObservableObject",
             "children": [
@@ -4905,6 +4919,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -5086,73 +5107,6 @@
           },
           {
             "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14BlueCentralKit15DeviceDiscoveryV4hash4intoys6HasherVz_tF",
-            "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV4hash4intoys6HasherVz_tF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14BlueCentralKit15DeviceDiscoveryV9hashValueSivp",
-            "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV9hashValueSivp",
-            "moduleName": "BlueCentralKit",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14BlueCentralKit15DeviceDiscoveryV9hashValueSivg",
-                "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV9hashValueSivg",
-                "moduleName": "BlueCentralKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
             "children": [
@@ -5180,8 +5134,80 @@
             "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV2eeoiySbAC_ACtFZ",
             "moduleName": "BlueCentralKit",
             "static": true,
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BlueCentralKit15DeviceDiscoveryV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV4hash4intoys6HasherVz_tF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit15DeviceDiscoveryV9hashValueSivp",
+            "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV9hashValueSivp",
+            "moduleName": "BlueCentralKit",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit15DeviceDiscoveryV9hashValueSivg",
+                "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV9hashValueSivg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -5279,6 +5305,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "BluejayKit",
+        "printedName": "BluejayKit",
+        "declKind": "Import",
+        "moduleName": "BlueCentralKit"
       },
       {
         "kind": "Import",
@@ -6444,6 +6477,7 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -6501,6 +6535,7 @@
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "Final",
+              "Custom",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -6558,6 +6593,7 @@
             "moduleName": "BlueCentralKit",
             "implicit": true,
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "accessors": [
@@ -6612,6 +6648,7 @@
             "declAttributes": [
               "Final",
               "ProjectedValueProperty",
+              "Custom",
               "SetterAccess",
               "AccessControl",
               "Custom",
@@ -6668,6 +6705,7 @@
             "moduleName": "BlueCentralKit",
             "implicit": true,
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "accessors": [
@@ -6713,6 +6751,7 @@
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "Final",
+              "Custom",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -6762,6 +6801,7 @@
             "moduleName": "BlueCentralKit",
             "implicit": true,
             "declAttributes": [
+              "Custom",
               "Final"
             ],
             "accessors": [
@@ -6806,6 +6846,7 @@
             "mangledName": "$s14BlueCentralKit0aB0C20isBluetoothAvailableSbvp",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -6853,6 +6894,7 @@
             "mangledName": "$s14BlueCentralKit0aB0C10isScanningSbvp",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -6907,6 +6949,7 @@
             "moduleName": "BlueCentralKit",
             "static": true,
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -6918,7 +6961,7 @@
           {
             "kind": "Function",
             "name": "scan",
-            "printedName": "scan(deviceModels:duration:callback:)",
+            "printedName": "scan(deviceModels:duration:callback:stopped:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6956,14 +6999,40 @@
                 "usr": "s:Sd"
               },
               {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([BlueCentralKit.DeviceDiscovery]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BlueCentralKit.DeviceDiscovery]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceDiscovery",
+                        "printedName": "BlueCentralKit.DeviceDiscovery",
+                        "usr": "s:14BlueCentralKit15DeviceDiscoveryV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              },
+              {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(([BlueCentralKit.DeviceDiscovery]) -> ())?",
+                "printedName": "((Swift.Result<[BluejayKit.ScanDiscovery], Swift.Error>) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "([BlueCentralKit.DeviceDiscovery]) -> ()",
+                    "printedName": "(Swift.Result<[BluejayKit.ScanDiscovery], Swift.Error>) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6972,17 +7041,31 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[BlueCentralKit.DeviceDiscovery]",
+                        "name": "Result",
+                        "printedName": "Swift.Result<[BluejayKit.ScanDiscovery], Swift.Error>",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "DeviceDiscovery",
-                            "printedName": "BlueCentralKit.DeviceDiscovery",
-                            "usr": "s:14BlueCentralKit15DeviceDiscoveryV"
+                            "name": "Array",
+                            "printedName": "[BluejayKit.ScanDiscovery]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ScanDiscovery",
+                                "printedName": "BluejayKit.ScanDiscovery",
+                                "usr": "s:10BluejayKit13ScanDiscoveryV"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
                           }
                         ],
-                        "usr": "s:Sa"
+                        "usr": "s:s6ResultO"
                       }
                     ]
                   }
@@ -6992,8 +7075,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14BlueCentralKit0aB0C4scan12deviceModels8duration8callbackySayAA11DeviceModelOGSg_SdySayAA0I9DiscoveryVGcSgtYaKF",
-            "mangledName": "$s14BlueCentralKit0aB0C4scan12deviceModels8duration8callbackySayAA11DeviceModelOGSg_SdySayAA0I9DiscoveryVGcSgtYaKF",
+            "usr": "s:14BlueCentralKit0aB0C4scan12deviceModels8duration8callback7stoppedySayAA11DeviceModelOGSg_SdySayAA0J9DiscoveryVGcys6ResultOySay07BluejayC004ScanL0VGs5Error_pGcSgtYaKF",
+            "mangledName": "$s14BlueCentralKit0aB0C4scan12deviceModels8duration8callback7stoppedySayAA11DeviceModelOGSg_SdySayAA0J9DiscoveryVGcys6ResultOySay07BluejayC004ScanL0VGs5Error_pGcSgtYaKF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "Final",
@@ -7345,6 +7428,7 @@
             "mangledName": "$s14BlueCentralKit0aB0C9connected2toy07BluejayC020PeripheralIdentifierV_tF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -7374,6 +7458,7 @@
             "mangledName": "$s14BlueCentralKit0aB0C12disconnected4fromy07BluejayC020PeripheralIdentifierV_tF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl",
               "RawDocComment"
@@ -7424,6 +7509,7 @@
             "mangledName": "$s14BlueCentralKit0aB0C13didDisconnect4from4with13willReconnect07BluejayC004AutoI4ModeOAH20PeripheralIdentifierV_s5Error_pSgSbtF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "Custom",
               "Final",
               "AccessControl"
             ],
@@ -7438,6 +7524,7 @@
         "declAttributes": [
           "Final",
           "AccessControl",
+          "Custom",
           "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
@@ -7463,6 +7550,13 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -12515,35 +12609,35 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindDeletion.swift",
       "kind": "BooleanLiteral",
-      "offset": 1086,
+      "offset": 1097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindDeletion.swift",
       "kind": "IntegerLiteral",
-      "offset": 1171,
+      "offset": 1182,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindDeletion.swift",
       "kind": "BooleanLiteral",
-      "offset": 1326,
+      "offset": 1337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindDeletion.swift",
       "kind": "BooleanLiteral",
-      "offset": 1389,
+      "offset": 1400,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/TrainingModeChange.swift",
       "kind": "IntegerLiteral",
-      "offset": 816,
+      "offset": 821,
       "length": 4,
       "value": "0x71"
     },
@@ -12690,14 +12784,14 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/Training.swift",
       "kind": "BooleanLiteral",
-      "offset": 850,
+      "offset": 861,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/Training.swift",
       "kind": "IntegerLiteral",
-      "offset": 918,
+      "offset": 929,
       "length": 4,
       "value": "0x60"
     },
@@ -12725,21 +12819,21 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 820,
+      "offset": 831,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1054,
+      "offset": 1065,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1117,
+      "offset": 1128,
       "length": 4,
       "value": "true"
     },
@@ -12766,50 +12860,57 @@
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1702,
-      "length": 11,
-      "value": "200000000"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 2118,
+      "offset": 1907,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 2159,
+      "offset": 1944,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 2781,
+      "offset": 2453,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
+      "kind": "Array",
+      "offset": 3163,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
+      "kind": "Array",
+      "offset": 3337,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 5171,
+      "offset": 4755,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 6191,
+      "offset": 5775,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/Shutdown.swift",
       "kind": "IntegerLiteral",
-      "offset": 398,
+      "offset": 409,
       "length": 4,
       "value": "0x70"
     },
@@ -12893,70 +12994,70 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModeSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 587,
+      "offset": 598,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModeSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 654,
+      "offset": 665,
       "length": 4,
       "value": "0x61"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModeSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 856,
+      "offset": 867,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModeSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 939,
+      "offset": 950,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "BooleanLiteral",
-      "offset": 482,
+      "offset": 497,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "IntegerLiteral",
-      "offset": 544,
+      "offset": 559,
       "length": 2,
       "value": "31"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "BooleanLiteral",
-      "offset": 573,
+      "offset": 588,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "IntegerLiteral",
-      "offset": 701,
+      "offset": 716,
       "length": 4,
       "value": "0x68"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "BooleanLiteral",
-      "offset": 906,
+      "offset": 921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "BooleanLiteral",
-      "offset": 962,
+      "offset": 977,
       "length": 4,
       "value": "true"
     },
@@ -12970,21 +13071,21 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/MuteSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 804,
+      "offset": 815,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/MuteSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1032,
+      "offset": 1043,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/MuteSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1109,
+      "offset": 1120,
       "length": 4,
       "value": "true"
     },
@@ -13054,42 +13155,42 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "BooleanLiteral",
-      "offset": 482,
+      "offset": 493,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "IntegerLiteral",
-      "offset": 616,
+      "offset": 627,
       "length": 4,
       "value": "0x64"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "IntegerLiteral",
-      "offset": 646,
+      "offset": 657,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "IntegerLiteral",
-      "offset": 650,
+      "offset": 661,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "BooleanLiteral",
-      "offset": 847,
+      "offset": 858,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/LockingDirection.swift",
       "kind": "BooleanLiteral",
-      "offset": 968,
+      "offset": 979,
       "length": 4,
       "value": "true"
     },
@@ -13537,287 +13638,280 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 5620,
+      "offset": 5630,
       "length": 4,
       "value": "0x69"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
-      "length": 38,
-      "value": "\"02F00000-0000-0000-0000-00000000FE00\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 1395,
+      "offset": 1230,
       "length": 38,
       "value": "\"02F00000-0000-0000-0000-00000000FF01\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 1606,
+      "offset": 1311,
+      "length": 38,
+      "value": "\"02F00000-0000-0000-0000-00000000FE00\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
       "length": 38,
       "value": "\"02F00000-0000-0000-0000-00000000FF02\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
+      "kind": "StringLiteral",
+      "offset": 1542,
+      "length": 38,
+      "value": "\"02F00000-0000-0000-0000-00000000FE00\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "IntegerLiteral",
-      "offset": 2144,
+      "offset": 2048,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "IntegerLiteral",
-      "offset": 4182,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4186,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4237,
-      "length": 13,
-      "value": "1000000000"
+      "offset": 4884,
+      "length": 11,
+      "value": "100000000"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 4518,
+      "offset": 5199,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 4583,
+      "offset": 5264,
       "length": 47,
       "value": "\"Using writeWithoutResponse(message:) instead.\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 4778,
+      "offset": 5566,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 5040,
+      "offset": 7585,
       "length": 72,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 5058,
+      "offset": 7603,
       "length": 4,
       "value": "\" Send: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 5111,
+      "offset": 7656,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 5153,
+      "offset": 7768,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 5489,
+      "offset": 8223,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 5550,
+      "offset": 8284,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 5804,
+      "offset": 8701,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 5822,
+      "offset": 8719,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 5840,
+      "offset": 8737,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 6168,
+      "offset": 9245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 6229,
+      "offset": 9306,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 6264,
+      "offset": 9435,
       "length": 56,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 6282,
+      "offset": 9453,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 6319,
+      "offset": 9490,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 7019,
+      "offset": 10338,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 7084,
+      "offset": 10403,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 7123,
+      "offset": 10442,
       "length": 34,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 7141,
+      "offset": 10460,
       "length": 4,
       "value": "\" Send: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 7156,
+      "offset": 10475,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 7429,
+      "offset": 10897,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 7447,
+      "offset": 10915,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 7465,
+      "offset": 10933,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8658,
+      "offset": 12270,
       "length": 54,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8676,
+      "offset": 12288,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8711,
+      "offset": 12323,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8999,
+      "offset": 12611,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 9017,
+      "offset": 12629,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 9035,
+      "offset": 12647,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "IntegerLiteral",
-      "offset": 9319,
+      "offset": 12931,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "IntegerLiteral",
-      "offset": 9330,
+      "offset": 12942,
       "length": 1,
       "value": "1"
     },
@@ -13901,51 +13995,44 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "Array",
-      "offset": 1908,
+      "offset": 1919,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 1976,
+      "offset": 1987,
       "length": 4,
       "value": "0x67"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "Array",
-      "offset": 2193,
+      "offset": 2204,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2269,
+      "offset": 2280,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2280,
+      "offset": 2291,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2315,
+      "offset": 2326,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2323,
-      "length": 1,
-      "value": "9"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
@@ -13957,7 +14044,14 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2425,
+      "offset": 2345,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/OfflineData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2436,
       "length": 1,
       "value": "9"
     },
@@ -14349,56 +14443,56 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 677,
+      "offset": 688,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1032,
+      "offset": 1043,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1079,
+      "offset": 1090,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1301,
+      "offset": 1312,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1305,
+      "offset": 1316,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1614,
+      "offset": 1625,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1665,
+      "offset": 1676,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1723,
+      "offset": 1734,
       "length": 3,
       "value": "\":\""
     },
@@ -14685,49 +14779,49 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "Dictionary",
-      "offset": 510,
+      "offset": 499,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1403,
       "length": 196,
       "value": "\"[Name]\n\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1387,
+      "offset": 1437,
       "length": 1,
       "value": "\"\n[MAC]\n\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1416,
+      "offset": 1466,
       "length": 1,
       "value": "\"\n[Model]\n\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1449,
+      "offset": 1499,
       "length": 1,
       "value": "\"\n[UserInfo]\n\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1488,
+      "offset": 1538,
       "length": 1,
       "value": "\"\n[ScanDiscovery]\n\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1537,
+      "offset": 1587,
       "length": 12,
       "value": "\"\""
     },
@@ -14902,259 +14996,266 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 1222,
-      "length": 6,
-      "value": "\"FFF0\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 1372,
+      "offset": 1238,
       "length": 38,
       "value": "\"0783B03E-8535-B5A0-7140-A304D2495CBA\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 1583,
+      "offset": 1319,
+      "length": 6,
+      "value": "\"FFF0\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
+      "kind": "StringLiteral",
+      "offset": 1437,
       "length": 38,
       "value": "\"0783B03E-8535-B5A0-7140-A304D2495CB8\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
+      "kind": "StringLiteral",
+      "offset": 1518,
+      "length": 6,
+      "value": "\"FFF0\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "IntegerLiteral",
-      "offset": 2121,
+      "offset": 1996,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "Dictionary",
-      "offset": 2213,
+      "offset": 2088,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "IntegerLiteral",
-      "offset": 5355,
+      "offset": 6002,
       "length": 11,
       "value": "100000000"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 5559,
+      "offset": 6317,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 5624,
+      "offset": 6382,
       "length": 47,
       "value": "\"Using writeWithoutResponse(message:) instead.\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 5819,
+      "offset": 6684,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 6081,
+      "offset": 8738,
       "length": 72,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 6099,
+      "offset": 8756,
       "length": 4,
       "value": "\" Send: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 6152,
+      "offset": 8809,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 6194,
+      "offset": 8921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 6524,
+      "offset": 9370,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 6585,
+      "offset": 9431,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 6839,
+      "offset": 9848,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 6857,
+      "offset": 9866,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 6875,
+      "offset": 9884,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 7203,
+      "offset": 10392,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 7264,
+      "offset": 10453,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 7299,
+      "offset": 10582,
       "length": 56,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 7317,
+      "offset": 10600,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 7354,
+      "offset": 10637,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 8133,
+      "offset": 11485,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 8202,
+      "offset": 11550,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8245,
+      "offset": 11589,
       "length": 34,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8263,
+      "offset": 11607,
       "length": 4,
       "value": "\" Send: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8278,
+      "offset": 11622,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8593,
+      "offset": 12044,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8611,
+      "offset": 12062,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8629,
+      "offset": 12080,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 9822,
+      "offset": 13417,
       "length": 54,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 9840,
+      "offset": 13435,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 9875,
+      "offset": 13470,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 10163,
+      "offset": 13758,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 10181,
+      "offset": 13776,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 10199,
+      "offset": 13794,
       "length": 2,
       "value": "\"\""
     },
@@ -15329,7 +15430,7 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DataUpdate.swift",
       "kind": "IntegerLiteral",
-      "offset": 2896,
+      "offset": 2901,
       "length": 4,
       "value": "0x62"
     },
@@ -15462,182 +15563,182 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 4087,
+      "offset": 4081,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 4321,
+      "offset": 4315,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 4465,
+      "offset": 4459,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 4512,
+      "offset": 4506,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 4656,
+      "offset": 4650,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 4703,
+      "offset": 4697,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 5361,
+      "offset": 5355,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 5595,
+      "offset": 5589,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 5879,
+      "offset": 5873,
       "length": 74,
       "value": "\"ota message erase sector: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 5952,
+      "offset": 5946,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 6045,
+      "offset": 6039,
       "length": 79,
       "value": "\"ota message erase sector recv: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 6123,
+      "offset": 6117,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 6547,
+      "offset": 6541,
       "length": 69,
       "value": "\"ota upgrade progress: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 6612,
+      "offset": 6606,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 6615,
+      "offset": 6609,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 6830,
+      "offset": 6824,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 7175,
+      "offset": 7169,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 7811,
+      "offset": 7805,
       "length": 72,
       "value": "\"ota message write data: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 7882,
+      "offset": 7876,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 7975,
+      "offset": 7969,
       "length": 77,
       "value": "\"ota message write data recv: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 8051,
+      "offset": 8045,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 8480,
+      "offset": 8474,
       "length": 69,
       "value": "\"ota upgrade progress: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 8545,
+      "offset": 8539,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 8548,
+      "offset": 8542,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 8992,
+      "offset": 8986,
       "length": 68,
       "value": "\"ota message reboot: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 9059,
+      "offset": 9053,
       "length": 2,
       "value": "\"\""
     },
@@ -15714,7 +15815,7 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1418,
+      "offset": 1429,
       "length": 5,
       "value": "false"
     },
@@ -15889,14 +15990,14 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral.swift",
       "kind": "Array",
-      "offset": 1309,
+      "offset": 1320,
       "length": 8,
       "value": "[\"FFF0\"]"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral.swift",
       "kind": "BooleanLiteral",
-      "offset": 3372,
+      "offset": 3383,
       "length": 5,
       "value": "false"
     },
@@ -15966,21 +16067,21 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindQuery.swift",
       "kind": "Array",
-      "offset": 1027,
+      "offset": 1037,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindQuery.swift",
       "kind": "IntegerLiteral",
-      "offset": 1095,
+      "offset": 1105,
       "length": 4,
       "value": "0x6b"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindQuery.swift",
       "kind": "Array",
-      "offset": 1304,
+      "offset": 1314,
       "length": 2,
       "value": "[]"
     }
