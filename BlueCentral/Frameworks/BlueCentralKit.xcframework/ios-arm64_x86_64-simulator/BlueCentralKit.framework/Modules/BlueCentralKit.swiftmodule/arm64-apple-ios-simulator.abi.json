@@ -117,6 +117,134 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BlueCentralKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScanThrottling",
+        "printedName": "ScanThrottling",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "throttleRSSIDelta",
+            "printedName": "throttleRSSIDelta",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlueCentralKit.ScanThrottling.Type) -> (Swift.Int) -> BlueCentralKit.ScanThrottling",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> BlueCentralKit.ScanThrottling",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanThrottling",
+                        "printedName": "BlueCentralKit.ScanThrottling",
+                        "usr": "s:14BlueCentralKit14ScanThrottlingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlueCentralKit.ScanThrottling.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanThrottling",
+                        "printedName": "BlueCentralKit.ScanThrottling",
+                        "usr": "s:14BlueCentralKit14ScanThrottlingO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BlueCentralKit14ScanThrottlingO17throttleRSSIDeltayACSicACmF",
+            "mangledName": "$s14BlueCentralKit14ScanThrottlingO17throttleRSSIDeltayACSicACmF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "everySeconds",
+            "printedName": "everySeconds",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlueCentralKit.ScanThrottling.Type) -> (Swift.Double) -> BlueCentralKit.ScanThrottling",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> BlueCentralKit.ScanThrottling",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanThrottling",
+                        "printedName": "BlueCentralKit.ScanThrottling",
+                        "usr": "s:14BlueCentralKit14ScanThrottlingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlueCentralKit.ScanThrottling.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanThrottling",
+                        "printedName": "BlueCentralKit.ScanThrottling",
+                        "usr": "s:14BlueCentralKit14ScanThrottlingO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BlueCentralKit14ScanThrottlingO12everySecondsyACSdcACmF",
+            "mangledName": "$s14BlueCentralKit14ScanThrottlingO12everySecondsyACSdcACmF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14BlueCentralKit14ScanThrottlingO",
+        "mangledName": "$s14BlueCentralKit14ScanThrottlingO",
+        "moduleName": "BlueCentralKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6961,7 +7089,7 @@
           {
             "kind": "Function",
             "name": "scan",
-            "printedName": "scan(deviceModels:duration:callback:stopped:)",
+            "printedName": "scan(deviceModels:duration:allowDuplicates:throttling:callback:stopped:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6999,6 +7127,20 @@
                 "usr": "s:Sd"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScanThrottling",
+                "printedName": "BlueCentralKit.ScanThrottling",
+                "hasDefaultArg": true,
+                "usr": "s:14BlueCentralKit14ScanThrottlingO"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "([BlueCentralKit.DeviceDiscovery]) -> ()",
@@ -7027,12 +7169,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Result<[BluejayKit.ScanDiscovery], Swift.Error>) -> ())?",
+                "printedName": "((Swift.Result<[BlueCentralKit.DeviceDiscovery], Swift.Error>) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Result<[BluejayKit.ScanDiscovery], Swift.Error>) -> ()",
+                    "printedName": "(Swift.Result<[BlueCentralKit.DeviceDiscovery], Swift.Error>) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7042,18 +7184,18 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Result",
-                        "printedName": "Swift.Result<[BluejayKit.ScanDiscovery], Swift.Error>",
+                        "printedName": "Swift.Result<[BlueCentralKit.DeviceDiscovery], Swift.Error>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Array",
-                            "printedName": "[BluejayKit.ScanDiscovery]",
+                            "printedName": "[BlueCentralKit.DeviceDiscovery]",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "ScanDiscovery",
-                                "printedName": "BluejayKit.ScanDiscovery",
-                                "usr": "s:10BluejayKit13ScanDiscoveryV"
+                                "name": "DeviceDiscovery",
+                                "printedName": "BlueCentralKit.DeviceDiscovery",
+                                "usr": "s:14BlueCentralKit15DeviceDiscoveryV"
                               }
                             ],
                             "usr": "s:Sa"
@@ -7075,8 +7217,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14BlueCentralKit0aB0C4scan12deviceModels8duration8callback7stoppedySayAA11DeviceModelOGSg_SdySayAA0J9DiscoveryVGcys6ResultOySay07BluejayC004ScanL0VGs5Error_pGcSgtF",
-            "mangledName": "$s14BlueCentralKit0aB0C4scan12deviceModels8duration8callback7stoppedySayAA11DeviceModelOGSg_SdySayAA0J9DiscoveryVGcys6ResultOySay07BluejayC004ScanL0VGs5Error_pGcSgtF",
+            "usr": "s:14BlueCentralKit0aB0C4scan12deviceModels8duration15allowDuplicates10throttling8callback7stoppedySayAA11DeviceModelOGSg_SdSbAA14ScanThrottlingOySayAA0M9DiscoveryVGcys6ResultOyASs5Error_pGcSgtF",
+            "mangledName": "$s14BlueCentralKit0aB0C4scan12deviceModels8duration15allowDuplicates10throttling8callback7stoppedySayAA11DeviceModelOGSg_SdSbAA14ScanThrottlingOySayAA0M9DiscoveryVGcys6ResultOyASs5Error_pGcSgtF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "Final",
@@ -12853,56 +12995,49 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1428,
+      "offset": 1631,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 1894,
+      "offset": 1666,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 1931,
+      "offset": 1728,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 2440,
+      "offset": 2355,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
-      "kind": "Array",
-      "offset": 3150,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
-      "kind": "Array",
-      "offset": 3324,
-      "length": 2,
-      "value": "[]"
+      "kind": "IntegerLiteral",
+      "offset": 3533,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 4742,
+      "offset": 6197,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 5762,
+      "offset": 7217,
       "length": 4,
       "value": "true"
     },

@@ -69,7 +69,7 @@ extension BlueCentralKit.BlueCentral {
   @_Concurrency.MainActor public static func maximumWriteValueLength(for writeType: CoreBluetooth.CBCharacteristicWriteType) throws -> Swift.Int
 }
 extension BlueCentralKit.BlueCentral {
-  @_Concurrency.MainActor final public func scan(deviceModels: [BlueCentralKit.DeviceModel]? = nil, duration: Foundation.TimeInterval = 0, callback: @escaping ([BlueCentralKit.DeviceDiscovery]) -> Swift.Void, stopped: ((Swift.Result<[BluejayKit.ScanDiscovery], any Swift.Error>) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor final public func scan(deviceModels: [BlueCentralKit.DeviceModel]? = nil, duration: Foundation.TimeInterval = 0, allowDuplicates: Swift.Bool = true, throttling: BlueCentralKit.ScanThrottling = .throttleRSSIDelta(0), callback: @escaping ([BlueCentralKit.DeviceDiscovery]) -> Swift.Void, stopped: ((Swift.Result<[BlueCentralKit.DeviceDiscovery], any Swift.Error>) -> Swift.Void)? = nil)
   @_Concurrency.MainActor final public func stopScanning()
   #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor final public func connect(discovery: BlueCentralKit.DeviceDiscovery) async throws
@@ -77,6 +77,10 @@ extension BlueCentralKit.BlueCentral {
   #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor final public func disconnect() async throws
   #endif
+}
+public enum ScanThrottling {
+  case throttleRSSIDelta(Swift.Int)
+  case everySeconds(Foundation.TimeInterval)
 }
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
   #if compiler(>=5.3) && $AsyncAwait
