@@ -3730,6 +3730,526 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "SkippingRopeDeviceKey",
+        "printedName": "SkippingRopeDeviceKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "systemType",
+            "printedName": "systemType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV10systemTypeAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV10systemTypeAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV10systemTypeAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV10systemTypeAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trainingMode",
+            "printedName": "trainingMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV12trainingModeAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV12trainingModeAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV12trainingModeAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV12trainingModeAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mute",
+            "printedName": "mute",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV4muteAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV4muteAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV4muteAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV4muteAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lockMode",
+            "printedName": "lockMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV8lockModeAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV8lockModeAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV8lockModeAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV8lockModeAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "countingStyle",
+            "printedName": "countingStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV13countingStyleAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV13countingStyleAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV13countingStyleAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV13countingStyleAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "examTime",
+            "printedName": "examTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV8examTimeAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV8examTimeAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV8examTimeAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV8examTimeAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "matchTime",
+            "printedName": "matchTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV9matchTimeAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV9matchTimeAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV9matchTimeAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV9matchTimeAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "matchCount",
+            "printedName": "matchCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV10matchCountAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV10matchCountAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV10matchCountAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV10matchCountAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "physicalTime",
+            "printedName": "physicalTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV12physicalTimeAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV12physicalTimeAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV12physicalTimeAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV12physicalTimeAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "physicalCount",
+            "printedName": "physicalCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV13physicalCountAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV13physicalCountAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV13physicalCountAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV13physicalCountAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "needsReset",
+            "printedName": "needsReset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceKey",
+                "printedName": "BlueCentralKit.DeviceKey",
+                "usr": "s:14BlueCentralKit9DeviceKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV10needsResetAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV10needsResetAA0fG0Vvp",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceKey",
+                    "printedName": "BlueCentralKit.DeviceKey",
+                    "usr": "s:14BlueCentralKit9DeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV10needsResetAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV10needsResetAA0fG0Vvg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV",
+        "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV",
+        "moduleName": "BlueCentralKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -5790,547 +6310,52 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "TypeDecl",
-            "name": "SkippingRope",
-            "printedName": "SkippingRope",
+            "kind": "Var",
+            "name": "skippingRope",
+            "printedName": "skippingRope",
             "children": [
               {
-                "kind": "Var",
-                "name": "systemType",
-                "printedName": "systemType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO10systemTypeACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO10systemTypeACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO10systemTypeACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO10systemTypeACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "trainingMode",
-                "printedName": "trainingMode",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO12trainingModeACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO12trainingModeACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO12trainingModeACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO12trainingModeACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "mute",
-                "printedName": "mute",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO4muteACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO4muteACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO4muteACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO4muteACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "lockMode",
-                "printedName": "lockMode",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO8lockModeACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO8lockModeACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO8lockModeACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO8lockModeACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "countingStyle",
-                "printedName": "countingStyle",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO13countingStyleACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO13countingStyleACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO13countingStyleACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO13countingStyleACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "examTime",
-                "printedName": "examTime",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO8examTimeACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO8examTimeACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO8examTimeACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO8examTimeACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "matchTime",
-                "printedName": "matchTime",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO9matchTimeACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO9matchTimeACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO9matchTimeACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO9matchTimeACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "matchCount",
-                "printedName": "matchCount",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO10matchCountACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO10matchCountACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO10matchCountACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO10matchCountACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "physicalTime",
-                "printedName": "physicalTime",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO12physicalTimeACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO12physicalTimeACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO12physicalTimeACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO12physicalTimeACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "physicalCount",
-                "printedName": "physicalCount",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO13physicalCountACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO13physicalCountACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO13physicalCountACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO13physicalCountACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "needsReset",
-                "printedName": "needsReset",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeviceKey",
-                    "printedName": "BlueCentralKit.DeviceKey",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO10needsResetACvpZ",
-                "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO10needsResetACvpZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DeviceKey",
-                        "printedName": "BlueCentralKit.DeviceKey",
-                        "usr": "s:14BlueCentralKit9DeviceKeyV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO10needsResetACvgZ",
-                    "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO10needsResetACvgZ",
-                    "moduleName": "BlueCentralKit",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
+                "kind": "TypeNominal",
+                "name": "SkippingRopeDeviceKey",
+                "printedName": "BlueCentralKit.SkippingRopeDeviceKey",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV"
               }
             ],
-            "declKind": "Enum",
-            "usr": "s:14BlueCentralKit9DeviceKeyV12SkippingRopeO",
-            "mangledName": "$s14BlueCentralKit9DeviceKeyV12SkippingRopeO",
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit9DeviceKeyV12skippingRopeAA08SkippinggdE0VvpZ",
+            "mangledName": "$s14BlueCentralKit9DeviceKeyV12skippingRopeAA08SkippinggdE0VvpZ",
             "moduleName": "BlueCentralKit",
+            "static": true,
             "declAttributes": [
-              "AccessControl"
+              "HasInitialValue",
+              "HasStorage"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SkippingRopeDeviceKey",
+                    "printedName": "BlueCentralKit.SkippingRopeDeviceKey",
+                    "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit9DeviceKeyV12skippingRopeAA08SkippinggdE0VvgZ",
+                "mangledName": "$s14BlueCentralKit9DeviceKeyV12skippingRopeAA08SkippinggdE0VvgZ",
+                "moduleName": "BlueCentralKit",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -6662,14 +6687,15 @@
             "mangledName": "$s14BlueCentralKit0aB0C16connectingDeviceAA0E0CSgvp",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "HasInitialValue",
               "Final",
+              "HasStorage",
               "Custom",
-              "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
-              "Custom",
               "RawDocComment"
             ],
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -6705,52 +6731,6 @@
           },
           {
             "kind": "Var",
-            "name": "$connectingDevice",
-            "printedName": "$connectingDevice",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Publisher",
-                "printedName": "Combine.Published<Swift.Optional<BlueCentralKit.Device>>.Publisher",
-                "usr": "s:7Combine9PublishedV9PublisherV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14BlueCentralKit0aB0C17$connectingDevice7Combine9PublishedV9PublisherVyAA0E0CSg_Gvp",
-            "mangledName": "$s14BlueCentralKit0aB0C17$connectingDevice7Combine9PublishedV9PublisherVyAA0E0CSg_Gvp",
-            "moduleName": "BlueCentralKit",
-            "implicit": true,
-            "declAttributes": [
-              "Custom",
-              "Final"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Optional<BlueCentralKit.Device>>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14BlueCentralKit0aB0C17$connectingDevice7Combine9PublishedV9PublisherVyAA0E0CSg_Gvg",
-                "mangledName": "$s14BlueCentralKit0aB0C17$connectingDevice7Combine9PublishedV9PublisherVyAA0E0CSg_Gvg",
-                "moduleName": "BlueCentralKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "device",
             "printedName": "device",
             "children": [
@@ -6774,14 +6754,15 @@
             "mangledName": "$s14BlueCentralKit0aB0C6deviceAA6DeviceCSgvp",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
+              "HasInitialValue",
               "Final",
-              "ProjectedValueProperty",
+              "HasStorage",
               "Custom",
               "SetterAccess",
               "AccessControl",
-              "Custom",
               "RawDocComment"
             ],
+            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -6806,52 +6787,6 @@
                 "declKind": "Accessor",
                 "usr": "s:14BlueCentralKit0aB0C6deviceAA6DeviceCSgvg",
                 "mangledName": "$s14BlueCentralKit0aB0C6deviceAA6DeviceCSgvg",
-                "moduleName": "BlueCentralKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "$device",
-            "printedName": "$device",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Publisher",
-                "printedName": "Combine.Published<Swift.Optional<BlueCentralKit.Device>>.Publisher",
-                "usr": "s:7Combine9PublishedV9PublisherV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14BlueCentralKit0aB0C7$device7Combine9PublishedV9PublisherVyAA6DeviceCSg_Gvp",
-            "mangledName": "$s14BlueCentralKit0aB0C7$device7Combine9PublishedV9PublisherVyAA6DeviceCSg_Gvp",
-            "moduleName": "BlueCentralKit",
-            "implicit": true,
-            "declAttributes": [
-              "Custom",
-              "Final"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Optional<BlueCentralKit.Device>>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14BlueCentralKit0aB0C7$device7Combine9PublishedV9PublisherVyAA6DeviceCSg_Gvg",
-                "mangledName": "$s14BlueCentralKit0aB0C7$device7Combine9PublishedV9PublisherVyAA6DeviceCSg_Gvg",
                 "moduleName": "BlueCentralKit",
                 "implicit": true,
                 "declAttributes": [
@@ -7426,38 +7361,6 @@
                 "moduleName": "BlueCentralKit"
               },
               {
-                "kind": "Function",
-                "name": "==",
-                "printedName": "==(_:_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ConnectionStatus",
-                    "printedName": "BlueCentralKit.BlueCentral.ConnectionStatus",
-                    "usr": "s:14BlueCentralKit0aB0C16ConnectionStatusO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ConnectionStatus",
-                    "printedName": "BlueCentralKit.BlueCentral.ConnectionStatus",
-                    "usr": "s:14BlueCentralKit0aB0C16ConnectionStatusO"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:14BlueCentralKit0aB0C16ConnectionStatusO2eeoiySbAE_AEtFZ",
-                "mangledName": "$s14BlueCentralKit0aB0C16ConnectionStatusO2eeoiySbAE_AEtFZ",
-                "moduleName": "BlueCentralKit",
-                "static": true,
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
                 "kind": "Var",
                 "name": "hashValue",
                 "printedName": "hashValue",
@@ -7520,6 +7423,38 @@
                 "moduleName": "BlueCentralKit",
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionStatus",
+                    "printedName": "BlueCentralKit.BlueCentral.ConnectionStatus",
+                    "usr": "s:14BlueCentralKit0aB0C16ConnectionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionStatus",
+                    "printedName": "BlueCentralKit.BlueCentral.ConnectionStatus",
+                    "usr": "s:14BlueCentralKit0aB0C16ConnectionStatusO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14BlueCentralKit0aB0C16ConnectionStatusO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14BlueCentralKit0aB0C16ConnectionStatusO2eeoiySbAE_AEtFZ",
+                "moduleName": "BlueCentralKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Enum",
@@ -7533,17 +7468,17 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Hashable",
                 "printedName": "Hashable",
                 "usr": "s:SH",
                 "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               }
             ]
           },
@@ -14190,387 +14125,387 @@
       "value": "9"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 439,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 486,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 533,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 439,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 486,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 533,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 439,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 486,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 533,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 624,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 670,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 624,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 670,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 624,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 670,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 762,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 801,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 762,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 801,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 762,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
       "offset": 801,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 1086,
       "length": 24,
       "value": "\"SkippingRopeSystemType\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1080,
+      "offset": 1134,
       "length": 14,
       "value": "\"系统模式\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1230,
+      "offset": 1265,
       "length": 26,
       "value": "\"SkippingRopeTrainingMode\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1280,
+      "offset": 1315,
       "length": 20,
       "value": "\"当前跳绳模式\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1414,
+      "offset": 1430,
       "length": 18,
       "value": "\"SkippingRopeMute\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1456,
+      "offset": 1472,
       "length": 8,
       "value": "\"静音\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1594,
+      "offset": 1591,
       "length": 22,
       "value": "\"SkippingRopeLockMode\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1640,
+      "offset": 1637,
       "length": 14,
       "value": "\"方向锁定\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1786,
+      "offset": 1764,
       "length": 26,
       "value": "\"SkippingRopeCountingMode\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1836,
+      "offset": 1814,
       "length": 14,
       "value": "\"计数方式\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 1976,
+      "offset": 1935,
       "length": 22,
       "value": "\"SkippingRopeExamTime\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2022,
+      "offset": 1981,
       "length": 20,
       "value": "\"考试模式时间\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2169,
+      "offset": 2109,
       "length": 23,
       "value": "\"SkippingRopeMatchTime\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2216,
+      "offset": 2156,
       "length": 20,
       "value": "\"比赛模式时间\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2364,
+      "offset": 2285,
       "length": 24,
       "value": "\"SkippingRopeMatchCount\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
+      "offset": 2333,
       "length": 20,
       "value": "\"比赛模式个数\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2562,
+      "offset": 2464,
       "length": 26,
       "value": "\"SkippingRopePhysicalTime\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2612,
+      "offset": 2514,
       "length": 20,
       "value": "\"体能模式时间\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2763,
+      "offset": 2646,
       "length": 27,
       "value": "\"SkippingRopePhysicalCount\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2814,
+      "offset": 2697,
       "length": 20,
       "value": "\"体能模式个数\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3011,
+      "offset": 2875,
       "length": 24,
       "value": "\"SkippingRopeNeedsReset\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope++.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3059,
+      "offset": 2923,
       "length": 20,
       "value": "\"恢复出厂标志\""
     },
@@ -14920,42 +14855,42 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1403,
+      "offset": 1513,
       "length": 196,
       "value": "\"[Name]\n\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
+      "offset": 1547,
       "length": 1,
       "value": "\"\n[MAC]\n\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1466,
+      "offset": 1576,
       "length": 1,
       "value": "\"\n[Model]\n\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1499,
+      "offset": 1609,
       "length": 1,
       "value": "\"\n[UserInfo]\n\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1648,
       "length": 1,
       "value": "\"\n[ScanDiscovery]\n\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 1587,
+      "offset": 1697,
       "length": 12,
       "value": "\"\""
     },
@@ -15298,98 +15233,98 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 11515,
+      "offset": 11540,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "BooleanLiteral",
-      "offset": 11580,
+      "offset": 11605,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 11619,
+      "offset": 11644,
       "length": 34,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 11637,
+      "offset": 11662,
       "length": 4,
       "value": "\" Send: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 11652,
+      "offset": 11677,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 12074,
+      "offset": 12099,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 12092,
+      "offset": 12117,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 12110,
+      "offset": 12135,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 13447,
+      "offset": 13472,
       "length": 54,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 13465,
+      "offset": 13490,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 13500,
+      "offset": 13525,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 13788,
+      "offset": 13813,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 13806,
+      "offset": 13831,
       "length": 7,
       "value": "\" Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 13824,
+      "offset": 13849,
       "length": 2,
       "value": "\"\""
     },
@@ -16124,14 +16059,14 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral.swift",
       "kind": "Array",
-      "offset": 1320,
+      "offset": 1298,
       "length": 8,
       "value": "[\"FFF0\"]"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral.swift",
       "kind": "BooleanLiteral",
-      "offset": 3383,
+      "offset": 3372,
       "length": 5,
       "value": "false"
     },

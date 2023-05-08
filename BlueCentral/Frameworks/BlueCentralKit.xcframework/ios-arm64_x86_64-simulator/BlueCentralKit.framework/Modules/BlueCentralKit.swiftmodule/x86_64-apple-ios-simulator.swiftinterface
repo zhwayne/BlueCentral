@@ -244,19 +244,20 @@ extension BlueCentralKit.SkippingRope {
   }
 }
 extension BlueCentralKit.DeviceKey {
-  public enum SkippingRope {
-    public static let systemType: BlueCentralKit.DeviceKey
-    public static let trainingMode: BlueCentralKit.DeviceKey
-    public static let mute: BlueCentralKit.DeviceKey
-    public static let lockMode: BlueCentralKit.DeviceKey
-    public static let countingStyle: BlueCentralKit.DeviceKey
-    public static let examTime: BlueCentralKit.DeviceKey
-    public static let matchTime: BlueCentralKit.DeviceKey
-    public static let matchCount: BlueCentralKit.DeviceKey
-    public static let physicalTime: BlueCentralKit.DeviceKey
-    public static let physicalCount: BlueCentralKit.DeviceKey
-    public static let needsReset: BlueCentralKit.DeviceKey
-  }
+  public static let skippingRope: BlueCentralKit.SkippingRopeDeviceKey
+}
+public struct SkippingRopeDeviceKey {
+  public let systemType: BlueCentralKit.DeviceKey
+  public let trainingMode: BlueCentralKit.DeviceKey
+  public let mute: BlueCentralKit.DeviceKey
+  public let lockMode: BlueCentralKit.DeviceKey
+  public let countingStyle: BlueCentralKit.DeviceKey
+  public let examTime: BlueCentralKit.DeviceKey
+  public let matchTime: BlueCentralKit.DeviceKey
+  public let matchCount: BlueCentralKit.DeviceKey
+  public let physicalTime: BlueCentralKit.DeviceKey
+  public let physicalCount: BlueCentralKit.DeviceKey
+  public let needsReset: BlueCentralKit.DeviceKey
 }
 public enum BlueCentralError : Swift.Error {
   case scanning(any Swift.Error)
@@ -384,16 +385,10 @@ extension BluejayKit.ScanDiscovery : Swift.Hashable {
 }
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class BlueCentral : Foundation.ObservableObject {
   @_Concurrency.MainActor public static let shared: BlueCentralKit.BlueCentral
-  @Combine.Published @_projectedValueProperty($connectingDevice) @_Concurrency.MainActor final public var connectingDevice: BlueCentralKit.Device? {
+  @_Concurrency.MainActor final public var connectingDevice: BlueCentralKit.Device? {
     get
   }
-  @_Concurrency.MainActor final public var $connectingDevice: Combine.Published<BlueCentralKit.Device?>.Publisher {
-    get
-  }
-  @Combine.Published @_Concurrency.MainActor @_projectedValueProperty($device) final public var device: BlueCentralKit.Device? {
-    get
-  }
-  @_Concurrency.MainActor final public var $device: Combine.Published<BlueCentralKit.Device?>.Publisher {
+  @_Concurrency.MainActor final public var device: BlueCentralKit.Device? {
     get
   }
   @Combine.Published @_projectedValueProperty($connectionStatus) @_Concurrency.MainActor final public var connectionStatus: BlueCentralKit.BlueCentral.ConnectionStatus {
@@ -406,12 +401,12 @@ extension BluejayKit.ScanDiscovery : Swift.Hashable {
   @objc deinit
 }
 extension BlueCentralKit.BlueCentral {
-  public enum ConnectionStatus {
+  public enum ConnectionStatus : Swift.Equatable {
     case connected
     case connecting
     case disconnected
-    public static func == (a: BlueCentralKit.BlueCentral.ConnectionStatus, b: BlueCentralKit.BlueCentral.ConnectionStatus) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: BlueCentralKit.BlueCentral.ConnectionStatus, b: BlueCentralKit.BlueCentral.ConnectionStatus) -> Swift.Bool
     public var hashValue: Swift.Int {
       get
     }
@@ -447,5 +442,4 @@ extension BlueCentralKit.SkippingRope.LockMode : Swift.RawRepresentable {}
 extension BlueCentralKit.SkippingRope.CountingStyle : Swift.Equatable {}
 extension BlueCentralKit.SkippingRope.CountingStyle : Swift.Hashable {}
 extension BlueCentralKit.SkippingRope.CountingStyle : Swift.RawRepresentable {}
-extension BlueCentralKit.BlueCentral.ConnectionStatus : Swift.Equatable {}
 extension BlueCentralKit.BlueCentral.ConnectionStatus : Swift.Hashable {}
