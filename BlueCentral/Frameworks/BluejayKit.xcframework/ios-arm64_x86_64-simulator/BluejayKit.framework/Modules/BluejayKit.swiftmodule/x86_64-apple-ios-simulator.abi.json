@@ -11989,31 +11989,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Numeric",
-            "printedName": "Numeric",
-            "usr": "s:Sj",
-            "mangledName": "$sSj"
-          },
-          {
-            "kind": "Conformance",
             "name": "Strideable",
             "printedName": "Strideable",
             "usr": "s:Sx",
             "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
           },
           {
             "kind": "Conformance",
@@ -12024,10 +12010,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "AdditiveArithmetic",
-            "printedName": "AdditiveArithmetic",
-            "usr": "s:s18AdditiveArithmeticP",
-            "mangledName": "$ss18AdditiveArithmeticP"
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
           },
           {
             "kind": "Conformance",
@@ -12038,10 +12024,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           }
         ]
       },
@@ -15180,221 +15180,3588 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
       "kind": "Dictionary",
       "offset": 507,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 832,
+      "length": 66,
+      "value": "\"Peripheral initialized without a PeripheralDelegate association.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 980,
+      "length": 60,
+      "value": "\"Peripheral initialized without a CBPeripheral association.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 1145,
+      "length": 65,
+      "value": "\"Init Peripheral: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 1170,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 68,
+      "value": "\"Deinit Peripheral: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1964,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2384,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 3565,
+      "length": 111,
+      "value": "\"Cannot read from characteristic: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 3638,
+      "length": 1,
+      "value": "\", which is already being listened on.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 3705,
+      "length": 63,
+      "value": "\"Requesting read on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 3764,
+      "length": 3,
+      "value": "\"...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 4567,
+      "length": 64,
+      "value": "\"Requesting write on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 4627,
+      "length": 3,
+      "value": "\"...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 6556,
+      "length": 65,
+      "value": "\"Requesting listen on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 6617,
+      "length": 3,
+      "value": "\"...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7090,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 7353,
+      "length": 100,
+      "value": "\"Installed a listen on characteristic \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 7430,
+      "length": 3,
+      "value": "\" but it is not cached.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 7763,
+      "length": 70,
+      "value": "\"Duplicated listen installed despite original listen was set to trap.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 9541,
+      "length": 69,
+      "value": "\"Requesting end listen on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 9606,
+      "length": 3,
+      "value": "\"...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10079,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
       "kind": "StringLiteral",
       "offset": 255,
       "length": 10,
       "value": "\"BluejayKit.Peripheral\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 12155,
+      "length": 125,
+      "value": "\"Received value update for characteristic (\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 12231,
+      "length": 7,
+      "value": "\" without a valid service. Update will be ignored\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 12725,
+      "length": 339,
+      "value": "\"Received read event with value \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 12847,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 12850,
+      "length": 1,
+      "value": "\" on characteristic \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 12925,
+      "length": 1,
+      "value": "\", but queue contains an end listen operation for this characteristic and should stop it soon.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 13177,
+      "length": 306,
+      "value": "\"Unhandled listen with value: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 13301,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 13304,
+      "length": 1,
+      "value": "\", on charactersitic: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 13385,
+      "length": 1,
+      "value": "\", from peripheral: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 13455,
+      "length": 186,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 13663,
+      "length": 235,
+      "value": "\"Unhandled read event value: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 13786,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 13789,
+      "length": 1,
+      "value": "\", on charactersitic: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Peripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 13870,
+      "length": 1279,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CharacteristicIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1384,
+      "length": 73,
+      "value": "\"Characteristic: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CharacteristicIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1419,
+      "length": 1,
+      "value": "\", Service: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CharacteristicIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 1456,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
       "kind": "BooleanLiteral",
       "offset": 964,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 1048,
+      "length": 50,
+      "value": "\"Queue initialized with UUID: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 1096,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 1137,
+      "length": 45,
+      "value": "\"Deinit Queue with UUID: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 1180,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 1269,
+      "length": 47,
+      "value": "\"Starting queue with UUID: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 1314,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1356,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 1513,
+      "length": 42,
+      "value": "\"Cannot enqueue: Bluejay instance is nil.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 2227,
+      "length": 8,
+      "value": "\"Listen\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 2238,
+      "length": 12,
+      "value": "\"End Listen\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 2352,
+      "length": 67,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 2360,
+      "length": 3,
+      "value": "\" for \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 2372,
+      "length": 5,
+      "value": "\" added to queue with UUID: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 2417,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 2467,
+      "length": 60,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 2480,
+      "length": 5,
+      "value": "\" added to queue with UUID: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 2525,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 3539,
+      "length": 36,
+      "value": "\"Queue is empty, nothing to cancel.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 3624,
+      "length": 80,
+      "value": "\"Queue will now cancel all operations with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 3703,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 4021,
+      "length": 62,
+      "value": "\"Interrupting cancel all to terminate a pending connection...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 4232,
+      "length": 62,
+      "value": "\"Queue is active and is not emptied at the end of cancel all.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 4436,
+      "length": 88,
+      "value": "\"Queue is inactive but still contains unfinished queueable(s) at the end of cancel all.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 4646,
+      "length": 60,
+      "value": "\"Stop scanning requested but no scan is found in the queue.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 4790,
+      "length": 63,
+      "value": "\"Stop scan requested with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 4852,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 4922,
+      "length": 22,
+      "value": "\"Stop scan requested.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
       "kind": "BooleanLiteral",
       "offset": 5117,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/MultipleListenOption.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 5201,
+      "length": 36,
+      "value": "\"Queue is empty, nothing to update.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 5328,
+      "length": 60,
+      "value": "\"Queue is paused because CBCentralManager is not ready yet.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 5708,
+      "length": 57,
+      "value": "\"Queue has removed \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 5739,
+      "length": 7,
+      "value": "\" because it has finished.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 5825,
+      "length": 60,
+      "value": "\"Queue update will clear remaining operations in the queue.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 7002,
+      "length": 34,
+      "value": "\"Queue will start \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 7032,
+      "length": 3,
+      "value": "\"...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 7151,
+      "length": 32,
+      "value": "\"Queue failure: Bluejay is nil.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 7306,
+      "length": 48,
+      "value": "\"Queue is empty but received an event: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "StringLiteral",
+      "offset": 7353,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7934,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7975,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8317,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8348,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8397,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8581,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8872,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8957,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8998,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBManagerState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 13,
+      "value": "\"Powered Off\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBManagerState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 12,
+      "value": "\"Powered On\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBManagerState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 11,
+      "value": "\"Resetting\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBManagerState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 14,
+      "value": "\"Unauthorized\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBManagerState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBManagerState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 639,
+      "length": 13,
+      "value": "\"Unsupported\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBManagerState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/DiscoverService.swift",
+      "kind": "StringLiteral",
+      "offset": 1284,
+      "length": 37,
+      "value": "\"Unexpected event response: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/DiscoverService.swift",
+      "kind": "StringLiteral",
+      "offset": 1320,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/MultipleListenOption.swift",
       "kind": "IntegerLiteral",
       "offset": 528,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/MultipleListenOption.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/MultipleListenOption.swift",
       "kind": "IntegerLiteral",
       "offset": 528,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/MultipleListenOption.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/MultipleListenOption.swift",
       "kind": "IntegerLiteral",
       "offset": 528,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/WarningOptions.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WarningOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 795,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/WarningOptions.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WarningOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 825,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/WarningOptions.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WarningOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 854,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/PeripheralIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 36,
+      "value": "\"Peripheral: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/PeripheralIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 1,
+      "value": "\", UUID: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/PeripheralIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/PeripheralIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 773,
+      "length": 9,
+      "value": "\"No Name\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 3473,
+      "length": 23,
+      "value": "\"Bluetooth unavailable\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 3556,
+      "length": 32,
+      "value": "\"Multiple scan is not supported\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 3651,
+      "length": 35,
+      "value": "\"Multiple connect is not supported\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 3752,
+      "length": 38,
+      "value": "\"Multiple disconnect is not supported\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 3844,
+      "length": 22,
+      "value": "\"Connection timed out\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 3914,
+      "length": 31,
+      "value": "\"Not connected to a peripheral\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4008,
+      "length": 36,
+      "value": "\"Service not found: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4043,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4121,
+      "length": 50,
+      "value": "\"Characteristic not found: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4170,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4216,
+      "length": 11,
+      "value": "\"Cancelled\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4281,
+      "length": 21,
+      "value": "\"Explicit disconnect\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4358,
+      "length": 23,
+      "value": "\"Unexpected disconnect\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4433,
+      "length": 25,
+      "value": "\"Disconnection is queued\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4508,
+      "length": 18,
+      "value": "\"Listen timed out\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4572,
+      "length": 13,
+      "value": "\"Read failed\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4632,
+      "length": 14,
+      "value": "\"Write failed\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4693,
+      "length": 25,
+      "value": "\"No data from peripheral\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4795,
+      "length": 86,
+      "value": "\"Cannot extract data with a size of \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4839,
+      "length": 5,
+      "value": "\" using start: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4861,
+      "length": 1,
+      "value": "\", length: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4880,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4953,
+      "length": 43,
+      "value": "\"Unexpected peripheral: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 4995,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 5071,
+      "length": 73,
+      "value": "\"Scanning with allow duplicates while in the background is not supported\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 5217,
+      "length": 94,
+      "value": "\"Scanning without specifying any service identifiers while in the background is not supported\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 5368,
+      "length": 297,
+      "value": "\"Regular Bluetooth operation is not available when a background task is running. For reading, writing, and listening, please use only the API found in the Synchronized Peripheral provided to you when working inside a background task block\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 5735,
+      "length": 43,
+      "value": "\"Multiple background task is not supported\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 5829,
+      "length": 45,
+      "value": "\"Flush listen timeout cannot be none or zero\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 5917,
+      "length": 17,
+      "value": "\"Bluejay stopped\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 6001,
+      "length": 39,
+      "value": "\"Background restoration is in progress\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 6104,
+      "length": 58,
+      "value": "\"Startup background task expired during state restoration\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 6219,
+      "length": 116,
+      "value": "\"The current listen cannot be installed because an existing listen on the same characteristic is configured to trap\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 6393,
+      "length": 83,
+      "value": "\"The current listen has been replaced by a newer listen on the same characteristic\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 6551,
+      "length": 102,
+      "value": "\"More data than expected was received from the device (expected: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 6627,
+      "length": 1,
+      "value": "\", got: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 6651,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "StringLiteral",
+      "offset": 6773,
+      "length": 9,
+      "value": "\"Bluejay\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6887,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6936,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6988,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7043,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7086,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7123,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7162,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7208,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7242,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7285,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7331,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7373,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7413,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7449,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7486,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7523,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7564,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7610,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7675,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7738,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7785,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7845,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7886,
+      "length": 2,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7919,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7976,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8030,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8077,
+      "length": 2,
+      "value": "27"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8125,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8162,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Error.swift",
+      "kind": "Dictionary",
+      "offset": 8308,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/StartOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1264,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/DiscoverCharacteristic.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1822,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/DiscoverCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1829,
+      "length": 37,
+      "value": "\"Unexpected event response: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/DiscoverCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1865,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/BackgroundRestoreConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1419,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/QueueableState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 457,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/QueueableState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 498,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/QueueableState.swift",
+      "kind": "StringLiteral",
+      "offset": 618,
+      "length": 13,
+      "value": "\"Not started\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/QueueableState.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 9,
+      "value": "\"Running\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/QueueableState.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 52,
+      "value": "\"Stopping with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/QueueableState.swift",
+      "kind": "StringLiteral",
+      "offset": 789,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/QueueableState.swift",
+      "kind": "StringLiteral",
+      "offset": 843,
+      "length": 50,
+      "value": "\"Failed with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/QueueableState.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/QueueableState.swift",
+      "kind": "StringLiteral",
+      "offset": 938,
+      "length": 11,
+      "value": "\"Completed\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1684,
+      "length": 87,
+      "value": "\"Started write to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1741,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1769,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2092,
+      "length": 99,
+      "value": "\"Expecting write to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2151,
+      "length": 1,
+      "value": "\", but actually wrote to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2190,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2261,
+      "length": 93,
+      "value": "\"Write to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2310,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2338,
+      "length": 2,
+      "value": "\" is successful.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2492,
+      "length": 90,
+      "value": "\"Expecting write to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2551,
+      "length": 1,
+      "value": "\", but received event: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2581,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2682,
+      "length": 129,
+      "value": "\"Failed writing to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2740,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2768,
+      "length": 4,
+      "value": "\" with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/WriteCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2810,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
       "kind": "BooleanLiteral",
       "offset": 602,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 67,
+      "value": "\"Deinit synchronized peripheral: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 864,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1195,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2003,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3170,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5739,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
       "kind": "IntegerLiteral",
       "offset": 7053,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7185,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7325,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7380,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7442,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 7510,
+      "length": 60,
+      "value": "\"Flushing listen to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 7569,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7605,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 7831,
+      "length": 20,
+      "value": "\"Flushed some data.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7894,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 7982,
+      "length": 63,
+      "value": "\"Flush failed with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 8044,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8088,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8263,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 8391,
+      "length": 102,
+      "value": "\"Flush to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 8440,
+      "length": 8,
+      "value": "\" finished, should flush again: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 8491,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
       "kind": "IntegerLiteral",
       "offset": 10023,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10129,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12076,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
       "kind": "IntegerLiteral",
       "offset": 13073,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "StringLiteral",
+      "offset": 14442,
+      "length": 36,
+      "value": "\"Need to continue to assemble data.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/SynchronizedPeripheral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15935,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 1486,
+      "length": 27,
+      "value": "\"Connection deinitialized.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1838,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 2037,
+      "length": 79,
+      "value": "\"Started connecting to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 2114,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 2640,
+      "length": 78,
+      "value": "\"Connection received a disconnected event but state was: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 2717,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 2783,
+      "length": 37,
+      "value": "\"Unexpected event response: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 2819,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 2952,
+      "length": 46,
+      "value": "\"Connected to: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 2996,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 3479,
+      "length": 91,
+      "value": "\"Cancelling a pending connection to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 3569,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3884,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3955,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 4049,
+      "length": 72,
+      "value": "\"Pending connection cancelled with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 4120,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4295,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 4359,
+      "length": 120,
+      "value": "\"Failed connecting to: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 4436,
+      "length": 4,
+      "value": "\" with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Connection.swift",
+      "kind": "StringLiteral",
+      "offset": 4478,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Integer+Transferable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 770,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1442,
+      "length": 87,
+      "value": "\"Started read for \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1499,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1527,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1745,
+      "length": 102,
+      "value": "\"Expecting read from \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1805,
+      "length": 1,
+      "value": "\", but actually read from \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1846,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1917,
+      "length": 93,
+      "value": "\"Read for \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1966,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1994,
+      "length": 2,
+      "value": "\" is successful.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2182,
+      "length": 90,
+      "value": "\"Expecting write to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2241,
+      "length": 1,
+      "value": "\", but received event: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2271,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2372,
+      "length": 130,
+      "value": "\"Failed reading for \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2431,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2459,
+      "length": 4,
+      "value": "\" with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ReadCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2501,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBPeripheralState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 11,
+      "value": "\"Connected\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBPeripheralState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 12,
+      "value": "\"Connecting\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBPeripheralState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 14,
+      "value": "\"Disconnected\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBPeripheralState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 15,
+      "value": "\"Disconnecting\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/CBPeripheralState+ReturnString.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "Array",
       "offset": 1541,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "Array",
       "offset": 1705,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "Array",
       "offset": 1861,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "BooleanLiteral",
       "offset": 3579,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "BooleanLiteral",
       "offset": 3963,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5015,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "StringLiteral",
       "offset": 5145,
       "length": 19,
       "value": "\"bluejay_debug.txt\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "IntegerLiteral",
       "offset": 5366,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5701,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "BooleanLiteral",
       "offset": 6626,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "BooleanLiteral",
       "offset": 6983,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "BooleanLiteral",
       "offset": 8567,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8895,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9090,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 10118,
+      "length": 52,
+      "value": "\"Bluejay initialized with UUID: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 10168,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 10236,
+      "length": 47,
+      "value": "\"Deinit Bluejay with UUID: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 10281,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 11820,
+      "length": 102,
+      "value": "\"Background restoration enabled with restore identifier: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 11921,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 11993,
+      "length": 60,
+      "value": "\"Begin startup background task for restoring CoreBluetooth.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12267,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 12495,
+      "length": 31,
+      "value": "\"CBCentralManager initialized.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 12894,
+      "length": 48,
+      "value": "\"Bluejay with UUID: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 12932,
+      "length": 7,
+      "value": "\" started.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 13776,
+      "length": 48,
+      "value": "\"Bluejay with UUID: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 13814,
+      "length": 7,
+      "value": "\" stopped.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13909,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14289,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 14370,
+      "length": 19,
+      "value": "\"UIBackgroundModes\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 14457,
+      "length": 19,
+      "value": "\"bluetooth-central\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 14536,
+      "length": 314,
+      "value": "\"Warning: It appears your app has not enabled background support for Bluetooth properly. Please make sure the capability, \"Background Modes\", is turned on, and the setting, \"Uses Bluetooth LE accessories\", is checked in your Xcode project.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "BooleanLiteral",
       "offset": 15526,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 15551,
+      "length": 107,
+      "value": "\"Cancel everything called with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 15618,
+      "length": 1,
+      "value": "\", shouldDisconnect: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 15657,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 15708,
+      "length": 52,
+      "value": "\"Cancel everything called while still connecting...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15793,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15832,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 15860,
+      "length": 47,
+      "value": "\"Should auto-reconnect: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 15906,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 16141,
+      "length": 65,
+      "value": "\"Cancel everything will now disconnect a connected peripheral...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16239,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16278,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 16306,
+      "length": 47,
+      "value": "\"Should auto-reconnect: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 16352,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "IntegerLiteral",
       "offset": 23125,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "BooleanLiteral",
       "offset": 23160,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "IntegerLiteral",
       "offset": 23200,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "Array",
+      "offset": 23601,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 24264,
+      "length": 73,
+      "value": "\"Error: You cannot stop a scan while a background task is still running.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "BooleanLiteral",
       "offset": 26766,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27075,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 27286,
+      "length": 29,
+      "value": "\"Explicit disconnect called.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27396,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27464,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 27845,
+      "length": 69,
+      "value": "\"Cannot disconnect: there is no connected nor connecting peripheral.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 28055,
+      "length": 69,
+      "value": "\"Cannot disconnect: there is no connected nor connecting peripheral.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28156,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 29033,
+      "length": 115,
+      "value": "\"Cannot request read on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 29096,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 29147,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 30133,
+      "length": 116,
+      "value": "\"Cannot request write on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 30197,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 30248,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 31248,
+      "length": 117,
+      "value": "\"Cannot request listen on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 31313,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 31364,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 32237,
+      "length": 121,
+      "value": "\"Cannot request end listen on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 32306,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 32357,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35168,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35739,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 36069,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 36557,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 37778,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38362,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38696,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 39184,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 40626,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 41220,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 41554,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 42042,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 42837,
+      "length": 33,
+      "value": "\"Ending startup background task.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 43067,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 43201,
+      "length": 38,
+      "value": "\"CoreBluetooth restoration completed.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 43467,
+      "length": 48,
+      "value": "\"Cleared all restoration peripheral references.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 43666,
+      "length": 52,
+      "value": "\"Cleared all non restoration peripheral references.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
       "kind": "StringLiteral",
       "offset": 892,
       "length": 7,
       "value": "\"BluejayKit.Bluejay\""
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/GitHub\/BlueCentralExample\/BluejayKit\/Source\/Queueable.swift",
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 44342,
+      "length": 70,
+      "value": "\"No background restorer found when restoring a connecting peripheral.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "IntegerLiteral",
+      "offset": 44482,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 44600,
+      "length": 65,
+      "value": "\"Did restore connection to peripheral: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 44664,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 45057,
+      "length": 77,
+      "value": "\"Did fail to to restore connection with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 45133,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 46113,
+      "length": 69,
+      "value": "\"No background restorer found when restoring a connected peripheral.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 46212,
+      "length": 76,
+      "value": "\"Did restore connection to peripheral: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 46287,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 47475,
+      "length": 73,
+      "value": "\"No background restorer found when restoring a disconnecting peripheral.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 48674,
+      "length": 72,
+      "value": "\"No background restorer found when restoring a disconnected peripheral.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 49730,
+      "length": 58,
+      "value": "\"Central manager state updated: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 49787,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 50086,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 51252,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 51545,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 51666,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 51734,
+      "length": 48,
+      "value": "\"New system level CBCentralManager state added.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 52214,
+      "length": 37,
+      "value": "\"Central manager will restore state.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 52421,
+      "length": 48,
+      "value": "\"No peripherals found during state restoration.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52677,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 52680,
+      "length": 42,
+      "value": "\"Invalid number of peripheral to restore.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 52741,
+      "length": 61,
+      "value": "\"Peripheral state to restore: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 52801,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 52827,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 52973,
+      "length": 80,
+      "value": "\"Connected peripheral is not nil during willRestoreState for state: connecting.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 53218,
+      "length": 80,
+      "value": "\"Connecting peripheral is not nil during willRestoreState for state: connected.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 53453,
+      "length": 84,
+      "value": "\"Connecting peripheral is not nil during willRestoreState for state: disconnecting.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 53738,
+      "length": 99,
+      "value": "\"Connecting and connected peripherals are not nil during willRestoreState for state: disconnected.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 53947,
+      "length": 48,
+      "value": "\"New system level CBCentralManager state added.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 54456,
+      "length": 88,
+      "value": "\"Central manager did connect to: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 54543,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 54717,
+      "length": 102,
+      "value": "\"Connected peripheral is assigned a nil value despite Bluejay has successfully finished a connection.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 54852,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 54874,
+      "length": 47,
+      "value": "\"Should auto-reconnect: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 54920,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 55769,
+      "length": 85,
+      "value": "\"Central manager did disconnect from \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 55825,
+      "length": 4,
+      "value": "\" with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 55853,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 55894,
+      "length": 73,
+      "value": "\"Central manager did disconnect from \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 55950,
+      "length": 7,
+      "value": "\" without errors.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 56275,
+      "length": 61,
+      "value": "\"Central manager disconnected from an unexpected peripheral.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 56794,
+      "length": 120,
+      "value": "\"Peripheral state was connecting during background restoration before centralManager(_:didDisconnectPeripheral:error:).\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 56993,
+      "length": 123,
+      "value": "\"Peripheral state was disconnecting during background restoration before centralManager(_:didDisconnectPeripheral:error:).\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 57194,
+      "length": 122,
+      "value": "\"Peripheral state was disconnected during background restoration before centralManager(_:didDisconnectPeripheral:error:).\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 57373,
+      "length": 90,
+      "value": "\"Peripheral was still connecting before centralManager(_:didDisconnectPeripheral:error:).\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 57519,
+      "length": 83,
+      "value": "\"Peripheral was connected before centralManager(_:didDisconnectPeripheral:error:).\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 57736,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 57871,
+      "length": 31,
+      "value": "\"The disconnect is unexpected.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 57940,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 58036,
+      "length": 47,
+      "value": "\"Should auto-reconnect: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 58082,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 58235,
+      "length": 29,
+      "value": "\"The disconnect is expected.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 58302,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 58341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 58369,
+      "length": 47,
+      "value": "\"Should auto-reconnect: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 58415,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 58587,
+      "length": 33,
+      "value": "\"Starting disconnect clean up...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 58837,
+      "length": 142,
+      "value": "\"Queue should not be emptied at the beginning of disconnect clean up when Bluejay was still connecting or has started a queued disconnection.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 59072,
+      "length": 108,
+      "value": "\"Disconnect clean up: delivering expected disconnected event back to the pending connection in the queue...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 59695,
+      "length": 110,
+      "value": "\"Disconnect clean up: delivering expected disconnected event back to the queued disconnection in the queue...\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 60204,
+      "length": 95,
+      "value": "\"Queue should be emptied before notifying and invoking all disconnect observers and callbacks.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 60400,
+      "length": 101,
+      "value": "\"Disconnect clean up: disconnected while restoring a connecting peripheral, will not auto-reconnect.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 60636,
+      "length": 129,
+      "value": "\"Missing connecting error at the end of a disconnect clean up after cancelling a connecting peripheral during state restoration.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 60984,
+      "length": 58,
+      "value": "\"Disconnect clean up: notifying all connection observers.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 61259,
+      "length": 77,
+      "value": "\"Disconnect clean up: should auto-reconnect: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 61335,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 61449,
+      "length": 54,
+      "value": "\"Disconnect clean up: calling the disconnect handler.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 61743,
+      "length": 52,
+      "value": "\"Disconnect handler will not change auto-reconnect.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 61961,
+      "length": 80,
+      "value": "\"Disconnect handler changing auto-reconnect to: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 62040,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 62164,
+      "length": 82,
+      "value": "\"Disconnect clean up: calling the explicit disconnect callback if it is provided.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 62570,
+      "length": 101,
+      "value": "\"Missing connecting error at the end of a disconnect clean up after cancelling a pending connection.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 62734,
+      "length": 73,
+      "value": "\"Disconnect clean up: calling the connecting callback if it is provided.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 63001,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 63096,
+      "length": 99,
+      "value": "\"Disconnect clean up: issuing reconnect to: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 63194,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 63483,
+      "length": 29,
+      "value": "\"End of disconnect clean up.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 63583,
+      "length": 62,
+      "value": "\"Delaying disconnect clean up due to running background task.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 64693,
+      "length": 35,
+      "value": "\"Did discover: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 64727,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66071,
+      "length": 63,
+      "value": "\"Listen restorer not found upon receiving an unhandled listen.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66396,
+      "length": 107,
+      "value": "\"Promised restoration for listen on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66461,
+      "length": 3,
+      "value": "\" for \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66502,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66552,
+      "length": 107,
+      "value": "\"End listen requested for listen on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66617,
+      "length": 3,
+      "value": "\" for \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Bluejay.swift",
+      "kind": "StringLiteral",
+      "offset": 66658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1802,
+      "length": 124,
+      "value": "\"Will start listening to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1924,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 1966,
+      "length": 123,
+      "value": "\"Will stop listening to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2029,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2087,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2342,
+      "length": 118,
+      "value": "\"Expecting notification state update to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2421,
+      "length": 1,
+      "value": "\", but actually updated \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2459,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2574,
+      "length": 113,
+      "value": "\"Listening to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2627,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2685,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2735,
+      "length": 121,
+      "value": "\"Stopped listening to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2796,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 2854,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 3025,
+      "length": 103,
+      "value": "\"Expecting notification state update to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 3097,
+      "length": 1,
+      "value": "\", but received event: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 3127,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 3241,
+      "length": 161,
+      "value": "\"Failed listening to \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 3301,
+      "length": 2,
+      "value": "\" on \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 3359,
+      "length": 4,
+      "value": "\" with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/ListenCharacteristic.swift",
+      "kind": "StringLiteral",
+      "offset": 3401,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Disconnection.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 84,
+      "value": "\"Started disconnecting from \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Disconnection.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Disconnection.swift",
+      "kind": "StringLiteral",
+      "offset": 1153,
+      "length": 30,
+      "value": "\"Disconnection deinitialized.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Disconnection.swift",
+      "kind": "StringLiteral",
+      "offset": 1373,
+      "length": 37,
+      "value": "\"Unexpected event response: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Disconnection.swift",
+      "kind": "StringLiteral",
+      "offset": 1409,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Disconnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1665,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Disconnection.swift",
+      "kind": "StringLiteral",
+      "offset": 1805,
+      "length": 125,
+      "value": "\"Failed disconnecting from: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Disconnection.swift",
+      "kind": "StringLiteral",
+      "offset": 1887,
+      "length": 4,
+      "value": "\" with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Disconnection.swift",
+      "kind": "StringLiteral",
+      "offset": 1929,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2854,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 2883,
+      "length": 474,
+      "value": "\"Warning: Setting `serviceIdentifiers` to `nil` is not recommended by Apple. It may cause battery and cpu issues on prolonged scanning, and **it also doesn't work in the background**. If you need to scan for all Bluetooth devices, we recommend making use of the `duration` parameter to stop the scan after 5 ~ 10 seconds to avoid scanning indefinitely and overloading the hardware.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 3406,
+      "length": 20,
+      "value": "\"Scan deinitialized\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3502,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 4780,
+      "length": 19,
+      "value": "\"Scanning started.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 8022,
+      "length": 55,
+      "value": "\"Could not connect at the end of a scan: queue is nil.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 8160,
+      "length": 37,
+      "value": "\"Unexpected event response: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 8196,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 9108,
+      "length": 60,
+      "value": "\"Scanning stopped with error: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 9167,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 9208,
+      "length": 19,
+      "value": "\"Scanning stopped.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9857,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9870,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "Array",
+      "offset": 11277,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 11548,
+      "length": 57,
+      "value": "\"Scan timer expired when state was: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 11604,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Scan.swift",
+      "kind": "StringLiteral",
+      "offset": 11683,
+      "length": 31,
+      "value": "\"Finished scanning on timeout.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queueable.swift",
       "kind": "BooleanLiteral",
       "offset": 858,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BluejayKit\/Source\/Queueable.swift",
+      "kind": "StringLiteral",
+      "offset": 965,
+      "length": 26,
+      "value": "\"Containing queue is nil.\""
     }
   ]
 }

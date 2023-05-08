@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/BluejayKit-Swift.h</key>
 		<data>
-		HICJ5Ikl+9z7SrTT3mMbaBbPiAo=
+		CTsmET7aN1zXO8JbqIWw1l4rA2k=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lWDCfizsG5FspVrRKu4gHNrxRLI=
+		6mm/nCm0ddZ8ZWqHdiILRStc/yY=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		7wm1+J+jkxIoPL0y6fEFY5MEVRY=
+		oDyBQ68mtKJC0NRkgYOrlJjweYk=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		E/VKruFdCnTuj33SoWB/THCbpGA=
+		ASWQAZ7PSQnJx0JsWBfTxG5FGZ0=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Mm8AdcQwGVve4Xj1vQlFYjgUi1Q=
+		VhD7eQABBEirCnsMNGhvG4iCApw=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		E/VKruFdCnTuj33SoWB/THCbpGA=
+		ASWQAZ7PSQnJx0JsWBfTxG5FGZ0=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		mIbfMggMlPcaRNhNbAJ1uKL4cdc=
+		Gg4l8ZL+L0rLhCZiB3VlvZtGHis=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,42 +43,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			htUIsH6zQR1pUJeywLrqf2RD1CLC3CRrn6imBsb5xH4=
+			E/D1H4mdT3NtSszngcu+by1JBonwATV72y2N5sSyZHY=
 			</data>
 		</dict>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7HTbrpR5bIJQ33qrKOZOL9K/aZnw/SdlqiJ1YcYK9GU=
+			GqeQcBACjsB/F3f4Y3kS+LyJIB0WLUTLPpAdWcfLrcs=
 			</data>
 		</dict>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J4HExLP12jEwucPexbWerGTPBvPbSVUzXcnninNwJ10=
+			ycwIiTe2cIENsmuovAij48iMO08w+pec++l7bhOqiFw=
 			</data>
 		</dict>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xRJq4RncE1PNwprkW/HRA5dYiEkGxgZQAwUjM2HkmeU=
+			+jdt8Od5uSJaOBDtlmIz4i6VLfxtSNcH2H0rGtYPs5s=
 			</data>
 		</dict>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J4HExLP12jEwucPexbWerGTPBvPbSVUzXcnninNwJ10=
+			ycwIiTe2cIENsmuovAij48iMO08w+pec++l7bhOqiFw=
 			</data>
 		</dict>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AtBAtImtMRmv1F3pWvXSRf/Ol6rSF3w51jGrZg0UzWg=
+			mEoBwmju1me2Ku+WVMsazHjfLr2HlUC8M2ucEfx9Qfg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

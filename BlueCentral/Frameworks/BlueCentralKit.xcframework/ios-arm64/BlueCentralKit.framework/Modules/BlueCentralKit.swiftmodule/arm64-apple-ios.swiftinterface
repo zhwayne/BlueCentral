@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BlueCentralKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import BluejayKit
@@ -32,7 +32,7 @@ extension Foundation.Data {
   }
 }
 extension Foundation.Data {
-  public static func combine(_ encodables: [BlueCentralKit.DataEncodable?]) -> Foundation.Data
+  public static func combine(_ encodables: [(any BlueCentralKit.DataEncodable)?]) -> Foundation.Data
 }
 extension BlueCentralKit.SkippingRope {
   public enum Training : Swift.UInt8, BlueCentralKit.DataEncodable {
@@ -69,9 +69,7 @@ extension BlueCentralKit.BlueCentral {
   @_Concurrency.MainActor public static func maximumWriteValueLength(for writeType: CoreBluetooth.CBCharacteristicWriteType) throws -> Swift.Int
 }
 extension BlueCentralKit.BlueCentral {
-  #if compiler(>=5.3) && $AsyncAwait
-  @_Concurrency.MainActor final public func scan(deviceModels: [BlueCentralKit.DeviceModel]? = nil, duration: Foundation.TimeInterval = 0, callback: @escaping ([BlueCentralKit.DeviceDiscovery]) -> Swift.Void, stopped: ((Swift.Result<[BluejayKit.ScanDiscovery], Swift.Error>) -> Swift.Void)? = nil) async throws
-  #endif
+  @_Concurrency.MainActor final public func scan(deviceModels: [BlueCentralKit.DeviceModel]? = nil, duration: Foundation.TimeInterval = 0, callback: @escaping ([BlueCentralKit.DeviceDiscovery]) -> Swift.Void, stopped: ((Swift.Result<[BluejayKit.ScanDiscovery], any Swift.Error>) -> Swift.Void)? = nil)
   @_Concurrency.MainActor final public func stopScanning()
   #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor final public func connect(discovery: BlueCentralKit.DeviceDiscovery) async throws
@@ -257,10 +255,10 @@ extension BlueCentralKit.DeviceKey {
   }
 }
 public enum BlueCentralError : Swift.Error {
-  case scanning(Swift.Error)
-  case connecting(Swift.Error)
-  case write(Swift.Error)
-  case read(Swift.Error)
+  case scanning(any Swift.Error)
+  case connecting(any Swift.Error)
+  case write(any Swift.Error)
+  case read(any Swift.Error)
   case dataOutOfBounds(start: Swift.Int, length: Swift.Int, count: Swift.Int)
   case invalidData
   case timeout
@@ -388,7 +386,7 @@ extension BluejayKit.ScanDiscovery : Swift.Hashable {
   @_Concurrency.MainActor final public var $connectingDevice: Combine.Published<BlueCentralKit.Device?>.Publisher {
     get
   }
-  @Combine.Published @_projectedValueProperty($device) @_Concurrency.MainActor final public var device: BlueCentralKit.Device? {
+  @Combine.Published @_Concurrency.MainActor @_projectedValueProperty($device) final public var device: BlueCentralKit.Device? {
     get
   }
   @_Concurrency.MainActor final public var $device: Combine.Published<BlueCentralKit.Device?>.Publisher {
@@ -420,7 +418,7 @@ extension BlueCentralKit.BlueCentral : BluejayKit.ConnectionObserver {
   @_Concurrency.MainActor final public func disconnected(from peripheral: BluejayKit.PeripheralIdentifier)
 }
 extension BlueCentralKit.BlueCentral : BluejayKit.DisconnectHandler {
-  @_Concurrency.MainActor final public func didDisconnect(from peripheral: BluejayKit.PeripheralIdentifier, with error: Swift.Error?, willReconnect autoReconnect: Swift.Bool) -> BluejayKit.AutoReconnectMode
+  @_Concurrency.MainActor final public func didDisconnect(from peripheral: BluejayKit.PeripheralIdentifier, with error: (any Swift.Error)?, willReconnect autoReconnect: Swift.Bool) -> BluejayKit.AutoReconnectMode
 }
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
   #if compiler(>=5.3) && $AsyncAwait
