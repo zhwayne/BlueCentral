@@ -110,6 +110,13 @@ extension BlueCentralKit.DeviceModel {
   public var productName: Swift.String {
     get
   }
+  public var modelID: Swift.Int {
+    get
+  }
+}
+extension BlueCentralKit.DeviceModel {
+  public init?(name: Swift.String)
+  public init?(modelID: Swift.Int)
 }
 extension BlueCentralKit.DeviceModel {
   public static var allSkippingRope: [BlueCentralKit.DeviceModel] {
@@ -357,11 +364,12 @@ public enum CountingMode {
   @_Concurrency.MainActor public func setPrams(countingMode: BlueCentralKit.CountingMode, for trainingMode: BlueCentralKit.SkippingRope.TrainingMode) async throws -> Swift.Bool
   #endif
 }
-public struct DeviceKey : Swift.Hashable, Swift.CustomStringConvertible {
+public struct DeviceKey : Swift.Hashable, Swift.Comparable, Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
   public init(rawVlue: Swift.String, localizedDescription: Swift.String? = nil)
+  public static func < (lhs: BlueCentralKit.DeviceKey, rhs: BlueCentralKit.DeviceKey) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: BlueCentralKit.DeviceKey, b: BlueCentralKit.DeviceKey) -> Swift.Bool
   public var hashValue: Swift.Int {
@@ -369,9 +377,11 @@ public struct DeviceKey : Swift.Hashable, Swift.CustomStringConvertible {
   }
 }
 extension BlueCentralKit.DeviceKey {
-  public static let electricity: BlueCentralKit.DeviceKey
-  public static let firwareVersion: BlueCentralKit.DeviceKey
+  public static let name: BlueCentralKit.DeviceKey
   public static let mac: BlueCentralKit.DeviceKey
+  public static let modal: BlueCentralKit.DeviceKey
+  public static let firwareVersion: BlueCentralKit.DeviceKey
+  public static let electricity: BlueCentralKit.DeviceKey
 }
 extension BluejayKit.ScanDiscovery : Swift.Hashable {
   public static func == (lhs: BluejayKit.ScanDiscovery, rhs: BluejayKit.ScanDiscovery) -> Swift.Bool
