@@ -982,6 +982,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueCentralKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "BluejayKit",
         "printedName": "BluejayKit",
         "declKind": "Import",
@@ -6021,6 +6031,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueCentralKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "BluejayKit",
         "printedName": "BluejayKit",
         "declKind": "Import",
@@ -6076,6 +6096,16 @@
         "printedName": "BluejayKit",
         "declKind": "Import",
         "moduleName": "BlueCentralKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueCentralKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -6794,6 +6824,16 @@
             "usr": "s:SQ",
             "mangledName": "$sSQ"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueCentralKit",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -13038,20 +13078,6 @@
       "value": "16"
     },
     {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/Hardware.swift",
-      "kind": "StringLiteral",
-      "offset": 881,
-      "length": 31,
-      "value": "\"BlueCentral Hardware: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/Hardware.swift",
-      "kind": "StringLiteral",
-      "offset": 911,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/Training.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
@@ -13425,7 +13451,7 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ModifiyName.swift",
       "kind": "BooleanLiteral",
-      "offset": 986,
+      "offset": 1017,
       "length": 4,
       "value": "true"
     },
@@ -14076,210 +14102,91 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 7615,
-      "length": 72,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 7633,
-      "length": 4,
-      "value": "\" Send: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 7686,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7798,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8253,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8314,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 8731,
-      "length": 37,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 8749,
-      "length": 7,
-      "value": "\" Receive: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 8767,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9275,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9336,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 9465,
-      "length": 56,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 9483,
-      "length": 7,
-      "value": "\" Receive: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 9520,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10368,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10433,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 10472,
-      "length": 34,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 10490,
-      "length": 4,
-      "value": "\" Send: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 10505,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 10927,
-      "length": 37,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 10945,
-      "length": 7,
-      "value": "\" Receive: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 10963,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 12300,
+      "offset": 7624,
       "length": 54,
-      "value": "\"\""
+      "value": "\"Send: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 12318,
-      "length": 7,
-      "value": "\" Receive: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 12353,
+      "offset": 7677,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 12641,
-      "length": 37,
-      "value": "\"\""
+      "kind": "BooleanLiteral",
+      "offset": 7789,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8244,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8305,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9265,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9326,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10422,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 12659,
-      "length": 7,
-      "value": "\" Receive: \""
+      "offset": 12299,
+      "length": 36,
+      "value": "\"Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 12677,
+      "offset": 12334,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "IntegerLiteral",
-      "offset": 12961,
+      "offset": 12964,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "IntegerLiteral",
-      "offset": 12972,
+      "offset": 12975,
       "length": 1,
       "value": "1"
     },
@@ -15362,6 +15269,13 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/TimestampProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 25,
+      "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
+    },
+    {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
       "offset": 1256,
@@ -15434,196 +15348,77 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8768,
-      "length": 72,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 8786,
-      "length": 4,
-      "value": "\" Send: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 8839,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8951,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9400,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9461,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 9878,
-      "length": 37,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 9896,
-      "length": 7,
-      "value": "\" Receive: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 9914,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10422,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10483,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 10612,
-      "length": 56,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 10630,
-      "length": 7,
-      "value": "\" Receive: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 10667,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11540,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11605,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 11644,
-      "length": 34,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 11662,
-      "length": 4,
-      "value": "\" Send: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 11677,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 12099,
-      "length": 37,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 12117,
-      "length": 7,
-      "value": "\" Receive: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 12135,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 13472,
+      "offset": 8777,
       "length": 54,
-      "value": "\"\""
+      "value": "\"Send: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 13490,
-      "length": 7,
-      "value": "\" Receive: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 13525,
+      "offset": 8830,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 13813,
-      "length": 37,
-      "value": "\"\""
+      "kind": "BooleanLiteral",
+      "offset": 8942,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9391,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9452,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10412,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10473,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11529,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11594,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 13831,
-      "length": 7,
-      "value": "\" Receive: \""
+      "offset": 13471,
+      "length": 36,
+      "value": "\"Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 13849,
+      "offset": 13506,
       "length": 2,
       "value": "\"\""
     },
@@ -15987,126 +15782,126 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 5882,
+      "offset": 5892,
       "length": 74,
       "value": "\"ota message erase sector: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 5955,
+      "offset": 5965,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 6057,
+      "offset": 6077,
       "length": 79,
       "value": "\"ota message erase sector recv: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 6135,
+      "offset": 6155,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 6559,
+      "offset": 6589,
       "length": 69,
       "value": "\"ota upgrade progress: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 6624,
+      "offset": 6654,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 6627,
+      "offset": 6657,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 6842,
+      "offset": 6872,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "IntegerLiteral",
-      "offset": 7187,
+      "offset": 7217,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 7823,
+      "offset": 7863,
       "length": 72,
       "value": "\"ota message write data: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 7894,
+      "offset": 7934,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 7996,
+      "offset": 8046,
       "length": 77,
       "value": "\"ota message write data recv: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 8072,
+      "offset": 8122,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 8501,
+      "offset": 8561,
       "length": 69,
       "value": "\"ota upgrade progress: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 8566,
+      "offset": 8626,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 8569,
+      "offset": 8629,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 9013,
+      "offset": 9083,
       "length": 68,
       "value": "\"ota message reboot: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/OTA\/SkippingRope+OTA.swift",
       "kind": "StringLiteral",
-      "offset": 9080,
+      "offset": 9150,
       "length": 2,
       "value": "\"\""
     },
@@ -16256,6 +16051,97 @@
       "offset": 1416,
       "length": 8,
       "value": "\"电量\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 182,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 7,
+      "value": "\"DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 182,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 182,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Log\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 5,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/ScanDiscovery++.swift",
