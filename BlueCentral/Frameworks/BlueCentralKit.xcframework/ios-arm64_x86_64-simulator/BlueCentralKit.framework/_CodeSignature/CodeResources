@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/BlueCentralKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uPVuwKu0wvPoGYc7rq7D4z2CV+M=
+		8zHg64lNdlkZDBUkLDn4QzkGu2c=
 		</data>
 		<key>Modules/BlueCentralKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/BlueCentralKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4dOzPBzv7UKmW457q0n+QtZqdqc=
+		ZcFSI8yAW6R3I0bZJh7wk1mHoDo=
 		</data>
 		<key>Modules/BlueCentralKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uPVuwKu0wvPoGYc7rq7D4z2CV+M=
+		8zHg64lNdlkZDBUkLDn4QzkGu2c=
 		</data>
 		<key>Modules/BlueCentralKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BlueCentralKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ToglnAqvsoYCgh/y9Ggn/6Mg0Sk=
+		+ARgNaGiqdz1rL6+S3ea5AVJnRc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GoHHHKd1SeDJQRiykpMV/8oHvgX/wH/HYcUxUHe4U+M=
+			+JzzuNniPs3+Qz0Uve4ILibE2weTgr3ztyA6aytdruw=
 			</data>
 		</dict>
 		<key>Modules/BlueCentralKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P59bkU8F7ID1ZXKzFjdpH2q7SCfGFVNWlT4E9gFRKZc=
+			lo6GJ3HLelK06YRpzukAhuDJNWLmesuHNgvgnq2cxBI=
 			</data>
 		</dict>
 		<key>Modules/BlueCentralKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GoHHHKd1SeDJQRiykpMV/8oHvgX/wH/HYcUxUHe4U+M=
+			+JzzuNniPs3+Qz0Uve4ILibE2weTgr3ztyA6aytdruw=
 			</data>
 		</dict>
 		<key>Modules/BlueCentralKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oDkOpXT2Mf3gZQ3SZS3o5mmbBpmhYoQcv34XFQRi8Ds=
+			KTHeM5gMnOfQTz4hasErZsE1G4Lep50GSsneMt1ktDU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
