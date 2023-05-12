@@ -3821,17 +3821,17 @@
           },
           {
             "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
           }
         ]
       },
@@ -5624,24 +5624,50 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Var",
-            "name": "description",
-            "printedName": "description",
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:14BlueCentralKit6DeviceC11descriptionSSvp",
-            "mangledName": "$s14BlueCentralKit6DeviceC11descriptionSSvp",
+            "declKind": "Func",
+            "usr": "s:14BlueCentralKit6DeviceC4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14BlueCentralKit6DeviceC4hash4intoys6HasherVz_tF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit6DeviceC9hashValueSivp",
+            "mangledName": "$s14BlueCentralKit6DeviceC9hashValueSivp",
+            "moduleName": "BlueCentralKit",
+            "implicit": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -5651,15 +5677,16 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14BlueCentralKit6DeviceC11descriptionSSvg",
-                "mangledName": "$s14BlueCentralKit6DeviceC11descriptionSSvg",
+                "usr": "s:14BlueCentralKit6DeviceC9hashValueSivg",
+                "mangledName": "$s14BlueCentralKit6DeviceC9hashValueSivg",
                 "moduleName": "BlueCentralKit",
+                "implicit": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -5706,17 +5733,17 @@
           },
           {
             "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
           }
         ]
       },
@@ -5890,6 +5917,70 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit15DeviceDiscoveryV9hashValueSivp",
+            "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV9hashValueSivp",
+            "moduleName": "BlueCentralKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit15DeviceDiscoveryV9hashValueSivg",
+                "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV9hashValueSivg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BlueCentralKit15DeviceDiscoveryV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV4hash4intoys6HasherVz_tF",
+            "moduleName": "BlueCentralKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -5918,80 +6009,8 @@
             "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV2eeoiySbAC_ACtFZ",
             "moduleName": "BlueCentralKit",
             "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14BlueCentralKit15DeviceDiscoveryV4hash4intoys6HasherVz_tF",
-            "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV4hash4intoys6HasherVz_tF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14BlueCentralKit15DeviceDiscoveryV9hashValueSivp",
-            "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV9hashValueSivp",
-            "moduleName": "BlueCentralKit",
             "implicit": true,
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14BlueCentralKit15DeviceDiscoveryV9hashValueSivg",
-                "mangledName": "$s14BlueCentralKit15DeviceDiscoveryV9hashValueSivg",
-                "moduleName": "BlueCentralKit",
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -12824,8 +12843,8 @@
           },
           {
             "kind": "Var",
-            "name": "name",
-            "printedName": "name",
+            "name": "advDataLocalName",
+            "printedName": "advDataLocalName",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12835,8 +12854,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10BluejayKit13ScanDiscoveryV011BlueCentralB0E4nameSSvp",
-            "mangledName": "$s10BluejayKit13ScanDiscoveryV011BlueCentralB0E4nameSSvp",
+            "usr": "s:10BluejayKit13ScanDiscoveryV011BlueCentralB0E16advDataLocalNameSSvp",
+            "mangledName": "$s10BluejayKit13ScanDiscoveryV011BlueCentralB0E16advDataLocalNameSSvp",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "AccessControl",
@@ -12857,8 +12876,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10BluejayKit13ScanDiscoveryV011BlueCentralB0E4nameSSvg",
-                "mangledName": "$s10BluejayKit13ScanDiscoveryV011BlueCentralB0E4nameSSvg",
+                "usr": "s:10BluejayKit13ScanDiscoveryV011BlueCentralB0E16advDataLocalNameSSvg",
+                "mangledName": "$s10BluejayKit13ScanDiscoveryV011BlueCentralB0E16advDataLocalNameSSvg",
                 "moduleName": "BlueCentralKit",
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -13250,29 +13269,43 @@
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 3173,
+      "length": 45,
+      "value": "\"Did discover: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 3217,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 3444,
+      "offset": 3539,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 4144,
+      "offset": 4242,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 6600,
+      "offset": 6698,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 7620,
+      "offset": 7718,
       "length": 4,
       "value": "true"
     },
@@ -14721,35 +14754,35 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1312,
+      "offset": 1324,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1316,
+      "offset": 1328,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1625,
+      "offset": 1637,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1676,
+      "offset": 1688,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1734,
+      "offset": 1746,
       "length": 3,
       "value": "\":\""
     },
@@ -15039,48 +15072,6 @@
       "offset": 499,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
-      "kind": "StringLiteral",
-      "offset": 1615,
-      "length": 196,
-      "value": "\"[Name]\n\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
-      "kind": "StringLiteral",
-      "offset": 1649,
-      "length": 1,
-      "value": "\"\n[MAC]\n\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
-      "kind": "StringLiteral",
-      "offset": 1678,
-      "length": 1,
-      "value": "\"\n[Model]\n\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
-      "kind": "StringLiteral",
-      "offset": 1711,
-      "length": 1,
-      "value": "\"\n[UserInfo]\n\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
-      "kind": "StringLiteral",
-      "offset": 1750,
-      "length": 1,
-      "value": "\"\n[ScanDiscovery]\n\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/Device.swift",
-      "kind": "StringLiteral",
-      "offset": 1799,
-      "length": 12,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Message\/CMIMessage.swift",
@@ -16100,7 +16091,7 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/ScanDiscovery++.swift",
       "kind": "BooleanLiteral",
-      "offset": 561,
+      "offset": 599,
       "length": 5,
       "value": "false"
     },

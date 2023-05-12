@@ -313,22 +313,19 @@ extension BlueCentralKit.BlueCentralError : Foundation.CustomNSError {
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
-extension BlueCentralKit.Device : Swift.Equatable {
+extension BlueCentralKit.Device : Swift.Hashable {
   public static func == (lhs: BlueCentralKit.Device, rhs: BlueCentralKit.Device) -> Swift.Bool
-}
-extension BlueCentralKit.Device : Swift.CustomStringConvertible {
-  public var description: Swift.String {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
-public struct DeviceDiscovery {
+public struct DeviceDiscovery : Swift.Hashable {
   public let device: BlueCentralKit.Device
   public let scanDiscovery: BluejayKit.ScanDiscovery
   public init?(_ scanDiscovery: BluejayKit.ScanDiscovery, expectedModel: BlueCentralKit.DeviceModel? = nil)
-}
-extension BlueCentralKit.DeviceDiscovery : Swift.Hashable {
-  public static func == (lhs: BlueCentralKit.DeviceDiscovery, rhs: BlueCentralKit.DeviceDiscovery) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: BlueCentralKit.DeviceDiscovery, b: BlueCentralKit.DeviceDiscovery) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -385,7 +382,7 @@ extension BlueCentralKit.DeviceKey {
 }
 extension BluejayKit.ScanDiscovery : Swift.Hashable {
   public static func == (lhs: BluejayKit.ScanDiscovery, rhs: BluejayKit.ScanDiscovery) -> Swift.Bool
-  public var name: Swift.String {
+  public var advDataLocalName: Swift.String {
     get
   }
   public func hash(into hasher: inout Swift.Hasher)
