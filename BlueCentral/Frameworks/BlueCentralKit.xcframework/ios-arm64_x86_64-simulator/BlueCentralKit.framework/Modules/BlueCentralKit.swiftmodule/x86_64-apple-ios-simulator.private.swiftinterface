@@ -23,6 +23,15 @@ extension BlueCentralKit.SkippingRope.TrainingMode : BlueCentralKit.DataDecodabl
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
   @_Concurrency.MainActor public func trainingModeChange(_ receiveValue: @escaping (BlueCentralKit.SkippingRope.TrainingMode) -> Swift.Void)
 }
+extension BlueCentralKit.SkippingRope.SystemType : BlueCentralKit.DataEncodable {
+  public func toBluetoothData() -> Foundation.Data
+}
+@_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
+  #if compiler(>=5.3) && $AsyncAwait
+  @discardableResult
+  @_Concurrency.MainActor public func setSystemType(_ type: BlueCentralKit.SkippingRope.SystemType) async throws -> Swift.Bool
+  #endif
+}
 extension Foundation.Data {
   public func subdata(start: Swift.Int, length: Swift.Int) throws -> Foundation.Data
 }
@@ -434,15 +443,15 @@ extension BlueCentralKit.BlueCentral : BluejayKit.DisconnectHandler {
 extension BlueCentralKit.SkippingRope.TrainingMode : Swift.Equatable {}
 extension BlueCentralKit.SkippingRope.TrainingMode : Swift.Hashable {}
 extension BlueCentralKit.SkippingRope.TrainingMode : Swift.RawRepresentable {}
+extension BlueCentralKit.SkippingRope.SystemType : Swift.Equatable {}
+extension BlueCentralKit.SkippingRope.SystemType : Swift.Hashable {}
+extension BlueCentralKit.SkippingRope.SystemType : Swift.RawRepresentable {}
 extension BlueCentralKit.SkippingRope.Training : Swift.Equatable {}
 extension BlueCentralKit.SkippingRope.Training : Swift.Hashable {}
 extension BlueCentralKit.SkippingRope.Training : Swift.RawRepresentable {}
 extension BlueCentralKit.BlueCentral : Swift.Sendable {}
 extension BlueCentralKit.DeviceModel : Swift.Equatable {}
 extension BlueCentralKit.DeviceModel : Swift.Hashable {}
-extension BlueCentralKit.SkippingRope.SystemType : Swift.Equatable {}
-extension BlueCentralKit.SkippingRope.SystemType : Swift.Hashable {}
-extension BlueCentralKit.SkippingRope.SystemType : Swift.RawRepresentable {}
 extension BlueCentralKit.SkippingRope.LockMode : Swift.Equatable {}
 extension BlueCentralKit.SkippingRope.LockMode : Swift.Hashable {}
 extension BlueCentralKit.SkippingRope.LockMode : Swift.RawRepresentable {}

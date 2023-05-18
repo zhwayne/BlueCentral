@@ -56,6 +56,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueCentralKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "BluejayKit",
         "printedName": "BluejayKit",
         "declKind": "Import",
@@ -1339,6 +1349,38 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "setSystemType",
+            "printedName": "setSystemType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SystemType",
+                "printedName": "BlueCentralKit.SkippingRope.SystemType",
+                "usr": "s:14BlueCentralKit12SkippingRopeC10SystemTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BlueCentralKit12SkippingRopeC13setSystemTypeySbAC0gH0OYaKF",
+            "mangledName": "$s14BlueCentralKit12SkippingRopeC13setSystemTypeySbAC0gH0OYaKF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "TypeDecl",
             "name": "Training",
             "printedName": "Training",
@@ -2257,39 +2299,6 @@
                 ]
               },
               {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "BlueCentralKit.SkippingRope.SystemType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SystemType",
-                        "printedName": "BlueCentralKit.SkippingRope.SystemType",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC10SystemTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt8",
-                    "printedName": "Swift.UInt8",
-                    "usr": "s:s5UInt8V"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:14BlueCentralKit12SkippingRopeC10SystemTypeO8rawValueAESgs5UInt8V_tcfc",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC10SystemTypeO8rawValueAESgs5UInt8V_tcfc",
-                "moduleName": "BlueCentralKit",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
                 "kind": "Var",
                 "name": "rawValue",
                 "printedName": "rawValue",
@@ -2327,6 +2336,61 @@
                     "accessorKind": "get"
                   }
                 ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BlueCentralKit.SkippingRope.SystemType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SystemType",
+                        "printedName": "BlueCentralKit.SkippingRope.SystemType",
+                        "usr": "s:14BlueCentralKit12SkippingRopeC10SystemTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:14BlueCentralKit12SkippingRopeC10SystemTypeO8rawValueAESgs5UInt8V_tcfc",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC10SystemTypeO8rawValueAESgs5UInt8V_tcfc",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "toBluetoothData",
+                "printedName": "toBluetoothData()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14BlueCentralKit12SkippingRopeC10SystemTypeO15toBluetoothData10Foundation0J0VyF",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC10SystemTypeO15toBluetoothData10Foundation0J0VyF",
+                "moduleName": "BlueCentralKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Enum",
@@ -2374,6 +2438,20 @@
                 ],
                 "usr": "s:SY",
                 "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "DataEncodable",
+                "printedName": "DataEncodable",
+                "usr": "s:14BlueCentralKit13DataEncodableP",
+                "mangledName": "$s14BlueCentralKit13DataEncodableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:10BluejayKit8SendableP",
+                "mangledName": "$s10BluejayKit8SendableP"
               }
             ]
           },
@@ -13041,7 +13119,35 @@
       "kind": "IntegerLiteral",
       "offset": 821,
       "length": 4,
-      "value": "0x71"
+      "value": "0x6A"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/SystemTypeSetting.swift",
+      "kind": "BooleanLiteral",
+      "offset": 641,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/SystemTypeSetting.swift",
+      "kind": "IntegerLiteral",
+      "offset": 708,
+      "length": 4,
+      "value": "0x80"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/SystemTypeSetting.swift",
+      "kind": "BooleanLiteral",
+      "offset": 919,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/SystemTypeSetting.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1000,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
@@ -13202,7 +13308,7 @@
       "kind": "IntegerLiteral",
       "offset": 294,
       "length": 4,
-      "value": "0x65"
+      "value": "0x66"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/RemindSetting.swift",
