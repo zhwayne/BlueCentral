@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BlueCentralKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import BluejayKit
@@ -11,14 +11,13 @@ import Swift
 import SwiftUI
 import _Concurrency
 import _StringProcessing
+import os.log
+import os
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
   #if compiler(>=5.3) && $AsyncAwait
   @discardableResult
   @_Concurrency.MainActor public func deleteRemind(at index: Swift.UInt8, for trainingMode: BlueCentralKit.SkippingRope.TrainingMode) async throws -> Swift.Bool
   #endif
-}
-extension BlueCentralKit.SkippingRope.TrainingMode : BlueCentralKit.DataDecodable {
-  public init(bluetoothData: Foundation.Data) throws
 }
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
   @_Concurrency.MainActor public func trainingModeChange(_ receiveValue: @escaping (BlueCentralKit.SkippingRope.TrainingMode) -> Swift.Void)
@@ -78,7 +77,9 @@ extension BlueCentralKit.BlueCentral {
   @_Concurrency.MainActor public static func maximumWriteValueLength(for writeType: CoreBluetooth.CBCharacteristicWriteType) throws -> Swift.Int
 }
 extension BlueCentralKit.BlueCentral {
-  @_Concurrency.MainActor final public func scan(deviceModels: [BlueCentralKit.DeviceModel]? = nil, duration: Foundation.TimeInterval = 0, allowDuplicates: Swift.Bool = true, throttling: BlueCentralKit.ScanThrottling = .throttleRSSIDelta(0), callback: @escaping ([BlueCentralKit.DeviceDiscovery]) -> Swift.Void, stopped: ((Swift.Result<[BlueCentralKit.DeviceDiscovery], any Swift.Error>) -> Swift.Void)? = nil)
+  public typealias ScanCallback = (_ allDeviceDiscoveries: [BlueCentralKit.DeviceDiscovery]) -> Swift.Void
+  public typealias ScanStopped = (_ result: Swift.Result<[BlueCentralKit.DeviceDiscovery], any Swift.Error>) -> Swift.Void
+  @_Concurrency.MainActor final public func scan(deviceModels: [BlueCentralKit.DeviceModel]? = nil, duration: Foundation.TimeInterval = 0, allowDuplicates: Swift.Bool = true, throttling: BlueCentralKit.ScanThrottling = .throttleRSSIDelta(1), callback: @escaping BlueCentralKit.BlueCentral.ScanCallback, stopped: BlueCentralKit.BlueCentral.ScanStopped? = nil)
   @_Concurrency.MainActor final public func stopScanning()
   #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor final public func connect(discovery: BlueCentralKit.DeviceDiscovery) async throws
@@ -131,6 +132,7 @@ extension BlueCentralKit.DeviceModel {
   public static var allSkippingRope: [BlueCentralKit.DeviceModel] {
     get
   }
+  public func isIn(_ models: [BlueCentralKit.DeviceModel]) -> Swift.Bool
 }
 extension BlueCentralKit.SkippingRope.TrainingMode : BlueCentralKit.DataEncodable {
   public func toBluetoothData() -> Foundation.Data
@@ -215,21 +217,23 @@ extension BlueCentralKit.SkippingRope {
   #endif
 }
 extension BlueCentralKit.SkippingRope {
-  public enum SystemType : Swift.UInt8 {
+  public enum SystemType : Swift.UInt8, BlueCentralKit.DataDecodable {
     case instruction
     case preparation
     case none
+    public init(bluetoothData: Foundation.Data) throws
     public init?(rawValue: Swift.UInt8)
     public typealias RawValue = Swift.UInt8
     public var rawValue: Swift.UInt8 {
       get
     }
   }
-  public enum TrainingMode : Swift.UInt8, Swift.CaseIterable {
+  public enum TrainingMode : Swift.UInt8, BlueCentralKit.DataDecodable, Swift.CaseIterable {
     case freedom
     case exam
     case match
     case physical
+    public init(bluetoothData: Foundation.Data) throws
     public init?(rawValue: Swift.UInt8)
     public typealias AllCases = [BlueCentralKit.SkippingRope.TrainingMode]
     public typealias RawValue = Swift.UInt8
@@ -240,18 +244,20 @@ extension BlueCentralKit.SkippingRope {
       get
     }
   }
-  public enum LockMode : Swift.UInt8 {
+  public enum LockMode : Swift.UInt8, BlueCentralKit.DataDecodable {
     case lockRight
     case none
+    public init(bluetoothData: Foundation.Data) throws
     public init?(rawValue: Swift.UInt8)
     public typealias RawValue = Swift.UInt8
     public var rawValue: Swift.UInt8 {
       get
     }
   }
-  public enum CountingStyle : Swift.UInt8 {
+  public enum CountingStyle : Swift.UInt8, BlueCentralKit.DataDecodable {
     case time
     case count
+    public init(bluetoothData: Foundation.Data) throws
     public init?(rawValue: Swift.UInt8)
     public typealias RawValue = Swift.UInt8
     public var rawValue: Swift.UInt8 {
@@ -440,9 +446,6 @@ extension BlueCentralKit.BlueCentral : BluejayKit.DisconnectHandler {
   @_Concurrency.MainActor public func queryRemind(for mode: BlueCentralKit.SkippingRope.TrainingMode) async throws -> [Swift.UInt16]
   #endif
 }
-extension BlueCentralKit.SkippingRope.TrainingMode : Swift.Equatable {}
-extension BlueCentralKit.SkippingRope.TrainingMode : Swift.Hashable {}
-extension BlueCentralKit.SkippingRope.TrainingMode : Swift.RawRepresentable {}
 extension BlueCentralKit.SkippingRope.SystemType : Swift.Equatable {}
 extension BlueCentralKit.SkippingRope.SystemType : Swift.Hashable {}
 extension BlueCentralKit.SkippingRope.SystemType : Swift.RawRepresentable {}
@@ -452,6 +455,9 @@ extension BlueCentralKit.SkippingRope.Training : Swift.RawRepresentable {}
 extension BlueCentralKit.BlueCentral : Swift.Sendable {}
 extension BlueCentralKit.DeviceModel : Swift.Equatable {}
 extension BlueCentralKit.DeviceModel : Swift.Hashable {}
+extension BlueCentralKit.SkippingRope.TrainingMode : Swift.Equatable {}
+extension BlueCentralKit.SkippingRope.TrainingMode : Swift.Hashable {}
+extension BlueCentralKit.SkippingRope.TrainingMode : Swift.RawRepresentable {}
 extension BlueCentralKit.SkippingRope.LockMode : Swift.Equatable {}
 extension BlueCentralKit.SkippingRope.LockMode : Swift.Hashable {}
 extension BlueCentralKit.SkippingRope.LockMode : Swift.RawRepresentable {}
