@@ -74,6 +74,9 @@ extension BlueCentralKit.BlueCentral {
   @_Concurrency.MainActor final public var isScanning: Swift.Bool {
     get
   }
+  @_Concurrency.MainActor final public var authorization: CoreBluetooth.CBManagerAuthorization {
+    get
+  }
   @_Concurrency.MainActor public static func maximumWriteValueLength(for writeType: CoreBluetooth.CBCharacteristicWriteType) throws -> Swift.Int
 }
 extension BlueCentralKit.BlueCentral {
