@@ -36,6 +36,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BlueCentralKit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1358,8 +1365,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "AnyCancellable",
+                "printedName": "Combine.AnyCancellable",
+                "usr": "s:7Combine14AnyCancellableC"
               },
               {
                 "kind": "TypeFunc",
@@ -1381,8 +1389,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14BlueCentralKit12SkippingRopeC18trainingModeChangeyyyAC08TrainingG0OcF",
-            "mangledName": "$s14BlueCentralKit12SkippingRopeC18trainingModeChangeyyyAC08TrainingG0OcF",
+            "usr": "s:14BlueCentralKit12SkippingRopeC18trainingModeChangey7Combine14AnyCancellableCyAC08TrainingG0OcF",
+            "mangledName": "$s14BlueCentralKit12SkippingRopeC18trainingModeChangey7Combine14AnyCancellableCyAC08TrainingG0OcF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "Custom",
@@ -3819,8 +3827,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "AnyCancellable",
+                "printedName": "Combine.AnyCancellable",
+                "usr": "s:7Combine14AnyCancellableC"
               },
               {
                 "kind": "TypeFunc",
@@ -3842,8 +3851,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14BlueCentralKit12SkippingRopeC10dataUpadteyyyAC12TrainingDataVcF",
-            "mangledName": "$s14BlueCentralKit12SkippingRopeC10dataUpadteyyyAC12TrainingDataVcF",
+            "usr": "s:14BlueCentralKit12SkippingRopeC10dataUpadtey7Combine14AnyCancellableCyAC12TrainingDataVcF",
+            "mangledName": "$s14BlueCentralKit12SkippingRopeC10dataUpadtey7Combine14AnyCancellableCyAC12TrainingDataVcF",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "Custom",
@@ -13346,8 +13355,15 @@
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/TrainingModeChange.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 20,
+      "value": "\"协议版本异常\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/TrainingModeChange.swift",
       "kind": "IntegerLiteral",
-      "offset": 587,
+      "offset": 608,
       "length": 4,
       "value": "0x6A"
     },
@@ -16160,8 +16176,15 @@
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DataUpdate.swift",
+      "kind": "StringLiteral",
+      "offset": 2849,
+      "length": 20,
+      "value": "\"协议版本异常\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DataUpdate.swift",
       "kind": "IntegerLiteral",
-      "offset": 2933,
+      "offset": 2939,
       "length": 4,
       "value": "0x62"
     },
