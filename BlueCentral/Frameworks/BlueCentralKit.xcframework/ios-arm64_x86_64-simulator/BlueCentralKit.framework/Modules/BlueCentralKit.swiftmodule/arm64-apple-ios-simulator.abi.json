@@ -1359,38 +1359,34 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "trainingModeChange",
-            "printedName": "trainingModeChange(_:)",
+            "kind": "Var",
+            "name": "trainingModeChanged",
+            "printedName": "trainingModeChanged",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AnyCancellable",
-                "printedName": "Combine.AnyCancellable",
-                "usr": "s:7Combine14AnyCancellableC"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BlueCentralKit.SkippingRope.TrainingMode) -> ()",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<BlueCentralKit.SkippingRope.TrainingMode, Swift.Never>",
                 "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
                   {
                     "kind": "TypeNominal",
                     "name": "TrainingMode",
                     "printedName": "BlueCentralKit.SkippingRope.TrainingMode",
                     "usr": "s:14BlueCentralKit12SkippingRopeC12TrainingModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
                   }
-                ]
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:14BlueCentralKit12SkippingRopeC18trainingModeChangey7Combine14AnyCancellableCyAC08TrainingG0OcF",
-            "mangledName": "$s14BlueCentralKit12SkippingRopeC18trainingModeChangey7Combine14AnyCancellableCyAC08TrainingG0OcF",
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit12SkippingRopeC19trainingModeChanged7Combine12AnyPublisherVyAC08TrainingG0Os5NeverOGvp",
+            "mangledName": "$s14BlueCentralKit12SkippingRopeC19trainingModeChanged7Combine12AnyPublisherVyAC08TrainingG0Os5NeverOGvp",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "Custom",
@@ -1398,7 +1394,41 @@
               "RawDocComment"
             ],
             "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<BlueCentralKit.SkippingRope.TrainingMode, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrainingMode",
+                        "printedName": "BlueCentralKit.SkippingRope.TrainingMode",
+                        "usr": "s:14BlueCentralKit12SkippingRopeC12TrainingModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit12SkippingRopeC19trainingModeChanged7Combine12AnyPublisherVyAC08TrainingG0Os5NeverOGvg",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC19trainingModeChanged7Combine12AnyPublisherVyAC08TrainingG0Os5NeverOGvg",
+                "moduleName": "BlueCentralKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -3821,38 +3851,34 @@
             ]
           },
           {
-            "kind": "Function",
+            "kind": "Var",
             "name": "dataUpadte",
-            "printedName": "dataUpadte(_:)",
+            "printedName": "dataUpadte",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AnyCancellable",
-                "printedName": "Combine.AnyCancellable",
-                "usr": "s:7Combine14AnyCancellableC"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BlueCentralKit.SkippingRope.TrainingData) -> ()",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<BlueCentralKit.SkippingRope.TrainingData, Swift.Never>",
                 "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
                   {
                     "kind": "TypeNominal",
                     "name": "TrainingData",
                     "printedName": "BlueCentralKit.SkippingRope.TrainingData",
                     "usr": "s:14BlueCentralKit12SkippingRopeC12TrainingDataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
                   }
-                ]
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:14BlueCentralKit12SkippingRopeC10dataUpadtey7Combine14AnyCancellableCyAC12TrainingDataVcF",
-            "mangledName": "$s14BlueCentralKit12SkippingRopeC10dataUpadtey7Combine14AnyCancellableCyAC12TrainingDataVcF",
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit12SkippingRopeC10dataUpadte7Combine12AnyPublisherVyAC12TrainingDataVs5NeverOGvp",
+            "mangledName": "$s14BlueCentralKit12SkippingRopeC10dataUpadte7Combine12AnyPublisherVyAC12TrainingDataVs5NeverOGvp",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "Custom",
@@ -3860,7 +3886,41 @@
               "RawDocComment"
             ],
             "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<BlueCentralKit.SkippingRope.TrainingData, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrainingData",
+                        "printedName": "BlueCentralKit.SkippingRope.TrainingData",
+                        "usr": "s:14BlueCentralKit12SkippingRopeC12TrainingDataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit12SkippingRopeC10dataUpadte7Combine12AnyPublisherVyAC12TrainingDataVs5NeverOGvg",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC10dataUpadte7Combine12AnyPublisherVyAC12TrainingDataVs5NeverOGvg",
+                "moduleName": "BlueCentralKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -13356,14 +13416,14 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/TrainingModeChange.swift",
       "kind": "StringLiteral",
-      "offset": 518,
+      "offset": 434,
       "length": 20,
       "value": "\"协议版本异常\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/TrainingModeChange.swift",
       "kind": "IntegerLiteral",
-      "offset": 608,
+      "offset": 524,
       "length": 4,
       "value": "0x6A"
     },
@@ -16177,14 +16237,14 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DataUpdate.swift",
       "kind": "StringLiteral",
-      "offset": 2849,
+      "offset": 2773,
       "length": 20,
       "value": "\"协议版本异常\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DataUpdate.swift",
       "kind": "IntegerLiteral",
-      "offset": 2939,
+      "offset": 2863,
       "length": 4,
       "value": "0x62"
     },

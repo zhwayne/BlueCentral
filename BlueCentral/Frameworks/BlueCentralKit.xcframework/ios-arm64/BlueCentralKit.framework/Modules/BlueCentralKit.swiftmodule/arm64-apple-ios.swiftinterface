@@ -20,7 +20,9 @@ import os
   #endif
 }
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
-  @_Concurrency.MainActor public func trainingModeChange(_ receiveValue: @escaping (BlueCentralKit.SkippingRope.TrainingMode) -> Swift.Void) -> Combine.AnyCancellable
+  @_Concurrency.MainActor public var trainingModeChanged: Combine.AnyPublisher<BlueCentralKit.SkippingRope.TrainingMode, Swift.Never> {
+    get
+  }
 }
 extension BlueCentralKit.SkippingRope.SystemType : BlueCentralKit.DataEncodable {
   public func toBluetoothData() -> Foundation.Data
@@ -360,7 +362,9 @@ extension BlueCentralKit.SkippingRope {
   }
 }
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
-  @_Concurrency.MainActor public func dataUpadte(_ receiveValue: @escaping (BlueCentralKit.SkippingRope.TrainingData) -> Swift.Void) -> Combine.AnyCancellable
+  @_Concurrency.MainActor public var dataUpadte: Combine.AnyPublisher<BlueCentralKit.SkippingRope.TrainingData, Swift.Never> {
+    get
+  }
 }
 extension BlueCentralKit.SkippingRope {
   @_Concurrency.MainActor public func parepareForOTAUpgrade()
