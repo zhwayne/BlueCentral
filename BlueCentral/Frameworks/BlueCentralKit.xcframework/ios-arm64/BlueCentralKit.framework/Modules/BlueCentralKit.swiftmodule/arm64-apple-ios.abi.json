@@ -63,6 +63,13 @@
       },
       {
         "kind": "Import",
+        "name": "BluejayKit",
+        "printedName": "BluejayKit",
+        "declKind": "Import",
+        "moduleName": "BlueCentralKit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4766,290 +4773,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "scanning",
-            "printedName": "scanning",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BlueCentralKit.BlueCentralError.Type) -> (Swift.Error) -> BlueCentralKit.BlueCentralError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Error) -> BlueCentralKit.BlueCentralError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BlueCentralError",
-                        "printedName": "BlueCentralKit.BlueCentralError",
-                        "usr": "s:14BlueCentralKit0aB5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BlueCentralKit.BlueCentralError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BlueCentralError",
-                        "printedName": "BlueCentralKit.BlueCentralError",
-                        "usr": "s:14BlueCentralKit0aB5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit0aB5ErrorO8scanningyACs0D0_pcACmF",
-            "mangledName": "$s14BlueCentralKit0aB5ErrorO8scanningyACs0D0_pcACmF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "connecting",
-            "printedName": "connecting",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BlueCentralKit.BlueCentralError.Type) -> (Swift.Error) -> BlueCentralKit.BlueCentralError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Error) -> BlueCentralKit.BlueCentralError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BlueCentralError",
-                        "printedName": "BlueCentralKit.BlueCentralError",
-                        "usr": "s:14BlueCentralKit0aB5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BlueCentralKit.BlueCentralError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BlueCentralError",
-                        "printedName": "BlueCentralKit.BlueCentralError",
-                        "usr": "s:14BlueCentralKit0aB5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit0aB5ErrorO10connectingyACs0D0_pcACmF",
-            "mangledName": "$s14BlueCentralKit0aB5ErrorO10connectingyACs0D0_pcACmF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "write",
-            "printedName": "write",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BlueCentralKit.BlueCentralError.Type) -> (Swift.Error) -> BlueCentralKit.BlueCentralError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Error) -> BlueCentralKit.BlueCentralError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BlueCentralError",
-                        "printedName": "BlueCentralKit.BlueCentralError",
-                        "usr": "s:14BlueCentralKit0aB5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BlueCentralKit.BlueCentralError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BlueCentralError",
-                        "printedName": "BlueCentralKit.BlueCentralError",
-                        "usr": "s:14BlueCentralKit0aB5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit0aB5ErrorO5writeyACs0D0_pcACmF",
-            "mangledName": "$s14BlueCentralKit0aB5ErrorO5writeyACs0D0_pcACmF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "read",
-            "printedName": "read",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BlueCentralKit.BlueCentralError.Type) -> (Swift.Error) -> BlueCentralKit.BlueCentralError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Error) -> BlueCentralKit.BlueCentralError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BlueCentralError",
-                        "printedName": "BlueCentralKit.BlueCentralError",
-                        "usr": "s:14BlueCentralKit0aB5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BlueCentralKit.BlueCentralError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BlueCentralError",
-                        "printedName": "BlueCentralKit.BlueCentralError",
-                        "usr": "s:14BlueCentralKit0aB5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit0aB5ErrorO4readyACs0D0_pcACmF",
-            "mangledName": "$s14BlueCentralKit0aB5ErrorO4readyACs0D0_pcACmF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "dataOutOfBounds",
-            "printedName": "dataOutOfBounds",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BlueCentralKit.BlueCentralError.Type) -> (Swift.Int, Swift.Int, Swift.Int) -> BlueCentralKit.BlueCentralError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int, Swift.Int, Swift.Int) -> BlueCentralKit.BlueCentralError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BlueCentralError",
-                        "printedName": "BlueCentralKit.BlueCentralError",
-                        "usr": "s:14BlueCentralKit0aB5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(start: Swift.Int, length: Swift.Int, count: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BlueCentralKit.BlueCentralError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BlueCentralError",
-                        "printedName": "BlueCentralKit.BlueCentralError",
-                        "usr": "s:14BlueCentralKit0aB5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit0aB5ErrorO15dataOutOfBoundsyACSi_S2itcACmF",
-            "mangledName": "$s14BlueCentralKit0aB5ErrorO15dataOutOfBoundsyACSi_S2itcACmF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "invalidData",
             "printedName": "invalidData",
             "children": [
@@ -5083,15 +4806,12 @@
             "declKind": "EnumElement",
             "usr": "s:14BlueCentralKit0aB5ErrorO11invalidDatayA2CmF",
             "mangledName": "$s14BlueCentralKit0aB5ErrorO11invalidDatayA2CmF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "BlueCentralKit"
           },
           {
             "kind": "Var",
-            "name": "timeout",
-            "printedName": "timeout",
+            "name": "writeTimeout",
+            "printedName": "writeTimeout",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -5121,12 +4841,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit0aB5ErrorO7timeoutyA2CmF",
-            "mangledName": "$s14BlueCentralKit0aB5ErrorO7timeoutyA2CmF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "usr": "s:14BlueCentralKit0aB5ErrorO12writeTimeoutyA2CmF",
+            "mangledName": "$s14BlueCentralKit0aB5ErrorO12writeTimeoutyA2CmF",
+            "moduleName": "BlueCentralKit"
           },
           {
             "kind": "Var",
@@ -5163,10 +4880,7 @@
             "declKind": "EnumElement",
             "usr": "s:14BlueCentralKit0aB5ErrorO20otaEraseSectorFailedyA2CmF",
             "mangledName": "$s14BlueCentralKit0aB5ErrorO20otaEraseSectorFailedyA2CmF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "BlueCentralKit"
           },
           {
             "kind": "Var",
@@ -5203,10 +4917,7 @@
             "declKind": "EnumElement",
             "usr": "s:14BlueCentralKit0aB5ErrorO18otaWriteDataFailedyA2CmF",
             "mangledName": "$s14BlueCentralKit0aB5ErrorO18otaWriteDataFailedyA2CmF",
-            "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "BlueCentralKit"
           },
           {
             "kind": "Var",
@@ -5243,10 +4954,103 @@
             "declKind": "EnumElement",
             "usr": "s:14BlueCentralKit0aB5ErrorO15otaRebootFailedyA2CmF",
             "mangledName": "$s14BlueCentralKit0aB5ErrorO15otaRebootFailedyA2CmF",
+            "moduleName": "BlueCentralKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BlueCentralError",
+                "printedName": "BlueCentralKit.BlueCentralError",
+                "usr": "s:14BlueCentralKit0aB5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BlueCentralError",
+                "printedName": "BlueCentralKit.BlueCentralError",
+                "usr": "s:14BlueCentralKit0aB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BlueCentralKit0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14BlueCentralKit0aB5ErrorO2eeoiySbAC_ACtFZ",
             "moduleName": "BlueCentralKit",
-            "declAttributes": [
-              "RawDocComment"
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BlueCentralKit0aB5ErrorO9hashValueSivp",
+            "mangledName": "$s14BlueCentralKit0aB5ErrorO9hashValueSivp",
+            "moduleName": "BlueCentralKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BlueCentralKit0aB5ErrorO9hashValueSivg",
+                "mangledName": "$s14BlueCentralKit0aB5ErrorO9hashValueSivg",
+                "moduleName": "BlueCentralKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BlueCentralKit0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14BlueCentralKit0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "BlueCentralKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Var",
@@ -5470,6 +5274,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -6521,16 +6339,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(time: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
                       }
                     ]
                   },
@@ -6551,8 +6362,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit12CountingModeO4timeyACSi_tcACmF",
-            "mangledName": "$s14BlueCentralKit12CountingModeO4timeyACSi_tcACmF",
+            "usr": "s:14BlueCentralKit12CountingModeO4timeyACSicACmF",
+            "mangledName": "$s14BlueCentralKit12CountingModeO4timeyACSicACmF",
             "moduleName": "BlueCentralKit"
           },
           {
@@ -6578,16 +6389,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(count: Swift.Int)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ]
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
                       }
                     ]
                   },
@@ -6608,8 +6412,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit12CountingModeO5countyACSi_tcACmF",
-            "mangledName": "$s14BlueCentralKit12CountingModeO5countyACSi_tcACmF",
+            "usr": "s:14BlueCentralKit12CountingModeO5countyACSicACmF",
+            "mangledName": "$s14BlueCentralKit12CountingModeO5countyACSicACmF",
             "moduleName": "BlueCentralKit"
           }
         ],
@@ -13458,77 +13262,77 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "IntegerLiteral",
-      "offset": 811,
+      "offset": 821,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "StringLiteral",
-      "offset": 981,
+      "offset": 991,
       "length": 6,
       "value": "\"%02x\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "BooleanLiteral",
-      "offset": 1390,
+      "offset": 1400,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "StringLiteral",
-      "offset": 1517,
+      "offset": 1527,
       "length": 4,
       "value": "\"0x\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "IntegerLiteral",
-      "offset": 1576,
+      "offset": 1586,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "IntegerLiteral",
-      "offset": 1695,
+      "offset": 1705,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "IntegerLiteral",
-      "offset": 1700,
+      "offset": 1710,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "IntegerLiteral",
-      "offset": 1875,
+      "offset": 1885,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "IntegerLiteral",
-      "offset": 1903,
+      "offset": 1913,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "IntegerLiteral",
-      "offset": 2067,
+      "offset": 2077,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Basic\/Message\/Data+Extract.swift",
       "kind": "IntegerLiteral",
-      "offset": 2194,
+      "offset": 2204,
       "length": 2,
       "value": "16"
     },
@@ -13745,14 +13549,14 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 7556,
+      "offset": 7500,
       "length": 2,
-      "value": "15"
+      "value": "10"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentral+ScanConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 8576,
+      "offset": 8520,
       "length": 4,
       "value": "true"
     },
@@ -14648,49 +14452,63 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8295,
+      "offset": 8271,
       "length": 43,
       "value": "\"perform action: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8337,
+      "offset": 8313,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 8521,
+      "offset": 8497,
       "length": 25,
       "value": "\"timeout task cancelled.\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 11410,
+      "offset": 10533,
+      "length": 33,
+      "value": "\"Read: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
+      "kind": "StringLiteral",
+      "offset": 10565,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
+      "kind": "StringLiteral",
+      "offset": 11507,
       "length": 36,
       "value": "\"Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 11445,
+      "offset": 11542,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "IntegerLiteral",
-      "offset": 12075,
+      "offset": 12126,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMIOTATransceiver.swift",
       "kind": "IntegerLiteral",
-      "offset": 12086,
+      "offset": 12137,
       "length": 1,
       "value": "1"
     },
@@ -15306,203 +15124,84 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "StringLiteral",
-      "offset": 993,
-      "length": 47,
-      "value": "\"Scanning error: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1039,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1097,
-      "length": 49,
-      "value": "\"Connecting error: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1145,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1198,
-      "length": 44,
-      "value": "\"Write error: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1241,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1293,
-      "length": 43,
-      "value": "\"Read error: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1335,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1413,
-      "length": 86,
-      "value": "\"Cannot extract data with a size of \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1457,
-      "length": 5,
-      "value": "\" using start: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1479,
-      "length": 1,
-      "value": "\", length: \""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1498,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1546,
-      "length": 14,
-      "value": "\"Invalid data\""
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "StringLiteral",
-      "offset": 1603,
+      "offset": 517,
       "length": 9,
       "value": "\"Timeout\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "StringLiteral",
-      "offset": 1668,
+      "offset": 573,
+      "length": 14,
+      "value": "\"Invalid data\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
       "length": 25,
       "value": "\"OTA erase sector failed\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "StringLiteral",
-      "offset": 1747,
+      "offset": 722,
       "length": 23,
       "value": "\"OTA write data failed\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "StringLiteral",
-      "offset": 1821,
+      "offset": 796,
       "length": 19,
       "value": "\"OTA reboot failed\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "StringLiteral",
-      "offset": 1969,
+      "offset": 944,
       "length": 30,
       "value": "\"com.example.BlueCentralError\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2108,
+      "offset": 1086,
       "length": 4,
       "value": "1001"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2158,
+      "offset": 1138,
       "length": 4,
       "value": "1002"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2203,
+      "offset": 1198,
       "length": 4,
-      "value": "1003"
+      "value": "2001"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2247,
+      "offset": 1256,
       "length": 4,
-      "value": "1004"
+      "value": "2002"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2302,
+      "offset": 1311,
       "length": 4,
-      "value": "1005"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2353,
-      "length": 4,
-      "value": "1006"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2400,
-      "length": 4,
-      "value": "1007"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2460,
-      "length": 4,
-      "value": "1008"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2518,
-      "length": 4,
-      "value": "1009"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2573,
-      "length": 4,
-      "value": "1010"
+      "value": "2003"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Central\/BlueCentralError.swift",
       "kind": "Dictionary",
-      "offset": 2707,
+      "offset": 1445,
       "length": 3,
       "value": "[]"
     },
@@ -16034,35 +15733,49 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 9420,
+      "offset": 9396,
       "length": 43,
       "value": "\"perform action: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 9462,
+      "offset": 9438,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 9646,
+      "offset": 9622,
       "length": 25,
       "value": "\"timeout task cancelled.\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 12535,
+      "offset": 11658,
+      "length": 33,
+      "value": "\"Read: \""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
+      "kind": "StringLiteral",
+      "offset": 11690,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
+      "kind": "StringLiteral",
+      "offset": 12632,
       "length": 36,
       "value": "\"Receive: \""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/CMI\/Transceiver\/CMITransceiver.swift",
       "kind": "StringLiteral",
-      "offset": 12570,
+      "offset": 12667,
       "length": 2,
       "value": "\"\""
     },
@@ -16566,79 +16279,93 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 387,
+      "offset": 374,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 420,
+      "offset": 407,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 451,
+      "offset": 438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 533,
+      "offset": 520,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 576,
+      "offset": 563,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 614,
+      "offset": 601,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 671,
+      "offset": 658,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 715,
+      "offset": 702,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 754,
+      "offset": 741,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 813,
+      "offset": 800,
       "length": 4,
       "value": "0x65"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1429,
+      "offset": 1416,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1737,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/DeviceKey.swift",

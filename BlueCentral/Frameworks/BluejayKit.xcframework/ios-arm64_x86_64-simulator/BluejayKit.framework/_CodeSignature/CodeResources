@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7plrS40/nKkXbQ2WbQrSLQ/9/Lw=
+		qFf2xCPiTRWzmvNg8thDBdJJD84=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oDyBQ68mtKJC0NRkgYOrlJjweYk=
+		M85eHgqkNSAg6Nwigl2HlY8u1T0=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oDyBQ68mtKJC0NRkgYOrlJjweYk=
+		M85eHgqkNSAg6Nwigl2HlY8u1T0=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GqeQcBACjsB/F3f4Y3kS+LyJIB0WLUTLPpAdWcfLrcs=
+			oM1jKSjbQLxA/ESWqehLNeydelD3MqZQfh2w1T19o3g=
 			</data>
 		</dict>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -105,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GqeQcBACjsB/F3f4Y3kS+LyJIB0WLUTLPpAdWcfLrcs=
+			oM1jKSjbQLxA/ESWqehLNeydelD3MqZQfh2w1T19o3g=
 			</data>
 		</dict>
 		<key>Modules/BluejayKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
