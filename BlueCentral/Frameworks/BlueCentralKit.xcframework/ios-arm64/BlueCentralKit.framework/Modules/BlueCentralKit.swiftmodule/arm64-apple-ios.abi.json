@@ -3284,8 +3284,8 @@
           },
           {
             "kind": "TypeDecl",
-            "name": "CountingStyle",
-            "printedName": "CountingStyle",
+            "name": "CountingDownType",
+            "printedName": "CountingDownType",
             "children": [
               {
                 "kind": "Var",
@@ -3295,24 +3295,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(BlueCentralKit.SkippingRope.CountingStyle.Type) -> BlueCentralKit.SkippingRope.CountingStyle",
+                    "printedName": "(BlueCentralKit.SkippingRope.CountingDownType.Type) -> BlueCentralKit.SkippingRope.CountingDownType",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CountingStyle",
-                        "printedName": "BlueCentralKit.SkippingRope.CountingStyle",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO"
+                        "name": "CountingDownType",
+                        "printedName": "BlueCentralKit.SkippingRope.CountingDownType",
+                        "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "BlueCentralKit.SkippingRope.CountingStyle.Type",
+                        "printedName": "BlueCentralKit.SkippingRope.CountingDownType.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "CountingStyle",
-                            "printedName": "BlueCentralKit.SkippingRope.CountingStyle",
-                            "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO"
+                            "name": "CountingDownType",
+                            "printedName": "BlueCentralKit.SkippingRope.CountingDownType",
+                            "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO"
                           }
                         ]
                       }
@@ -3320,8 +3320,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO4timeyA2EmF",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC13CountingStyleO4timeyA2EmF",
+                "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO4timeyA2EmF",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC16CountingDownTypeO4timeyA2EmF",
                 "moduleName": "BlueCentralKit"
               },
               {
@@ -3332,24 +3332,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(BlueCentralKit.SkippingRope.CountingStyle.Type) -> BlueCentralKit.SkippingRope.CountingStyle",
+                    "printedName": "(BlueCentralKit.SkippingRope.CountingDownType.Type) -> BlueCentralKit.SkippingRope.CountingDownType",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CountingStyle",
-                        "printedName": "BlueCentralKit.SkippingRope.CountingStyle",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO"
+                        "name": "CountingDownType",
+                        "printedName": "BlueCentralKit.SkippingRope.CountingDownType",
+                        "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "BlueCentralKit.SkippingRope.CountingStyle.Type",
+                        "printedName": "BlueCentralKit.SkippingRope.CountingDownType.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "CountingStyle",
-                            "printedName": "BlueCentralKit.SkippingRope.CountingStyle",
-                            "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO"
+                            "name": "CountingDownType",
+                            "printedName": "BlueCentralKit.SkippingRope.CountingDownType",
+                            "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO"
                           }
                         ]
                       }
@@ -3357,8 +3357,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO5countyA2EmF",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC13CountingStyleO5countyA2EmF",
+                "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO5countyA2EmF",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC16CountingDownTypeO5countyA2EmF",
                 "moduleName": "BlueCentralKit",
                 "declAttributes": [
                   "RawDocComment"
@@ -3371,9 +3371,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CountingStyle",
-                    "printedName": "BlueCentralKit.SkippingRope.CountingStyle",
-                    "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO"
+                    "name": "CountingDownType",
+                    "printedName": "BlueCentralKit.SkippingRope.CountingDownType",
+                    "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -3383,8 +3383,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO13bluetoothDataAE10Foundation0I0V_tKcfc",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC13CountingStyleO13bluetoothDataAE10Foundation0I0V_tKcfc",
+                "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO13bluetoothDataAE10Foundation0J0V_tKcfc",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC16CountingDownTypeO13bluetoothDataAE10Foundation0J0V_tKcfc",
                 "moduleName": "BlueCentralKit",
                 "declAttributes": [
                   "AccessControl",
@@ -3401,13 +3401,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "BlueCentralKit.SkippingRope.CountingStyle?",
+                    "printedName": "BlueCentralKit.SkippingRope.CountingDownType?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CountingStyle",
-                        "printedName": "BlueCentralKit.SkippingRope.CountingStyle",
-                        "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO"
+                        "name": "CountingDownType",
+                        "printedName": "BlueCentralKit.SkippingRope.CountingDownType",
+                        "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO"
                       }
                     ],
                     "usr": "s:Sq"
@@ -3420,8 +3420,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO8rawValueAESgs5UInt8V_tcfc",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC13CountingStyleO8rawValueAESgs5UInt8V_tcfc",
+                "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO8rawValueAESgs5UInt8V_tcfc",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC16CountingDownTypeO8rawValueAESgs5UInt8V_tcfc",
                 "moduleName": "BlueCentralKit",
                 "implicit": true,
                 "init_kind": "Designated"
@@ -3439,8 +3439,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO8rawValues5UInt8Vvp",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC13CountingStyleO8rawValues5UInt8Vvp",
+                "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO8rawValues5UInt8Vvp",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC16CountingDownTypeO8rawValues5UInt8Vvp",
                 "moduleName": "BlueCentralKit",
                 "implicit": true,
                 "accessors": [
@@ -3457,8 +3457,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO8rawValues5UInt8Vvg",
-                    "mangledName": "$s14BlueCentralKit12SkippingRopeC13CountingStyleO8rawValues5UInt8Vvg",
+                    "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO8rawValues5UInt8Vvg",
+                    "mangledName": "$s14BlueCentralKit12SkippingRopeC16CountingDownTypeO8rawValues5UInt8Vvg",
                     "moduleName": "BlueCentralKit",
                     "implicit": true,
                     "accessorKind": "get"
@@ -3467,8 +3467,8 @@
               }
             ],
             "declKind": "Enum",
-            "usr": "s:14BlueCentralKit12SkippingRopeC13CountingStyleO",
-            "mangledName": "$s14BlueCentralKit12SkippingRopeC13CountingStyleO",
+            "usr": "s:14BlueCentralKit12SkippingRopeC16CountingDownTypeO",
+            "mangledName": "$s14BlueCentralKit12SkippingRopeC16CountingDownTypeO",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "AccessControl"
@@ -4383,8 +4383,8 @@
           },
           {
             "kind": "Var",
-            "name": "countingStyle",
-            "printedName": "countingStyle",
+            "name": "countingDownType",
+            "printedName": "countingDownType",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4394,8 +4394,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV13countingStyleAA0fG0Vvp",
-            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV13countingStyleAA0fG0Vvp",
+            "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV16countingDownTypeAA0fG0Vvp",
+            "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV16countingDownTypeAA0fG0Vvp",
             "moduleName": "BlueCentralKit",
             "declAttributes": [
               "HasInitialValue",
@@ -4419,8 +4419,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV13countingStyleAA0fG0Vvg",
-                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV13countingStyleAA0fG0Vvg",
+                "usr": "s:14BlueCentralKit21SkippingRopeDeviceKeyV16countingDownTypeAA0fG0Vvg",
+                "mangledName": "$s14BlueCentralKit21SkippingRopeDeviceKeyV16countingDownTypeAA0fG0Vvg",
                 "moduleName": "BlueCentralKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6312,120 +6312,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "CountingMode",
-        "printedName": "CountingMode",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "time",
-            "printedName": "time",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BlueCentralKit.CountingMode.Type) -> (Swift.Int) -> BlueCentralKit.CountingMode",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> BlueCentralKit.CountingMode",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CountingMode",
-                        "printedName": "BlueCentralKit.CountingMode",
-                        "usr": "s:14BlueCentralKit12CountingModeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BlueCentralKit.CountingMode.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CountingMode",
-                        "printedName": "BlueCentralKit.CountingMode",
-                        "usr": "s:14BlueCentralKit12CountingModeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit12CountingModeO4timeyACSicACmF",
-            "mangledName": "$s14BlueCentralKit12CountingModeO4timeyACSicACmF",
-            "moduleName": "BlueCentralKit"
-          },
-          {
-            "kind": "Var",
-            "name": "count",
-            "printedName": "count",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BlueCentralKit.CountingMode.Type) -> (Swift.Int) -> BlueCentralKit.CountingMode",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Int) -> BlueCentralKit.CountingMode",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CountingMode",
-                        "printedName": "BlueCentralKit.CountingMode",
-                        "usr": "s:14BlueCentralKit12CountingModeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BlueCentralKit.CountingMode.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CountingMode",
-                        "printedName": "BlueCentralKit.CountingMode",
-                        "usr": "s:14BlueCentralKit12CountingModeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:14BlueCentralKit12CountingModeO5countyACSicACmF",
-            "mangledName": "$s14BlueCentralKit12CountingModeO5countyACSicACmF",
-            "moduleName": "BlueCentralKit"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:14BlueCentralKit12CountingModeO",
-        "mangledName": "$s14BlueCentralKit12CountingModeO",
-        "moduleName": "BlueCentralKit",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -7030,6 +6916,177 @@
         "declKind": "Import",
         "moduleName": "BlueCentralKit",
         "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueCentralKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CountingMode",
+        "printedName": "CountingMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "time",
+            "printedName": "time",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlueCentralKit.CountingMode.Type) -> (Swift.Int) -> BlueCentralKit.CountingMode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> BlueCentralKit.CountingMode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CountingMode",
+                        "printedName": "BlueCentralKit.CountingMode",
+                        "usr": "s:14BlueCentralKit12CountingModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlueCentralKit.CountingMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CountingMode",
+                        "printedName": "BlueCentralKit.CountingMode",
+                        "usr": "s:14BlueCentralKit12CountingModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BlueCentralKit12CountingModeO4timeyACSicACmF",
+            "mangledName": "$s14BlueCentralKit12CountingModeO4timeyACSicACmF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlueCentralKit.CountingMode.Type) -> (Swift.Int) -> BlueCentralKit.CountingMode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> BlueCentralKit.CountingMode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CountingMode",
+                        "printedName": "BlueCentralKit.CountingMode",
+                        "usr": "s:14BlueCentralKit12CountingModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlueCentralKit.CountingMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CountingMode",
+                        "printedName": "BlueCentralKit.CountingMode",
+                        "usr": "s:14BlueCentralKit12CountingModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BlueCentralKit12CountingModeO5countyACSicACmF",
+            "mangledName": "$s14BlueCentralKit12CountingModeO5countyACSicACmF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unlimited",
+            "printedName": "unlimited",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlueCentralKit.CountingMode.Type) -> BlueCentralKit.CountingMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CountingMode",
+                    "printedName": "BlueCentralKit.CountingMode",
+                    "usr": "s:14BlueCentralKit12CountingModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlueCentralKit.CountingMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CountingMode",
+                        "printedName": "BlueCentralKit.CountingMode",
+                        "usr": "s:14BlueCentralKit12CountingModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14BlueCentralKit12CountingModeO9unlimitedyA2CmF",
+            "mangledName": "$s14BlueCentralKit12CountingModeO9unlimitedyA2CmF",
+            "moduleName": "BlueCentralKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14BlueCentralKit12CountingModeO",
+        "mangledName": "$s14BlueCentralKit12CountingModeO",
+        "moduleName": "BlueCentralKit",
+        "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -13955,392 +14012,385 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1471,
+      "offset": 1477,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1545,
+      "offset": 1551,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1630,
+      "offset": 1636,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1707,
+      "offset": 1713,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1785,
+      "offset": 1791,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 1909,
+      "offset": 1915,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2033,
+      "offset": 2039,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2044,
+      "offset": 2050,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2080,
+      "offset": 2086,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2084,
+      "offset": 2090,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2146,
+      "offset": 2152,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2240,
+      "offset": 2246,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2251,
+      "offset": 2257,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2317,
+      "offset": 2323,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2328,
+      "offset": 2334,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2423,
+      "offset": 2429,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2434,
+      "offset": 2440,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2490,
+      "offset": 2496,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2502,
+      "offset": 2508,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2589,
+      "offset": 2595,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2601,
+      "offset": 2607,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2699,
+      "offset": 2711,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2711,
+      "offset": 2723,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2812,
+      "offset": 2824,
       "length": 2,
       "value": "15"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3168,
-      "length": 2,
-      "value": "13"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 3180,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3249,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3261,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3308,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3734,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3746,
+      "offset": 3192,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3823,
+      "offset": 3261,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3835,
+      "offset": 3273,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3889,
+      "offset": 3320,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4006,
+      "offset": 3746,
       "length": 2,
-      "value": "15"
+      "value": "13"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4018,
+      "offset": 3758,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4096,
+      "offset": 3835,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3847,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3901,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4018,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4030,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4108,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4108,
+      "offset": 4120,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4164,
+      "offset": 4176,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4283,
+      "offset": 4295,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4295,
+      "offset": 4307,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4374,
+      "offset": 4386,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4386,
+      "offset": 4398,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4444,
+      "offset": 4456,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4566,
+      "offset": 4578,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4578,
+      "offset": 4590,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4659,
+      "offset": 4671,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4671,
+      "offset": 4683,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4733,
+      "offset": 4745,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4858,
+      "offset": 4870,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4870,
+      "offset": 4882,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4952,
+      "offset": 4964,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4964,
+      "offset": 4976,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 5028,
+      "offset": 5040,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 5152,
-      "length": 2,
-      "value": "23"
-    },
-    {
-      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5219,
+      "offset": 5164,
       "length": 2,
       "value": "23"
     },
@@ -14348,27 +14398,34 @@
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 5231,
+      "length": 2,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5243,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5380,
+      "offset": 5392,
       "length": 6,
       "value": "\"%02X\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5443,
+      "offset": 5455,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 5752,
+      "offset": 5764,
       "length": 4,
       "value": "0x69"
     },
@@ -14844,196 +14901,196 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1751,
+      "offset": 1754,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1790,
+      "offset": 1793,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1751,
+      "offset": 1754,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1790,
+      "offset": 1793,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1751,
+      "offset": 1754,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1790,
+      "offset": 1793,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2381,
+      "offset": 2387,
       "length": 25,
       "value": "\"SkippingRope1SystemType\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2430,
+      "offset": 2436,
       "length": 14,
       "value": "\"系统模式\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2561,
+      "offset": 2567,
       "length": 27,
       "value": "\"SkippingRope2TrainingMode\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2612,
+      "offset": 2618,
       "length": 20,
       "value": "\"当前跳绳模式\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2727,
+      "offset": 2733,
       "length": 19,
       "value": "\"SkippingRope3Mute\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2770,
+      "offset": 2776,
       "length": 8,
       "value": "\"静音\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2889,
+      "offset": 2895,
       "length": 23,
       "value": "\"SkippingRope4LockMode\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2936,
+      "offset": 2942,
       "length": 14,
       "value": "\"方向锁定\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3063,
+      "offset": 3075,
       "length": 27,
       "value": "\"SkippingRope5CountingMode\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3114,
+      "offset": 3126,
       "length": 14,
       "value": "\"计数方式\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3235,
+      "offset": 3247,
       "length": 22,
       "value": "\"SkippingRopeExamTime\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3281,
+      "offset": 3293,
       "length": 20,
       "value": "\"考试模式时间\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3409,
+      "offset": 3421,
       "length": 23,
       "value": "\"SkippingRopeMatchTime\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3456,
+      "offset": 3468,
       "length": 20,
       "value": "\"比赛模式时间\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3585,
+      "offset": 3597,
       "length": 24,
       "value": "\"SkippingRopeMatchCount\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3633,
+      "offset": 3645,
       "length": 20,
       "value": "\"比赛模式个数\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3764,
+      "offset": 3776,
       "length": 26,
       "value": "\"SkippingRopePhysicalTime\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3814,
+      "offset": 3826,
       "length": 20,
       "value": "\"体能模式时间\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3946,
+      "offset": 3958,
       "length": 27,
       "value": "\"SkippingRopePhysicalCount\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3997,
+      "offset": 4009,
       "length": 20,
       "value": "\"体能模式个数\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 4175,
+      "offset": 4187,
       "length": 25,
       "value": "\"SkippingRopezNeedsReset\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 4224,
+      "offset": 4236,
       "length": 20,
       "value": "\"恢复出厂标志\""
     },
@@ -15075,28 +15132,28 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1800,
+      "offset": 1686,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1851,
+      "offset": 1737,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1909,
+      "offset": 1795,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRopeDiscoveryAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2082,
+      "offset": 1968,
       "length": 5,
       "value": "false"
     },
@@ -16279,91 +16336,105 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 374,
+      "offset": 305,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 407,
+      "offset": 338,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 438,
+      "offset": 369,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 520,
+      "offset": 451,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 563,
+      "offset": 494,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 601,
+      "offset": 532,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 658,
+      "offset": 589,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 702,
+      "offset": 633,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 741,
+      "offset": 672,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 33,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 2,
+      "value": "\" is unsupported.\""
+    },
+    {
+      "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 800,
+      "offset": 806,
       "length": 4,
       "value": "0x65"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1416,
+      "offset": 1422,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1674,
+      "offset": 1680,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/ParamsSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1737,
+      "offset": 1743,
       "length": 4,
       "value": "true"
     },

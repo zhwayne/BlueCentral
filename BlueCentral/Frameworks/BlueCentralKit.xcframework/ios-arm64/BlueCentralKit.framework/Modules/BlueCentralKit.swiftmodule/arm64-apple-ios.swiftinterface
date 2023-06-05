@@ -259,7 +259,7 @@ extension BlueCentralKit.SkippingRope {
       get
     }
   }
-  public enum CountingStyle : Swift.UInt8, BlueCentralKit.DataDecodable {
+  public enum CountingDownType : Swift.UInt8, BlueCentralKit.DataDecodable {
     case time
     case count
     public init(bluetoothData: Foundation.Data) throws
@@ -278,7 +278,7 @@ public struct SkippingRopeDeviceKey {
   public let trainingMode: BlueCentralKit.DeviceKey
   public let mute: BlueCentralKit.DeviceKey
   public let lockMode: BlueCentralKit.DeviceKey
-  public let countingStyle: BlueCentralKit.DeviceKey
+  public let countingDownType: BlueCentralKit.DeviceKey
   public let examTime: BlueCentralKit.DeviceKey
   public let matchTime: BlueCentralKit.DeviceKey
   public let matchCount: BlueCentralKit.DeviceKey
@@ -373,10 +373,6 @@ extension BlueCentralKit.SkippingRope {
   @_Concurrency.MainActor public func upgrade(fileURL: Foundation.URL, progress: (Swift.Double) -> Swift.Void) async throws
   #endif
 }
-public enum CountingMode {
-  case time(Swift.Int)
-  case count(Swift.Int)
-}
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
   #if compiler(>=5.3) && $AsyncAwait
   @discardableResult
@@ -411,6 +407,11 @@ extension BluejayKit.ScanDiscovery : Swift.Hashable {
   public var hashValue: Swift.Int {
     get
   }
+}
+public enum CountingMode {
+  case time(Swift.Int)
+  case count(Swift.Int)
+  case unlimited
 }
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class BlueCentral : Foundation.ObservableObject {
   @_Concurrency.MainActor public static let shared: BlueCentralKit.BlueCentral
@@ -468,9 +469,9 @@ extension BlueCentralKit.SkippingRope.TrainingMode : Swift.RawRepresentable {}
 extension BlueCentralKit.SkippingRope.LockMode : Swift.Equatable {}
 extension BlueCentralKit.SkippingRope.LockMode : Swift.Hashable {}
 extension BlueCentralKit.SkippingRope.LockMode : Swift.RawRepresentable {}
-extension BlueCentralKit.SkippingRope.CountingStyle : Swift.Equatable {}
-extension BlueCentralKit.SkippingRope.CountingStyle : Swift.Hashable {}
-extension BlueCentralKit.SkippingRope.CountingStyle : Swift.RawRepresentable {}
+extension BlueCentralKit.SkippingRope.CountingDownType : Swift.Equatable {}
+extension BlueCentralKit.SkippingRope.CountingDownType : Swift.Hashable {}
+extension BlueCentralKit.SkippingRope.CountingDownType : Swift.RawRepresentable {}
 extension BlueCentralKit.BlueCentralError : Swift.Equatable {}
 extension BlueCentralKit.BlueCentralError : Swift.Hashable {}
 extension BlueCentralKit.BlueCentral.ConnectionStatus : Swift.Hashable {}
