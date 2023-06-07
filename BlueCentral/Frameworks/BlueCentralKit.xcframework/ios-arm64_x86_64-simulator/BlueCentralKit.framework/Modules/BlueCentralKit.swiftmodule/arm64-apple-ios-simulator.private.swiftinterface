@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.114.6 clang-1500.0.27.1)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BlueCentralKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import BluejayKit
@@ -11,7 +11,6 @@ import Swift
 import SwiftUI
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 import os.log
 import os
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
@@ -60,6 +59,9 @@ extension BlueCentralKit.SkippingRope {
   }
 }
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
+  @_Concurrency.MainActor public var isPauseSupported: Swift.Bool {
+    get
+  }
   #if compiler(>=5.3) && $AsyncAwait
   @discardableResult
   @_Concurrency.MainActor public func training(_ payload: BlueCentralKit.SkippingRope.Training) async throws -> Swift.Bool
@@ -356,6 +358,9 @@ extension BlueCentralKit.SkippingRope {
   public struct TrainingData : BlueCentralKit.DataDecodable {
     public let trainingMode: BlueCentralKit.SkippingRope.TrainingMode
     public let count: Swift.UInt16
+    public var time: Swift.UInt {
+      get
+    }
     public let interruptionTimes: Swift.UInt16
     public let seconds: Swift.UInt16
     public let milliseconds: Swift.UInt16
