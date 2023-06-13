@@ -358,7 +358,7 @@ extension BlueCentralKit.SkippingRope {
   public struct TrainingData : BlueCentralKit.DataDecodable {
     public let trainingMode: BlueCentralKit.SkippingRope.TrainingMode
     public let count: Swift.UInt16
-    public var time: Swift.UInt {
+    public var time: Swift.Int {
       get
     }
     public let interruptionTimes: Swift.UInt16
