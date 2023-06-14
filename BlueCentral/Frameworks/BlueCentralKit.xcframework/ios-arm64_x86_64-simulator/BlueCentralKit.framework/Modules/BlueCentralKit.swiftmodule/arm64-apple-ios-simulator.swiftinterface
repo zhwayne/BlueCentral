@@ -191,7 +191,7 @@ extension Swift.UInt8 : BlueCentralKit.DataCodable {
 }
 extension Swift.Bool : BluejayKit.Sendable, BluejayKit.Receivable, BlueCentralKit.DataCodable {
   public func toBluetoothData() -> Foundation.Data
-  public init(bluetoothData: Foundation.Data) throws
+  public init(bluetoothData: Foundation.Data)
 }
 public protocol Message : BlueCentralKit.DataDecodable, BlueCentralKit.DataEncodable {
   var payload: Foundation.Data? { get }
@@ -216,13 +216,18 @@ extension BlueCentralKit.SkippingRope {
     public let trainingMode: BlueCentralKit.SkippingRope.TrainingMode
     public let count: Swift.UInt16
     public let interruptionTimes: Swift.UInt16
-    public let time: Swift.UInt32
+    public var time: Swift.Int {
+      get
+    }
+    public let seconds: Swift.UInt16
+    public let milliseconds: Swift.UInt16
     public init(bluetoothData: Foundation.Data) throws
   }
 }
 @_Concurrency.MainActor extension BlueCentralKit.SkippingRope {
   #if compiler(>=5.3) && $AsyncAwait
-  @_Concurrency.MainActor public func fetchOfflineData() async throws -> [BlueCentralKit.SkippingRope.OfflineData]
+  @discardableResult
+  @_Concurrency.MainActor public func popOfflineData() async throws -> [BlueCentralKit.SkippingRope.OfflineData]
   #endif
 }
 extension BlueCentralKit.SkippingRope {

@@ -228,6 +228,7 @@ public enum ScanAction {
   case connect(BluejayKit.ScanDiscovery, BluejayKit.Timeout, BluejayKit.WarningOptions, (BluejayKit.ConnectionResult) -> Swift.Void)
 }
 extension Foundation.Data {
+  @available(*, unavailable, message: "该方法可能会导致数据加载错误，并引发崩溃，不建议使用")
   public func extract<T>(start: Swift.Int, length: Swift.Int) throws -> T
 }
 extension Swift.String {

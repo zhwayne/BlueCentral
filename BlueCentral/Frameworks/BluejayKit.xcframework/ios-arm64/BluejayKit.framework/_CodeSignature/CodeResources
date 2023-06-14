@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8IsW9F+MNlXcc/tWxUhmUJW6oyA=
+		HYyY6WiF+/6kYEqMD5DAJqwh/XI=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		M85eHgqkNSAg6Nwigl2HlY8u1T0=
+		kNs5foIrXcN2I9ljFla5v/H5tws=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NMZPVZE9ClyuvVvSiu2nGKPAiVU=
+		uYm4SujNVdKeO1DcNZRu3/m+598=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NMZPVZE9ClyuvVvSiu2nGKPAiVU=
+		uYm4SujNVdKeO1DcNZRu3/m+598=
 		</data>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		STahYey5BvxYuLTWGFQJ1JEtev8=
+		GBOoiTLh9qaciIPxVzYxXXQTBOU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oM1jKSjbQLxA/ESWqehLNeydelD3MqZQfh2w1T19o3g=
+			YYVQsmm3VDQP+5YX7XLzt2jkPLIZOuM2GkZ0EKH0XYM=
 			</data>
 		</dict>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lR5MIE5sX41yiiR3hY52wILSk2N+A59W7w6lXWnUywQ=
+			jbFT8estzutyfZ4P8uJBWSl4tcodVWWCXX4/I+UW624=
 			</data>
 		</dict>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lR5MIE5sX41yiiR3hY52wILSk2N+A59W7w6lXWnUywQ=
+			jbFT8estzutyfZ4P8uJBWSl4tcodVWWCXX4/I+UW624=
 			</data>
 		</dict>
 		<key>Modules/BluejayKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1GQEkz2oTYvU+0F2LfREH+SbQ4SbmTIHtIRJggM6qqM=
+			Su6MBH1GqeRQ0BubqjoUyZEwQ0zEpYqjs2I8DJqoPi0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

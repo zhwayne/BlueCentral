@@ -10469,43 +10469,6 @@
             ],
             "isFromExtension": true,
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "extract",
-            "printedName": "extract(start:length:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Foundation4DataV10BluejayKitE7extract5start6lengthxSi_SitKlF",
-            "mangledName": "$s10Foundation4DataV10BluejayKitE7extract5start6lengthxSi_SitKlF",
-            "moduleName": "BluejayKit",
-            "genericSig": "<τ_0_0>",
-            "sugared_genericSig": "<T>",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
