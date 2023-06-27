@@ -2439,8 +2439,8 @@
             "children": [
               {
                 "kind": "Var",
-                "name": "instruction",
-                "printedName": "instruction",
+                "name": "dlcmd",
+                "printedName": "dlcmd",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -2470,8 +2470,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:14BlueCentralKit12SkippingRopeC10SystemTypeO11instructionyA2EmF",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC10SystemTypeO11instructionyA2EmF",
+                "usr": "s:14BlueCentralKit12SkippingRopeC10SystemTypeO5dlcmdyA2EmF",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC10SystemTypeO5dlcmdyA2EmF",
                 "moduleName": "BlueCentralKit",
                 "declAttributes": [
                   "RawDocComment"
@@ -2479,8 +2479,8 @@
               },
               {
                 "kind": "Var",
-                "name": "preparation",
-                "printedName": "preparation",
+                "name": "ylcmd",
+                "printedName": "ylcmd",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -2510,8 +2510,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:14BlueCentralKit12SkippingRopeC10SystemTypeO11preparationyA2EmF",
-                "mangledName": "$s14BlueCentralKit12SkippingRopeC10SystemTypeO11preparationyA2EmF",
+                "usr": "s:14BlueCentralKit12SkippingRopeC10SystemTypeO5ylcmdyA2EmF",
+                "mangledName": "$s14BlueCentralKit12SkippingRopeC10SystemTypeO5ylcmdyA2EmF",
                 "moduleName": "BlueCentralKit",
                 "declAttributes": [
                   "RawDocComment"
@@ -13506,28 +13506,28 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/SystemTypeSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 641,
+      "offset": 667,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/SystemTypeSetting.swift",
       "kind": "IntegerLiteral",
-      "offset": 708,
+      "offset": 734,
       "length": 4,
       "value": "0x80"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/SystemTypeSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 919,
+      "offset": 945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/SystemTypeSetting.swift",
       "kind": "BooleanLiteral",
-      "offset": 1000,
+      "offset": 1026,
       "length": 4,
       "value": "true"
     },
@@ -14234,329 +14234,329 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 675,
+      "offset": 669,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 1062,
+      "offset": 1056,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1477,
+      "offset": 1471,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1551,
+      "offset": 1545,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1636,
+      "offset": 1630,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1713,
+      "offset": 1707,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 1791,
+      "offset": 1785,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 1915,
+      "offset": 1909,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2060,
+      "offset": 2054,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2071,
+      "offset": 2065,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2108,
+      "offset": 2102,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2112,
+      "offset": 2106,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2211,
+      "offset": 2205,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2318,
+      "offset": 2312,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2329,
+      "offset": 2323,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2416,
+      "offset": 2410,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2427,
+      "offset": 2421,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2523,
+      "offset": 2517,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2534,
+      "offset": 2528,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2610,
+      "offset": 2604,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2622,
+      "offset": 2616,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2710,
+      "offset": 2704,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2722,
+      "offset": 2716,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2826,
+      "offset": 2820,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2838,
+      "offset": 2832,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 2939,
+      "offset": 2933,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3309,
+      "offset": 3303,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3321,
+      "offset": 3315,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3405,
+      "offset": 3399,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3417,
+      "offset": 3411,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3465,
+      "offset": 3459,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3916,
+      "offset": 3910,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3928,
+      "offset": 3922,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4022,
+      "offset": 4016,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4034,
+      "offset": 4028,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4128,
+      "offset": 4122,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4140,
+      "offset": 4134,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4236,
+      "offset": 4230,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4248,
+      "offset": 4242,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4345,
+      "offset": 4339,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4357,
+      "offset": 4351,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4462,
+      "offset": 4456,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4549,
+      "offset": 4543,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4561,
+      "offset": 4555,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4711,
+      "offset": 4705,
       "length": 6,
       "value": "\"%02X\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4774,
+      "offset": 4768,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/Payloads\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 5083,
+      "offset": 5077,
       "length": 4,
       "value": "0x69"
     },
@@ -14843,385 +14843,385 @@
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 235,
+      "offset": 229,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 283,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 355,
+      "offset": 343,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 235,
+      "offset": 229,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 283,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 355,
+      "offset": 343,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 235,
+      "offset": 229,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 283,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 355,
+      "offset": 343,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 802,
+      "offset": 790,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 884,
+      "offset": 872,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 966,
+      "offset": 954,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1038,
+      "offset": 1026,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 802,
+      "offset": 790,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 884,
+      "offset": 872,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 966,
+      "offset": 954,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1038,
+      "offset": 1026,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 802,
+      "offset": 790,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 884,
+      "offset": 872,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 966,
+      "offset": 954,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1038,
+      "offset": 1026,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1458,
+      "offset": 1446,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1522,
+      "offset": 1510,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1458,
+      "offset": 1446,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1522,
+      "offset": 1510,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1458,
+      "offset": 1446,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1522,
+      "offset": 1510,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1939,
+      "offset": 1927,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1996,
+      "offset": 1984,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1939,
+      "offset": 1927,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1996,
+      "offset": 1984,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1939,
+      "offset": 1927,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "IntegerLiteral",
-      "offset": 1996,
+      "offset": 1984,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2577,
+      "offset": 2565,
       "length": 25,
       "value": "\"SkippingRope1SystemType\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2626,
+      "offset": 2614,
       "length": 14,
       "value": "\"系统模式\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2757,
+      "offset": 2745,
       "length": 27,
       "value": "\"SkippingRope2TrainingMode\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2808,
+      "offset": 2796,
       "length": 20,
       "value": "\"当前跳绳模式\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2923,
+      "offset": 2911,
       "length": 19,
       "value": "\"SkippingRope3Mute\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 2966,
+      "offset": 2954,
       "length": 8,
       "value": "\"静音\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3085,
+      "offset": 3073,
       "length": 23,
       "value": "\"SkippingRope4LockMode\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3132,
+      "offset": 3120,
       "length": 14,
       "value": "\"方向锁定\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3265,
+      "offset": 3253,
       "length": 27,
       "value": "\"SkippingRope5CountingMode\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3316,
+      "offset": 3304,
       "length": 14,
       "value": "\"计数方式\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3437,
+      "offset": 3425,
       "length": 22,
       "value": "\"SkippingRopeExamTime\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3483,
+      "offset": 3471,
       "length": 20,
       "value": "\"考试模式时间\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3611,
+      "offset": 3599,
       "length": 23,
       "value": "\"SkippingRopeMatchTime\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3658,
+      "offset": 3646,
       "length": 20,
       "value": "\"比赛模式时间\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3787,
+      "offset": 3775,
       "length": 24,
       "value": "\"SkippingRopeMatchCount\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3835,
+      "offset": 3823,
       "length": 20,
       "value": "\"比赛模式个数\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 3966,
+      "offset": 3954,
       "length": 26,
       "value": "\"SkippingRopePhysicalTime\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 4016,
+      "offset": 4004,
       "length": 20,
       "value": "\"体能模式时间\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 4148,
+      "offset": 4136,
       "length": 27,
       "value": "\"SkippingRopePhysicalCount\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 4199,
+      "offset": 4187,
       "length": 20,
       "value": "\"体能模式个数\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 4377,
+      "offset": 4365,
       "length": 25,
       "value": "\"SkippingRopezNeedsReset\""
     },
     {
       "filePath": "\/Users\/iya\/Documents\/BlueCentralExample\/BlueCentralKit\/Device\/SkippingRope\/SkippingRope+DeviceKey.swift",
       "kind": "StringLiteral",
-      "offset": 4426,
+      "offset": 4414,
       "length": 20,
       "value": "\"恢复出厂标志\""
     },

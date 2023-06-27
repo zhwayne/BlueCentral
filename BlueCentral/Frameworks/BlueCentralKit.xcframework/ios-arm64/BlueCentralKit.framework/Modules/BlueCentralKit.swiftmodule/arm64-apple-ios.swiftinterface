@@ -232,8 +232,8 @@ extension BlueCentralKit.SkippingRope {
 }
 extension BlueCentralKit.SkippingRope {
   public enum SystemType : Swift.UInt8, BlueCentralKit.DataDecodable {
-    case instruction
-    case preparation
+    case dlcmd
+    case ylcmd
     case none
     public init(bluetoothData: Foundation.Data) throws
     public init?(rawValue: Swift.UInt8)
